@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>وبرنال — استودیو فناوری</title>
+    <meta name="description" content="استودیو فناوری وبرنال — طراحی وب‌سایت، ربات تلگرام، لوگو، اسناد حرفه‌ای، بومی‌سازی فارسی، برنامه‌های دسکتاپ و DApp با تمرکز بر حوزه پزشکی.">
+
+    <!-- ==================== CSS ==================== -->
+    <link rel="stylesheet" href="assets/style.css">
+        <style>
+        .section-nav {
+            position: fixed;
+            top: 50%;
+            left: 24px;
+            transform: translateY(-50%);
+            z-index: 900;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .section-nav li a {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            font-weight: 500;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            transition: color var(--transition-fast);
+        }
+        .section-nav li a::after {
+            content: '';
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.25);
+            transition: background var(--transition-fast), box-shadow var(--transition-fast);
+        }
+        .section-nav li a.active {
+            color: var(--accent);
+        }
+        .section-nav li a.active::after {
+            background: var(--accent);
+            box-shadow: 0 0 12px var(--accent-glow);
+        }
+        .section-nav li a:hover {
+            color: #fff;
+        }
+        @media (max-width: 860px) {
+            .section-nav {
+                display: none;
+            }
+        }
+    </style>
+    
+</head>
+<body>
+    <!-- ==================== Ambient Glows ==================== -->
+    <div class="ambient-glow ambient-glow--top" aria-hidden="true"></div>
+    <div class="ambient-glow ambient-glow--bottom" aria-hidden="true"></div>
+    <div class="grid-bg" aria-hidden="true"></div>
+
+    <!-- ==================== SITE WRAPPER ==================== -->
+
+    <ul class="section-nav" id="sectionNav">
+        <li><a href="#services" data-section="services">خدمات</a></li>
+        <li><a href="#medical" data-section="medical">پزشکی</a></li>
+        <li><a href="#partners" data-section="partners">همکاران</a></li>
+        <li><a href="#contact" data-section="contact">تماس</a></li>
+    </ul>
+
+    <div class="site-wrapper">
+        <nav class="nav" id="navbar">
+            <a href="index.html" class="nav__logo" aria-label="وبرنال خانه">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="2" y="2" width="44" height="44" rx="12" fill="#0a0a0f" stroke="#0cc0df" stroke-width="2.5"/>
+                    <path d="M14 28L24 12L34 28" stroke="#0cc0df" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="24" cy="34" r="3" fill="#0cc0df"/>
+                    <line x1="24" y1="20" x2="24" y2="31" stroke="#0cc0df" stroke-width="2.5" stroke-linecap="round"/>
+                </svg>
+                وبرنال
+            </a>
+            <button class="nav__toggle" id="navToggle" aria-label="باز کردن منو">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav__links" id="navLinks">
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="about.html">درباره ما</a></li>
+                <li><a href="entities.html">همکاران</a></li>
+                <li><a href="internships.html">کارآموزی</a></li>
+                <li><a href="en/index.html" style="opacity:0.7;">🇬🇧 English</a></li>
+                <li><a href="index.html#contact" class="nav__cta">سفارش پروژه</a></li>
+            </ul>
+        </nav>
+
+        <!-- ==================== HERO ==================== -->
+        <header class="hero" id="home">
+            <div class="hero__content reveal">
+                <span class="hero__badge">🚀 استودیو فناوری • تاسیس ۱۳۹۹</span>
+                <h1 class="hero__title">
+                    ما <span>محصولات دیجیتال</span> ارزشمند می‌سازیم
+                </h1>
+                <p class="hero__subtitle">
+                    وبرنال یک استودیوی فناوری تمام‌چرخه است که وب‌سایت‌های مدرن، ربات‌های هوشمند،
+                    برندینگ جذاب، اپلیکیشن‌های دسکتاپ و راهکارهای غیرمتمرکز ارائه می‌دهد — با تمرکز ویژه بر
+                    <strong>نوآوری در حوزه پزشکی و سلامت</strong>.
+                </p>
+                <div class="hero__buttons">
+                    <a href="#services" class="btn btn--primary">مشاهده خدمات</a>
+                    <a href="#contact" class="btn btn--outline">شروع یک پروژه</a>
+                </div>
+            </div>
+            <div class="hero__scroll-indicator" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+        </header>
+
+        <!-- ==================== SERVICES SECTION ==================== -->
+        <section class="section" id="services">
+            <div class="section__inner">
+                <span class="section__label reveal">چه کاری انجام می‌دهیم</span>
+                <h2 class="section__title reveal">خدمات ما</h2>
+                <p class="section__desc reveal">
+                    از وب‌سایت‌های بی‌نقص تا سیستم‌های بک‌اند قدرتمند و اتوماسیون هوشمند —
+                    ما طیف کامل صنعت دیجیتال مدرن را پوشش می‌دهیم.
+                </p>
+
+                <div class="services-grid">
+                    <!-- 1. Websites -->
+                    <div class="service-card reveal">
+                        <div class="service-card__icon">🌐</div>
+                        <h3 class="service-card__title">وب‌سایت‌ها و برنامه‌های تحت وب</h3>
+                        <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
+                            راهکارهای مدرن، با کارایی بالا و مقیاس‌پذیر متناسب با نیاز شما.
+                        </p>
+                        <div class="service-card__tags">
+                            <span class="service-card__tag">Laravel</span>
+                            <span class="service-card__tag">WordPress</span>
+                            <span class="service-card__tag">Next.js</span>
+                            <span class="service-card__tag">Nest.js</span>
+                            <span class="service-card__tag">PHP</span>
+                            <span class="service-card__tag">HTML/CSS خام</span>
+                        </div>
+                    </div>
+
+                    <!-- 2. Telegram Bots -->
+                    <div class="service-card reveal">
+                        <div class="service-card__icon">🤖</div>
+                        <h3 class="service-card__title">ربات‌های تلگرام</h3>
+                        <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
+                            ربات‌های هوشمند و واکنش‌گرا برای اتوماسیون، پشتیبانی مشتریان، پرداخت و بیشتر.
+                        </p>
+                        <div class="service-card__tags">
+                            <span class="service-card__tag">Python</span>
+                            <span class="service-card__tag">Node.js</span>
+                            <span class="service-card__tag">یکپارچه‌سازی AI</span>
+                            <span class="service-card__tag">درگاه‌های پرداخت</span>
+                        </div>
+                    </div>
+
+                    <!-- 3. Logos -->
+                    <div class="service-card reveal">
+                        <div class="service-card__icon">🎨</div>
+                        <h3 class="service-card__title">لوگو و هویت برند</h3>
+                        <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
+                            لوگوهای تمیز، به‌یادماندنی و سیستم‌های جامع هویت برند که متمایز می‌شوند.
+                        </p>
+                        <div class="service-card__tags">
+                            <span class="service-card__tag">وکتور SVG</span>
+                            <span class="service-card__tag">راهنمای برند</span>
+                            <span class="service-card__tag">آیکون‌نگاری</span>
+                        </div>
+                    </div>
+
+                    <!-- 4. Documents -->
+                    <div class="service-card reveal">
+                        <div class="service-card__icon">📄</div>
+                        <h3 class="service-card__title">اسناد و مدارک شیک</h3>
+                        <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
+                            ارائه‌های حرفه‌ای، دک‌های سرمایه‌گذاری، اوراق سفید و اسناد سازمانی.
+                        </p>
+                        <div class="service-card__tags">
+                            <span class="service-card__tag">ارائه‌ها</span>
+                            <span class="service-card__tag">Whitepaper</span>
+                            <span class="service-card__tag">گزارش‌ها</span>
+                            <span class="service-card__tag">InDesign</span>
+                        </div>
+                    </div>
+
+                    <!-- 5. Persian Localization -->
+                    <div class="service-card reveal">
+                        <div class="service-card__icon">📝</div>
+                        <h3 class="service-card__title">بومی‌سازی فارسی</h3>
+                        <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
+                            تطبیق کامل راست‌چین، ظرافت‌های فرهنگی و UI/UX فارسی برای مخاطبان ایرانی.
+                        </p>
+                        <div class="service-card__tags">
+                            <span class="service-card__tag">CSS راست‌چین</span>
+                            <span class="service-card__tag">UI فارسی</span>
+                            <span class="service-card__tag">تطبیق فرهنگی</span>
+                            <span class="service-card__tag">ترجمه</span>
+                        </div>
+                    </div>
+
+                    <!-- 6. Desktop Apps -->
+                    <div class="service-card reveal">
+                        <div class="service-card__icon">🖥️</div>
+                        <h3 class="service-card__title">برنامه‌های دسکتاپ</h3>
+                        <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
+                            نرم‌افزارهای قدرتمند و با عملکرد بالا برای ویندوز و فراتر از آن.
+                        </p>
+                        <div class="service-card__tags">
+                            <span class="service-card__tag">VB.NET</span>
+                            <span class="service-card__tag">Rust</span>
+                            <span class="service-card__tag">WinForms</span>
+                            <span class="service-card__tag">WPF</span>
+                        </div>
+                    </div>
+
+                    <!-- 7. DApps -->
+                    <div class="service-card reveal">
+                        <div class="service-card__icon">⛓️</div>
+                        <h3 class="service-card__title">DApps و Web3</h3>
+                        <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
+                            برنامه‌های غیرمتمرکز، قراردادهای هوشمند و راهکارهای مبتنی بر بلاکچین.
+                        </p>
+                        <div class="service-card__tags">
+                            <span class="service-card__tag">Solidity</span>
+                            <span class="service-card__tag">Ethereum</span>
+                            <span class="service-card__tag">Web3.js</span>
+                            <span class="service-card__tag">قراردادهای هوشمند</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== MEDICAL FOCUS ==================== -->
+        <section class="section" id="medical">
+            <div class="section__inner">
+                <span class="section__label reveal">تخصص ما</span>
+                <h2 class="section__title reveal">تمرکز بر پزشکی و سلامت</h2>
+                <p class="section__desc reveal">
+                    ما در ارائه راهکارهای دیجیتال برای صنعت سلامت تخصص داریم — از پلتفرم‌های مدیریت
+                    مطب تا پرتال‌های بیمار و سیستم‌های پزشکی از راه دور.
+                </p>
+                <div class="med-banner reveal">
+                    <span class="med-banner__icon">🏥</span>
+                    <div class="med-banner__text">
+                        <h3>مهندسی سلامت‌محور</h3>
+                        <p>
+                            معماری آگاه از استانداردهای امنیتی سلامت، محافظت از داده‌های پزشکی، سیستم‌های
+                            نوبت‌دهی، یکپارچه‌سازی با پرونده الکترونیک سلامت و داشبورد بیمار — ما نیازهای
+                            منحصربه‌فرد نرم‌افزارهای پزشکی را با دقت بالا پیاده‌سازی می‌کنیم.
+                        </p>
+                    </div>
+                </div>
+                <div class="services-grid" style="margin-top:24px;">
+                    <div class="service-card reveal">
+                        <div class="service-card__icon">🩺</div>
+                        <h3 class="service-card__title">سیستم‌های مدیریت مطب</h3>
+                        <p style="color:var(--text-secondary);font-size:0.9rem;">پرونده بیمار، نوبت‌دهی، حسابداری — همه یکپارچه.</p>
+                    </div>
+                    <div class="service-card reveal">
+                        <div class="service-card__icon">📱</div>
+                        <h3 class="service-card__title">پلتفرم‌های پزشکی از راه دور</h3>
+                        <p style="color:var(--text-secondary);font-size:0.9rem;">مشاوره تصویری، چت، نسخه الکترونیک.</p>
+                    </div>
+                    <div class="service-card reveal">
+                        <div class="service-card__icon">🔬</div>
+                        <h3 class="service-card__title">پرتال‌های آزمایشگاهی</h3>
+                        <p style="color:var(--text-secondary);font-size:0.9rem;">تحویل نتیجه، دسترسی بیمار، اتوماسیون گردش کار.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PARTNERS / ENTITIES ==================== -->
+        <section class="section" id="partners" style="padding-top:40px;">
+            <div class="section__inner">
+                <span class="section__label reveal">اعتمادشان را جلب کرده‌ایم</span>
+                <h2 class="section__title reveal">سازمان‌هایی که با آن‌ها همکاری کرده‌ایم</h2>
+                <p class="section__desc reveal">
+                    ما مفتخریم که با برخی از معتبرترین نام‌های دنیای فناوری و فراتر از آن همکاری داشته‌ایم.
+                </p>
+                <div class="partners-strip reveal">
+                    <span class="partners-strip__item">🔷 بنیاد اتریوم</span>
+                    <span class="partners-strip__item">🛒 شب.آی‌آر</span>
+                    <span class="partners-strip__item">🏠 دیوار.آی‌آر</span>
+                </div>
+                <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;margin-top:12px;" class="reveal">
+                    <em>مطالعات موردی بیشتر به‌زودی در <a href="entities.html" style="color:var(--accent);">صفحه همکاران</a> منتشر خواهد شد.</em>
+                </p>
+            </div>
+        </section>
+
+        <!-- ==================== CONTACT SECTION ==================== -->
+        <section class="cta-section" id="contact">
+            <div class="section__inner reveal">
+                <span class="section__label">تماس با ما</span>
+                <h2 class="section__title">بیایید یک اثر فوق‌العاده بسازیم</h2>
+                <p style="color:var(--text-secondary);max-width:500px;margin:0 auto 32px;line-height:1.7;">
+                    پروژه‌ای در ذهن دارید؟ فرم زیر را پر کنید تا ظرف ۲۴ ساعت با شما تماس بگیریم.
+                </p>
+                <form class="contact-form reveal" id="contactForm" action="php/contact.php" method="POST">
+                    <input type="text" name="name" placeholder="نام شما" required aria-label="نام شما">
+                    <input type="email" name="email" placeholder="ایمیل شما" required aria-label="ایمیل شما">
+                    <textarea name="message" placeholder="درباره پروژه‌تان توضیح دهید..." required aria-label="پیام شما"></textarea>
+                    <button type="submit" class="btn btn--primary">ارسال پیام ✦</button>
+                    <div class="form-feedback" id="formFeedback"></div>
+                </form>
+            </div>
+        </section>
+
+        <!-- ==================== FOOTER ==================== -->
+        <footer class="footer">
+            <div class="footer__links">
+                <a href="about.html">درباره ما</a>
+                <a href="internships.html">کارآموزی</a>
+                <a href="entities.html">همکاران</a>
+                <a href="#contact">تماس</a>
+            </div>
+            <p>© ۲۰۲۶ <a href="#">وبرنال</a> استودیو فناوری. کلیه حقوق محفوظ است.</p>
+        </footer>
+
+    </div>
+
+    <!-- ==================== JAVASCRIPT ==================== -->
+    <script>
+        (function() {
+            // --- Navbar scroll effect ---
+            const navbar = document.getElementById('navbar');
+            const navToggle = document.getElementById('navToggle');
+            const navLinks = document.getElementById('navLinks');
+
+            function updateNavScroll() {
+                if (window.scrollY > 60) {
+                    navbar.classList.add('nav--scrolled');
+                } else {
+                    navbar.classList.remove('nav--scrolled');
+                }
+            }
+            window.addEventListener('scroll', updateNavScroll, { passive: true });
+            updateNavScroll();
+
+            // --- Mobile nav toggle ---
+            navToggle.addEventListener('click', function() {
+                this.classList.toggle('active');
+                navLinks.classList.toggle('nav__links--open');
+            });
+
+            navLinks.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navToggle.classList.remove('active');
+                    navLinks.classList.remove('nav__links--open');
+                });
+            });
+
+            // --- Scroll Reveal ---
+            const revealElements = document.querySelectorAll('.reveal');
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px 0px -60px 0px',
+                threshold: 0.12
+            };
+
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('reveal--visible');
+                        revealObserver.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            revealElements.forEach(el => revealObserver.observe(el));
+
+            // Vertical section nav scrollspy
+            const sectionNavLinks = document.querySelectorAll('.section-nav a');
+            const sections = [];
+            sectionNavLinks.forEach(link => {
+                const id = link.getAttribute('data-section');
+                const section = document.getElementById(id);
+                if (section) sections.push({ section, link });
+            });
+            function updateActiveNav() {
+                let current = '';
+                const scrollMid = window.scrollY + window.innerHeight / 3;
+                for (const { section, link } of sections) {
+                    if (section.offsetTop <= scrollMid) {
+                        current = link.getAttribute('data-section');
+                    }
+                }
+                sectionNavLinks.forEach(link => {
+                    link.classList.toggle('active', link.getAttribute('data-section') === current);
+                });
+            }
+            window.addEventListener('scroll', updateActiveNav, { passive: true });
+            updateActiveNav();
+
+            // --- Contact Form AJAX ---
+            const contactForm = document.getElementById('contactForm');
+            const formFeedback = document.getElementById('formFeedback');
+
+            if (contactForm) {
+                contactForm.addEventListener('submit', async function(e) {
+                    e.preventDefault();
+                    const submitBtn = contactForm.querySelector('button[type="submit"]');
+                    const originalBtnText = submitBtn.textContent;
+
+                    submitBtn.textContent = 'در حال ارسال...';
+                    submitBtn.disabled = true;
+                    formFeedback.textContent = '';
+                    formFeedback.className = 'form-feedback';
+
+                    try {
+                        const formData = new FormData(contactForm);
+                        const response = await fetch('php/contact.php', {
+                            method: 'POST',
+                            body: formData,
+                            headers: { 'X-Requested-With': 'XMLHttpRequest' }
+                        });
+
+                        const result = await response.json();
+
+                        if (result.success) {
+                            formFeedback.textContent = '✓ ' + result.message;
+                            formFeedback.className = 'form-feedback form-feedback--success';
+                            contactForm.reset();
+                        } else {
+                            formFeedback.textContent = '✗ ' + result.message;
+                            formFeedback.className = 'form-feedback form-feedback--error';
+                        }
+                    } catch (error) {
+                        formFeedback.textContent = '✗ خطای شبکه. لطفاً دوباره تلاش کنید.';
+                        formFeedback.className = 'form-feedback form-feedback--error';
+                    } finally {
+                        submitBtn.textContent = originalBtnText;
+                        submitBtn.disabled = false;
+                    }
+                });
+            }
+        })();
+    </script>
+</body>
+</html>

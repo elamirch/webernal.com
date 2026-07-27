@@ -1,0 +1,142 @@
+.entities-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.entity-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-card);
+    border-radius: var(--radius-lg);
+    padding: 36px;
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+    transition: all var(--transition-smooth);
+}
+
+.entity-card:hover {
+    border-color: rgba(12,192,223,0.35);
+    transform: translateY(-4px);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5), 0 0 40px rgba(12,192,223,0.08);
+    background: var(--bg-card-hover);
+}
+
+/* Left side */
+.entity-card__sidebar {
+    width: 110px;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    text-align: center;
+}
+
+.entity-card__logo {
+    width: 90px;
+    height: 90px;
+
+    border-radius: var(--radius-md);
+    background: var(--accent-subtle);
+    border: 1px solid rgba(12,192,223,0.3);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.entity-card__logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: var(--radius-md);
+}
+
+.entity-card__name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.35;
+    word-break: break-word;
+}
+
+/* Right side */
+.entity-card__content {
+    flex: 1;
+    min-width: 0;
+}
+
+.entity-card__desc {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    font-size: .96rem;
+}
+
+/* Future-friendly typography */
+.entity-card__desc p {
+    margin: 0 0 1rem;
+}
+
+.entity-card__desc p:last-child {
+    margin-bottom: 0;
+}
+
+.entity-card__desc h2,
+.entity-card__desc h3,
+.entity-card__desc h4 {
+    color: #fff;
+    margin: 1.5rem 0 .75rem;
+}
+
+.entity-card__desc ul,
+.entity-card__desc ol {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+.entity-card__desc li {
+    margin-bottom: .4rem;
+}
+
+.entity-card__desc strong {
+    color: #fff;
+    font-weight: 600;
+}
+
+.entity-card__desc a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.entity-card__desc a:hover {
+    text-decoration: underline;
+}
+
+.entity-card__desc code {
+    padding: .15rem .4rem;
+    border-radius: 4px;
+    background: rgba(255,255,255,.06);
+    font-family: monospace;
+}
+
+@media (max-width: 640px) {
+
+    .entity-card {
+        flex-direction: column;
+        padding: 28px;
+        gap: 24px;
+    }
+
+    .entity-card__sidebar {
+        width: 100%;
+    }
+
+    .entity-card__logo {
+        width: 72px;
+        height: 72px;
+    }
+
+}

@@ -63,7 +63,23 @@
                             </div>
                             <div class="team-card__name">سارا کیائی</div>
                             <div class="team-card__role">توسعه‌دهنده فرانت‌اند</div>
-                            <p class="team-card__bio">طراحی رابط‌های کاربری زیبا و چشم نواز و هنرمند در استفاده از CSS.</p>
+                            <p class="team-card__bio">طراحی رابط‌های کاربری زیبا با استفاده از React و CSS.</p>
+                        </div>
+                        <div class="team-card reveal">
+                            <div class="team-card__avatar">
+                                <img src="assets/img/karim-avatar.jpg" alt="" srcset="">
+                            </div>
+                            <div class="team-card__name">کریم مدنی</div>
+                            <div class="team-card__role">توسعه‌دهنده فرانت‌اند</div>
+                            <p class="team-card__bio">توسعه‌دهنده ارشد فرانت‌اند با React</p>
+                        </div>
+                        <div class="team-card reveal">
+                            <div class="team-card__avatar">
+                                <img src="assets/img/amirmamad-avatar.jpg" alt="" srcset="">
+                            </div>
+                            <div class="team-card__name">امیرمحمد نصیری</div>
+                            <div class="team-card__role">توسعه‌دهنده فول‌استک</div>
+                            <p class="team-card__bio">توسعه دهنده صفر تا صد نرم‌افزارهای کاربردی تحت وب.</p>
                         </div>
                     </div>
                 </div>

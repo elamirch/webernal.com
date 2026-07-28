@@ -71,7 +71,7 @@
                             </div>
                             <div class="team-card__name">کریم مدنی</div>
                             <div class="team-card__role">توسعه‌دهنده فرانت‌اند</div>
-                            <p class="team-card__bio">توسعه‌دهنده ارشد فرانت‌اند با React</p>
+                            <p class="team-card__bio">مهندس فرانت‌اند با تمرکز بر محصول و تجربه کاربری</p>
                         </div>
                         <div class="team-card reveal">
                             <div class="team-card__avatar">

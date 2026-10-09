@@ -1,130 +1,32 @@
+<?php $root = "./"; $base = "../" ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php require_once($root . 'components/head-basics.php') ?>
     <title>Webernal — Tech Studio</title>
-    <meta name="description" content="Webernal Tech Studio — Websites, Telegram Bots, Logos, Documents, Persian Localization, Desktop Apps & DApps. Medical-focused digital solutions.">
-    <link rel="stylesheet" href="assets/style.css">
-    <style>
-        /* ========== Vertical Section Navigation (desktop) ========== */
-        .section-nav {
-            position: fixed;
-            top: 50%;
-            right: 24px;
-            transform: translateY(-50%);
-            z-index: 900;
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            background: transparent;
-            transition: opacity 0.3s;
-        }
-        .section-nav li a {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            text-decoration: none;
-            color: var(--text-secondary);
-            font-size: 0.8rem;
-            font-weight: 500;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
-            transition: color var(--transition-fast);
-            position: relative;
-        }
-        .section-nav li a::after {
-            content: '';
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            background: rgba(255,255,255,0.25);
-            transition: background var(--transition-fast), box-shadow var(--transition-fast);
-        }
-        .section-nav li a.active {
-            color: var(--accent);
-        }
-        .section-nav li a.active::after {
-            background: var(--accent);
-            box-shadow: 0 0 12px var(--accent-glow);
-        }
-        .section-nav li a:hover {
-            color: #fff;
-        }
-        /* Hide on mobile (less than 860px) */
-        @media (max-width: 860px) {
-            .section-nav {
-                display: none;
-            }
-        }
-        /* Slight adjustment for the vertical nav so it doesn't overlap the scrollbar */
-        @media (min-width: 861px) {
-            .section-nav {
-                right: 28px;
-            }
-            html[dir="rtl"] .section-nav {
-                right: auto;
-                left: 28px;
-            }
-        }
-    </style>
+    <meta name="description" content="Webernal Tech Studio — modern websites, Telegram bots, logos, professional documents, Persian localization, desktop apps and DApps, with a sharp focus on healthcare innovation.">
 </head>
 <body>
-    <div class="ambient-glow ambient-glow--top" aria-hidden="true"></div>
-    <div class="ambient-glow ambient-glow--bottom" aria-hidden="true"></div>
-    <div class="grid-bg" aria-hidden="true"></div>
-
-    <!-- ==================== VERTICAL SECTION NAV ==================== -->
-    <ul class="section-nav" id="sectionNav">
-        <li><a href="#services" data-section="services">Services</a></li>
-        <li><a href="#medical" data-section="medical">Medical</a></li>
-        <li><a href="#partners" data-section="partners">Partners</a></li>
-        <li><a href="#contact" data-section="contact">Contact</a></li>
-    </ul>
+    <?php require_once($base . 'components/ambient-glows.php') ?>
 
     <div class="site-wrapper">
-        <!-- ==================== GLOBAL NAVIGATION (page links) ==================== -->
-        <nav class="nav" id="navbar">
-            <a href="index.html" class="nav__logo" aria-label="Webernal Home">
-                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="2" y="2" width="44" height="44" rx="12" fill="#0a0a0f" stroke="#0cc0df" stroke-width="2.5"/>
-                    <path d="M14 28L24 12L34 28" stroke="#0cc0df" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    <circle cx="24" cy="34" r="3" fill="#0cc0df"/>
-                    <line x1="24" y1="20" x2="24" y2="31" stroke="#0cc0df" stroke-width="2.5" stroke-linecap="round"/>
-                </svg>
-                Webernal
-            </a>
-            <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">
-                <span></span><span></span><span></span>
-            </button>
-            <ul class="nav__links" id="navLinks">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="entities.html">Partners</a></li>
-                <li><a href="internships.html">Internships</a></li>
-                <li><a href="../index.html" style="opacity:0.7;">🇮🇷 فارسی</a></li>
-                <li><a href="index.html#contact" class="nav__cta">Order a Project</a></li>
-            </ul>
-        </nav>
+        <?php require_once($root . 'components/main-nav.php') ?>
 
         <!-- ==================== HERO ==================== -->
         <header class="hero" id="home">
             <div class="hero__content reveal">
-                <span class="hero__badge">🚀 Tech Studio • Est. 2020</span>
+                <span class="hero__badge">Tech Studio 🚀 استودیو فناوری</span>
                 <h1 class="hero__title">
-                    We build <span>digital</span> products that matter
+                    We create value with <span>digital products</span>
                 </h1>
                 <p class="hero__subtitle">
-                    Webernal is a full-cycle tech studio crafting modern websites, intelligent bots,
-                    sleek branding, desktop apps, and decentralized solutions — with a sharp focus on
-                    <strong>medical & healthcare</strong> innovation.
+                    Webernal is a full-cycle tech studio delivering modern websites, intelligent software and bots,
+                    striking logos and branding, image & video editing, and many other startup services — with a
+                    special focus on <strong>innovation in medicine and healthcare</strong>.
                 </p>
                 <div class="hero__buttons">
                     <a href="#services" class="btn btn--primary">Explore Services</a>
-                    <a href="#contact" class="btn btn--outline">Start a Project</a>
+                    <a href="#order" class="btn btn--outline">Start a Project</a>
                 </div>
             </div>
             <div class="hero__scroll-indicator" aria-hidden="true">
@@ -135,20 +37,20 @@
         <!-- ==================== SERVICES SECTION ==================== -->
         <section class="section" id="services">
             <div class="section__inner">
-                <span class="section__label reveal">What We Do</span>
+                <span class="section__label reveal">What we do</span>
                 <h2 class="section__title reveal">Our Services</h2>
                 <p class="section__desc reveal">
-                    From pixel-perfect websites to robust backend systems and intelligent automation —
-                    we cover the full spectrum of modern digital craftsmanship.
+                    From flawless websites to powerful backend systems and intelligent automation —
+                    we cover the full spectrum of the modern digital industry.
                 </p>
 
                 <div class="services-grid">
                     <!-- 1. Websites -->
-                    <div class="service-card reveal">
+                    <a class="service-card reveal">
                         <div class="service-card__icon">🌐</div>
                         <h3 class="service-card__title">Websites & Web Apps</h3>
                         <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
-                            Modern, performant, and scalable web solutions tailored to your needs.
+                            Modern, high-performance and scalable solutions tailored to your needs.
                         </p>
                         <div class="service-card__tags">
                             <span class="service-card__tag">Laravel</span>
@@ -158,270 +60,318 @@
                             <span class="service-card__tag">PHP</span>
                             <span class="service-card__tag">Raw HTML/CSS</span>
                         </div>
-                    </div>
+                    </a>
 
                     <!-- 2. Telegram Bots -->
-                    <div class="service-card reveal">
+                    <a class="service-card reveal">
                         <div class="service-card__icon">🤖</div>
                         <h3 class="service-card__title">Telegram Bots</h3>
                         <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
-                            Smart, responsive bots for automation, customer support, payments & more.
+                            Smart, responsive bots for automation, customer support, payments and more.
                         </p>
                         <div class="service-card__tags">
+                            <span class="service-card__tag">Telegram API</span>
+                            <span class="service-card__tag">PHP</span>
+                            <span class="service-card__tag">AI APIs</span>
                             <span class="service-card__tag">Python</span>
-                            <span class="service-card__tag">Node.js</span>
-                            <span class="service-card__tag">AI Integration</span>
-                            <span class="service-card__tag">Payment Gateways</span>
                         </div>
-                    </div>
+                    </a>
 
                     <!-- 3. Logos -->
-                    <div class="service-card reveal">
+                    <a class="service-card reveal">
                         <div class="service-card__icon">🎨</div>
                         <h3 class="service-card__title">Logo & Brand Identity</h3>
                         <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
-                            Clean, memorable logos and cohesive brand systems that stand out.
+                            Clean, memorable logos tailored to your audience.
                         </p>
                         <div class="service-card__tags">
                             <span class="service-card__tag">Vector SVG</span>
                             <span class="service-card__tag">Brand Guidelines</span>
                             <span class="service-card__tag">Iconography</span>
                         </div>
-                    </div>
+                    </a>
 
                     <!-- 4. Documents -->
-                    <div class="service-card reveal">
+                    <a class="service-card reveal">
                         <div class="service-card__icon">📄</div>
                         <h3 class="service-card__title">Stylish Documents</h3>
                         <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
-                            Professional presentations, pitch decks, whitepapers & corporate documents.
+                            Professional presentations, pitch decks, book layouts and corporate documents.
                         </p>
                         <div class="service-card__tags">
                             <span class="service-card__tag">Presentations</span>
-                            <span class="service-card__tag">Whitepapers</span>
+                            <span class="service-card__tag">Whitepaper</span>
                             <span class="service-card__tag">Reports</span>
-                            <span class="service-card__tag">InDesign</span>
                         </div>
-                    </div>
+                    </a>
 
                     <!-- 5. Persian Localization -->
-                    <div class="service-card reveal">
+                    <a class="service-card reveal">
                         <div class="service-card__icon">📝</div>
                         <h3 class="service-card__title">Persian Localization</h3>
                         <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
-                            Full RTL adaptation, cultural nuance, and Farsi UI/UX for Persian-speaking audiences.
+                            Translating documentation and technical texts, plus Persian localization of ready-made digital products.
                         </p>
                         <div class="service-card__tags">
-                            <span class="service-card__tag">RTL CSS</span>
-                            <span class="service-card__tag">Farsi UI</span>
-                            <span class="service-card__tag">Cultural Adaptation</span>
                             <span class="service-card__tag">Translation</span>
                         </div>
-                    </div>
+                    </a>
 
-                    <!-- 6. Desktop Apps -->
-                    <div class="service-card reveal">
-                        <div class="service-card__icon">🖥️</div>
-                        <h3 class="service-card__title">Desktop Applications</h3>
+                    <!-- 6. Digital Health -->
+                    <a class="service-card reveal">
+                        <div class="service-card__icon">⛓️</div>
+                        <h3 class="service-card__title">Medicine & Healthcare</h3>
                         <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
-                            Robust, high-performance native desktop software for Windows & beyond.
+                            From clinic management platforms to patient portals and remote medical systems.
+                        </p>
+                        <div class="service-card__tags">
+                            <span class="service-card__tag">HIS</span>
+                            <span class="service-card__tag">EHR</span>
+                            <span class="service-card__tag">PACS</span>
+                        </div>
+                    </a>
+
+                    <!-- 7. Desktop Apps -->
+                    <a class="service-card reveal">
+                        <div class="service-card__icon">🖥️</div>
+                        <h3 class="service-card__title">Desktop Apps</h3>
+                        <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
+                            Standard, well-performing software for Windows and Linux-based systems.
                         </p>
                         <div class="service-card__tags">
                             <span class="service-card__tag">VB.NET</span>
                             <span class="service-card__tag">Rust</span>
-                            <span class="service-card__tag">WinForms</span>
-                            <span class="service-card__tag">WPF</span>
+                            <span class="service-card__tag">Linux</span>
                         </div>
-                    </div>
+                    </a>
 
-                    <!-- 7. DApps -->
-                    <div class="service-card reveal">
+                    <!-- 8. DApps -->
+                    <a class="service-card reveal">
                         <div class="service-card__icon">⛓️</div>
                         <h3 class="service-card__title">DApps & Web3</h3>
                         <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
-                            Decentralized applications, smart contracts, and blockchain-integrated solutions.
+                            Decentralized applications, smart contracts and blockchain-based solutions.
                         </p>
                         <div class="service-card__tags">
-                            <span class="service-card__tag">Solidity</span>
+                            <span class="service-card__tag">Polkadot</span>
+                            <span class="service-card__tag">Substrate</span>
                             <span class="service-card__tag">Ethereum</span>
-                            <span class="service-card__tag">Web3.js</span>
-                            <span class="service-card__tag">Smart Contracts</span>
+                            <span class="service-card__tag">OpenZeppelin</span>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ==================== MEDICAL FOCUS ==================== -->
-        <section class="section" id="medical">
-            <div class="section__inner">
-                <span class="section__label reveal">Our Specialty</span>
-                <h2 class="section__title reveal">Medical & Healthcare Focus</h2>
-                <p class="section__desc reveal">
-                    We specialize in digital solutions for the healthcare industry — from clinic management
-                    platforms to patient-facing portals and telemedicine systems.
-                </p>
-                <div class="med-banner reveal">
-                    <span class="med-banner__icon">🏥</span>
-                    <div class="med-banner__text">
-                        <h3>Healthcare-Centric Engineering</h3>
-                        <p>
-                            HIPAA-aware architecture, medical data security, appointment scheduling systems,
-                            EHR integrations, and patient dashboard design — we understand the unique
-                            demands of medical software and deliver with precision.
-                        </p>
-                    </div>
-                </div>
-                <div class="services-grid" style="margin-top:24px;">
-                    <div class="service-card reveal">
-                        <div class="service-card__icon">🩺</div>
-                        <h3 class="service-card__title">Clinic Management Systems</h3>
-                        <p style="color:var(--text-secondary);font-size:0.9rem;">Patient records, scheduling, billing — all in one place.</p>
-                    </div>
-                    <div class="service-card reveal">
-                        <div class="service-card__icon">📱</div>
-                        <h3 class="service-card__title">Telemedicine Platforms</h3>
-                        <p style="color:var(--text-secondary);font-size:0.9rem;">Video consultations, chat, e-prescriptions.</p>
-                    </div>
-                    <div class="service-card reveal">
-                        <div class="service-card__icon">🔬</div>
-                        <h3 class="service-card__title">Lab & Diagnostic Portals</h3>
-                        <p style="color:var(--text-secondary);font-size:0.9rem;">Result delivery, patient access, lab workflow automation.</p>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
 
         <!-- ==================== PARTNERS / ENTITIES ==================== -->
-        <section class="section" id="partners" style="padding-top:40px;">
+        <section class="section" id="partners">
             <div class="section__inner">
-                <span class="section__label reveal">Trusted By</span>
-                <h2 class="section__title reveal">Entities We've Worked With</h2>
+                <span class="section__label reveal">What we built, and for whom?</span>
+
+                <h2 class="section__title reveal">
+                    The names that stand beside our projects
+                </h2>
+
                 <p class="section__desc reveal">
-                    We're proud to have collaborated with some of the most respected names in tech and beyond.
+                    We are proud to have helped — and built for — some of the most respected names in tech and medicine.
                 </p>
-                <div class="partners-strip reveal">
-                    <span class="partners-strip__item">🔷 Ethereum Foundation</span>
-                    <span class="partners-strip__item">🛒 Shab.ir</span>
-                    <span class="partners-strip__item">🏠 Divar.ir</span>
+
+                <div class="partners-grid reveal">
+
+                    <article class="partner-card">
+                        <img src="<?=$base?>assets/img/shab-logo.jpg" alt="Shab.ir" class="partner-card__logo">
+
+                        <div class="partner-card__content">
+                            <div class="partner-card__header">
+                                <h3>Shab | Shab.ir</h3>
+                                <span class="partner-tag internship">Internship Project</span>
+                            </div>
+
+                            <p>
+                                Developed a clone of Shab.ir's core features, named Accommodations Iran.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="partner-card">
+                        <img src="<?=$base?>assets/img/divar-logo.jpg" alt="Divar" class="partner-card__logo">
+
+                        <div class="partner-card__content">
+                            <div class="partner-card__header">
+                                <h3>Divar</h3>
+                                <span class="partner-tag internship">Competition Project</span>
+                            </div>
+
+                            <p>
+                                Built a computer benchmarking tool with comparison features, named Benchmarble.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="partner-card">
+                        <img src="<?=$base?>assets/img/ethereum-foundation-logo.jpg" alt="Ethereum Foundation" class="partner-card__logo">
+
+                        <div class="partner-card__content">
+                            <div class="partner-card__header">
+                                <h3>Ethereum Foundation</h3>
+                                <span class="partner-tag contribution">Contribution</span>
+                            </div>
+
+                            <p>
+                                Translated 15,000+ words of the Ethereum Foundation's official website on Crowdin.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="partner-card">
+                        <img src="<?=$base?>assets/img/merahyan-logo.jpg" alt="Merahyan" class="partner-card__logo">
+
+                        <div class="partner-card__content">
+                            <div class="partner-card__header">
+                                <h3>Merahyan</h3>
+                                <span class="partner-tag project">Collaboration</span>
+                            </div>
+
+                            <p>
+                                Branding development, video editing, and hosting video-editing and WordPress internships.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="partner-card">
+                        <img src="<?=$base?>assets/img/src-gums-logo.jpg" alt="SRC-GUMS" class="partner-card__logo">
+
+                        <div class="partner-card__content">
+                            <div class="partner-card__header">
+                                <h3>Student Research Committee</h3>
+                                <h4>Guilan University of Medical Sciences</h4>
+                                <span class="partner-tag project">Collaboration</span>
+                            </div>
+
+                            <p>
+                                Developed the portfolio website and hosted startup events.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="partner-card">
+                        <img src="<?=$base?>assets/img/trauma-institute-logo.jpg" alt="Trauma-Institute" class="partner-card__logo">
+
+                        <div class="partner-card__content">
+                            <div class="partner-card__header">
+                                <h3>Trauma Institute</h3>
+                                <span class="partner-tag project">Project</span>
+                            </div>
+
+                            <p>
+                                Developed the Trauma Institute members' club website.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="partner-card">
+                        <img src="<?=$base?>assets/img/gordeh-logo.jpg" alt="Gordeh" class="partner-card__logo">
+
+                        <div class="partner-card__content">
+                            <div class="partner-card__header">
+                                <h3>Gordeh</h3>
+                                <span class="partner-tag project">Collaboration</span>
+                            </div>
+
+                            <p>
+                                Collaborated with the software development team, contributing to services and technical processes.
+                            </p>
+                        </div>
+                    </article>
                 </div>
-                <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;margin-top:12px;" class="reveal">
-                    <em>More case studies on our <a href="entities.html" style="color:var(--accent);">partners page</a>.</em>
-                </p>
             </div>
         </section>
 
-        <!-- ==================== CONTACT SECTION ==================== -->
-        <section class="cta-section" id="contact">
+        <!-- ==================== TESTIMONIES ==================== -->
+        <section class="section testimonials" id="testimonials">
+            <div class="section__inner">
+                <div class="section__label">Testimonials</div>
+                <h2 class="section__title">What do they say about us?</h2>
+                <p class="section__desc">
+                    Feedback from those we had the honor of serving.
+                </p>
+
+                <div class="testimonials-grid">
+
+                    <article class="testimonial-card reveal">
+                        <div class="testimonial-card__quote">
+                            “Working with Webernal made everything easy and painless. Before the project began,
+                            they helped us make the best decisions through expert consulting. They designed a
+                            beautiful website, a professional logo, and a complete branding package for our company.
+                            Throughout the project, they listened carefully to our ideas and feedback. I am completely
+                            satisfied with the quality of their work, and I wholeheartedly recommend Webernal to anyone
+                            looking for professional, high-quality branding and web design services.”
+                        </div>
+
+                        <div class="testimonial-card__footer">
+                            <img
+                                class="testimonial-card__avatar"
+                                src="<?=$base?>assets/img/hayat-avatar.jpg"
+                                alt="Hayat Gashaw"
+                            >
+
+                            <div>
+                                <h3>Hayat Gashaw</h3>
+                                <span>Ethiopian Startup Activist · Merahyan</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card reveal">
+                        <div class="testimonial-card__quote">
+                            “Working with this team has been one of my best professional experiences. Communication
+                            with the team members is always simple, transparent and enjoyable, and everyone is on
+                            top of their specialty. What draws my attention most is the team's synergy and sense of
+                            responsibility; everyone collaborates with motivation and devotion toward a shared goal.
+                            Their creativity, coordination, and commitment to delivering the best performance have
+                            always assured me that the final output will meet the highest and most up-to-date standards.”
+                        </div>
+
+                        <div class="testimonial-card__footer">
+                            <img
+                                class="testimonial-card__avatar"
+                                src="<?=$base?>assets/img/parmida-avatar.jpg"
+                                alt="Parmida Saremi Shahab"
+                            >
+
+                            <div>
+                                <h3>Parmida Saremi Shahab</h3>
+                                <span>Secretary-General, Student Research Committee · Guilan University of Medical Sciences</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== ORDER SECTION ==================== -->
+        <section class="cta-section" id="order">
             <div class="section__inner reveal">
-                <span class="section__label">Get In Touch</span>
-                <h2 class="section__title">Let's Build Something Great</h2>
+                <span class="section__label">Order a Project</span>
+                <h2 class="section__title">Let's Build Something Remarkable</h2>
                 <p style="color:var(--text-secondary);max-width:500px;margin:0 auto 32px;line-height:1.7;">
-                    Have a project in mind? Fill out the form below and we'll get back to you within 24 hours.
+                    Have a project in mind? Reach out via email: amirrezatm@protonmail.com
                 </p>
-                <form class="contact-form reveal" id="contactForm" action="php/contact.php" method="POST">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="message" placeholder="Tell us about your project..." required></textarea>
-                    <button type="submit" class="btn btn--primary">Send Message ✦</button>
-                    <div class="form-feedback" id="formFeedback"></div>
-                </form>
             </div>
         </section>
 
-        <footer class="footer">
-            <div class="footer__links">
-                <a href="about.html">About Us</a>
-                <a href="internships.html">Internships</a>
-                <a href="entities.html">Partners</a>
-                <a href="#contact">Contact</a>
-            </div>
-            <p>© 2026 <a href="index.html">Webernal</a> Tech Studio. All rights reserved.</p>
-        </footer>
+        <?php require_once($root . 'components/footer.php') ?>
     </div>
 
-    <script>
-        (function() {
-            const navbar = document.getElementById('navbar');
-            const navToggle = document.getElementById('navToggle');
-            const navLinks = document.getElementById('navLinks');
+    <!-- ==================== SITE WRAPPER ==================== -->
+    <ul class="section-nav" id="sectionNav">
+        <li><a href="#services" data-section="services">Services</a></li>
+        <li><a href="#partners" data-section="partners">Partners</a></li>
+        <li><a href="#testimonials" data-section="testimonials">Testimonials</a></li>
+        <li><a href="#order" data-section="order">Order</a></li>
+    </ul>
 
-            window.addEventListener('scroll', () => navbar.classList.toggle('nav--scrolled', window.scrollY > 60), { passive: true });
-            navToggle.addEventListener('click', () => {
-                navToggle.classList.toggle('active');
-                navLinks.classList.toggle('nav__links--open');
-            });
-            navLinks.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
-                navToggle.classList.remove('active');
-                navLinks.classList.remove('nav__links--open');
-            }));
-
-            // Scroll reveal
-            const revealEls = document.querySelectorAll('.reveal');
-            const revealObserver = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('reveal--visible');
-                        revealObserver.unobserve(entry.target);
-                    }
-                });
-            }, { rootMargin: '0px 0px -60px 0px', threshold: 0.12 });
-            revealEls.forEach(el => revealObserver.observe(el));
-
-            // Vertical section nav scrollspy
-            const sectionNavLinks = document.querySelectorAll('.section-nav a');
-            const sections = [];
-            sectionNavLinks.forEach(link => {
-                const id = link.getAttribute('data-section');
-                const section = document.getElementById(id);
-                if (section) sections.push({ section, link });
-            });
-            function updateActiveNav() {
-                let current = '';
-                const scrollMid = window.scrollY + window.innerHeight / 3;
-                for (const { section, link } of sections) {
-                    if (section.offsetTop <= scrollMid) {
-                        current = link.getAttribute('data-section');
-                    }
-                }
-                sectionNavLinks.forEach(link => {
-                    link.classList.toggle('active', link.getAttribute('data-section') === current);
-                });
-            }
-            window.addEventListener('scroll', updateActiveNav, { passive: true });
-            updateActiveNav();
-
-            // Contact form AJAX
-            const form = document.getElementById('contactForm');
-            const feedback = document.getElementById('formFeedback');
-            if (form) {
-                form.addEventListener('submit', async function(e) {
-                    e.preventDefault();
-                    const btn = form.querySelector('button');
-                    const orig = btn.textContent;
-                    btn.textContent = 'Sending...';
-                    btn.disabled = true;
-                    feedback.textContent = '';
-                    try {
-                        const resp = await fetch('php/contact.php', {
-                            method: 'POST',
-                            body: new FormData(form),
-                            headers: { 'X-Requested-With': 'XMLHttpRequest' }
-                        });
-                        const data = await resp.json();
-                        feedback.textContent = data.success ? '✓ ' + data.message : '✗ ' + data.message;
-                        feedback.className = 'form-feedback' + (data.success ? ' form-feedback--success' : ' form-feedback--error');
-                        if (data.success) form.reset();
-                    } catch (err) {
-                        feedback.textContent = '✗ Network error.';
-                        feedback.className = 'form-feedback form-feedback--error';
-                    } finally {
-                        btn.textContent = orig;
-                        btn.disabled = false;
-                    }
-                });
-            }
-        })();
-    </script>
+    <script src="<?=$base?>assets/js/general-scripts.js"></script>
 </body>
 </html>

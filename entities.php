@@ -39,7 +39,7 @@
 
                             <div class="entity-card__content">
                                 <div class="entity-card__desc">
-                                    <p>Lorem Ipsum</p>
+                                    <p>مشارکت در بومی‌سازی فارسی اتریوم؛ ترجمه بیش از ۱۵ هزار کلمه از وب‌سایت رسمی بنیاد اتریوم بر بستر Crowdin.</p>
                                 </div>
                             </div>
                         </div>
@@ -55,7 +55,7 @@
 
                             <div class="entity-card__content">
                                 <div class="entity-card__desc">
-                                    <p>Lorem Ipsum</p>
+                                    <p>کارآموزی توسعه وب؛ توسعه یک کلون از عملکردهای اصلی سایت شب با نام Accommodations Iran.</p>
                                 </div>
                             </div>
                         </div>
@@ -71,7 +71,7 @@
 
                             <div class="entity-card__content">
                                 <div class="entity-card__desc">
-                                    <p>کمک به تست بومی‌سازی و بهبود دسترسی‌پذیری برای کاربران فارسی‌زبان، تضمین تجربه راست‌چین روان در میان میلیون‌ها آگهی.</p>
+                                    <p>کمک به تست بومی‌سازی و بهبود دسترسی‌پذیری برای کاربران فارسی‌زبان، تضمین تجربه راست‌چین روان در میان میلیون‌ها آگهی؛ و برگزاری مسابقه توسعه با ساخت ابزار بنچمارک بنچماربل.</p>
                                 </div>
                             </div>
                         </div>
@@ -87,7 +87,7 @@
 
                             <div class="entity-card__content">
                                 <div class="entity-card__desc">
-                                    <p>Lorem</p>
+                                    <p>توسعه برندینگ، ادیت ویدیو و برگزاری کارآموزی ادیت ویدیو و وردپرس.</p>
                                 </div>
                             </div>
                         </div>
@@ -103,7 +103,7 @@
 
                             <div class="entity-card__content">
                                 <div class="entity-card__desc">
-                                    <p>Lorem</p>
+                                    <p>توسعه وبسایت پورتفولیو و برگزاری ایونت‌های استارتاپی.</p>
                                 </div>
                             </div>
                         </div>
@@ -119,7 +119,7 @@
 
                             <div class="entity-card__content">
                                 <div class="entity-card__desc">
-                                    <!-- Add description here -->
+                                    <p>توسعه وبسایت باشگاه اعضای پژوهشکده تروما.</p>
                                 </div>
                             </div>
                         </div>
@@ -135,7 +135,7 @@
 
                             <div class="entity-card__content">
                                 <div class="entity-card__desc">
-                                    <p>Lorem</p>
+                                    <p>همکاری در تیم توسعه نرم‌افزار و مشارکت در بهبود سرویس‌ها و فرآیندهای فنی.</p>
                                 </div>
                             </div>
                         </div>
@@ -143,7 +143,7 @@
                     </div>
 
                     <p style="text-align:center;color:var(--text-muted);font-size:0.88rem;margin-top:36px;" class="reveal">
-                        <em>همکاری‌های بیشتری به‌زودی اعلام خواهد شد. علاقه‌مند به همکاری هستید؟ <a href="index.html#contact" style="color:var(--accent);">تماس بگیرید.</a></em>
+                        <em>همکاری‌های بیشتری به‌زودی اعلام خواهد شد. علاقه‌مند به همکاری هستید؟ <a href="index.php#order" style="color:var(--accent);">تماس بگیرید.</a></em>
                     </p>
                 </div>
             </section>

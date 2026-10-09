@@ -3,8 +3,8 @@
 <html lang="fa" dir="rtl">
 <head>
     <?php require_once($root . 'components/head-basics.php') ?>
-    <title>پروژه‌های وب‌سایت – وبرنال</title>
-    <meta name="description" content="وب‌سایت‌های ساخته شده توسط وبرنال: Laravel، WordPress، Next.js و HTML/CSS خام.">
+    <title>لوگو و برندینگ – وبرنال</title>
+    <meta name="description" content="لوگوها و هویت‌های بصری طراحی‌شده توسط وبرنال برای برندهای فناوری، سلامت و فروشگاهی.">
     <link rel="stylesheet" href="assets/css/general-styles.css">
 </head>
 <body>
@@ -17,8 +17,8 @@
             <section class="section" style="padding-top:120px;">
                 <div class="section__inner reveal">
                     <span class="section__label">دسته‌بندی پروژه</span>
-                    <h1 class="section__title">وب‌سایت‌ها</h1>
-                    <p class="section__desc">وب‌سایت‌های مدرن و با عملکرد بالا با Laravel، WordPress، Next.js، Nest.js و HTML/CSS خام.</p>
+                    <h1 class="section__title">لوگو و برندینگ</h1>
+                    <p class="section__desc">لوگوهای تمیز، به‌یادماندنی و متناسب با مخاطب شما؛ به‌همراه راهنمای برند و آیکون‌نگاری.</p>
 
                     <div class="sub-nav">
                         <a href="websites.php">وب‌سایت‌ها</a>
@@ -26,40 +26,85 @@
                         <a href="logos.php" class="active">لوگوها</a>
                         <a href="documents.php">اسناد</a>
                         <a href="localizations.php">بومی‌سازی</a>
-                        <a href="dapps.php">سلامت دیجیتال</a>
                         <a href="desktop-apps.php">دسکتاپ</a>
                         <a href="dapps.php">DAppها</a>
+                        <a href="digital-health.php">سلامت دیجیتال</a>
                     </div>
 
                     <div class="project-grid">
-                        <div class="project-card">
-                            <h3>پرتال درمانگاه</h3>
-                            <div class="partner">مشتری: مرکز قلب تهران</div>
-                            <p>سیستم نوبت‌دهی، پرونده بیمار و حسابداری کامل با Laravel و MySQL.</p>
-                            <div class="stack-tags">
-                                <span class="stack-tag">Laravel</span>
-                                <span class="stack-tag">MySQL</span>
-                                <span class="stack-tag">Bootstrap</span>
+                        <div class="project-card featured-style">
+                            <div class="project-card__image" style="background: radial-gradient(circle at 30% 30%, rgba(12,192,223,0.25), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
+                                <div class="project-card__logo"><img src="<?=$root?>assets/img/merahyan-logo.jpg" alt="Merahyan"></div>
+                            </div>
+                            <div class="project-card__body">
+                                <h3>هویت بصری Merahyan</h3>
+                                <div class="partner">برندینگ و تولید محتوا</div>
+                                <p>طراحی لوگو و هویت بصری برای برند Merahyan؛ به‌همراه توسعه برندینگ و قالب‌های ادیت ویدیو.</p>
+                                <div class="stack-tags">
+                                    <span class="stack-tag">Logo</span>
+                                    <span class="stack-tag">Branding</span>
+                                    <span class="stack-tag">SVG</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="project-card">
-                            <h3>بازطراحی فروشگاه</h3>
-                            <div class="partner">مشتری: شب.آی‌آر</div>
-                            <p>بهینه‌سازی عملکرد و طراحی واکنش‌گرا با Next.js و رندر سمت سرور.</p>
-                            <div class="stack-tags">
-                                <span class="stack-tag">Next.js</span>
-                                <span class="stack-tag">Tailwind CSS</span>
-                                <span class="stack-tag">Redis</span>
+
+                        <div class="project-card featured-style">
+                            <div class="project-card__image" style="background: radial-gradient(circle at 70% 40%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
+                                <div class="project-card__logo"><img src="<?=$root?>assets/img/gordeh-logo.jpg" alt="گردِه"></div>
+                            </div>
+                            <div class="project-card__body">
+                                <h3>لوگوی گردِه</h3>
+                                <div class="partner">استارتاپ سلامت کلیه</div>
+                                <p>طراحی لوگوی گردِه؛ نمادی ساده و به‌یادماندنی برای پلتفرم سلامت کلیه.</p>
+                                <div class="stack-tags">
+                                    <span class="stack-tag">Logo</span>
+                                    <span class="stack-tag">Health-tech</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="project-card">
-                            <h3>وبلاگ شرکتی</h3>
-                            <div class="partner">مشتری: استارت‌آپ محلی</div>
-                            <p>قالب سفارشی وردپرس با پشتیبانی از راست‌چین فارسی و تنظیمات پیشرفته SEO.</p>
-                            <div class="stack-tags">
-                                <span class="stack-tag">WordPress</span>
-                                <span class="stack-tag">PHP</span>
-                                <span class="stack-tag">RTL CSS</span>
+
+                        <div class="project-card featured-style">
+                            <div class="project-card__image" style="background: radial-gradient(circle at 50% 60%, rgba(12,192,223,0.15), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
+                                <div class="project-card__logo">HWD</div>
+                            </div>
+                            <div class="project-card__body">
+                                <h3>لوگوی های‌وارد</h3>
+                                <div class="partner">راهنمای بیمارستان</div>
+                                <p>طراحی لوگوی های‌وارد؛ حس پزشکی و راهنماگونه برای راهنمای بخش‌های بیمارستان.</p>
+                                <div class="stack-tags">
+                                    <span class="stack-tag">Logo</span>
+                                    <span class="stack-tag">Web</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card featured-style">
+                            <div class="project-card__image" style="background: radial-gradient(circle at 30% 70%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
+                                <div class="project-card__logo">SMH</div>
+                            </div>
+                            <div class="project-card__body">
+                                <h3>لوگوی SMH Domains</h3>
+                                <div class="partner">سرویس دامنه Web3</div>
+                                <p>طراحی لوگوی سرویس دامنه غیرمتمرکز SMH؛ هندسی و مدرن با حال‌وهوای Web3.</p>
+                                <div class="stack-tags">
+                                    <span class="stack-tag">Logo</span>
+                                    <span class="stack-tag">Web3</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card featured-style">
+                            <div class="project-card__image" style="background: radial-gradient(circle at 60% 25%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
+                                <div class="project-card__logo">RDM</div>
+                            </div>
+                            <div class="project-card__body">
+                                <h3>لوگوی فروشگاه ردیم</h3>
+                                <div class="partner">فروشگاه اینترنتی</div>
+                                <p>طراحی لوگوی فروشگاه ردیم؛ ساده، کاربردی و به‌یادماندنی برای هویت یک فروشگاه اینترنتی.</p>
+                                <div class="stack-tags">
+                                    <span class="stack-tag">Logo</span>
+                                    <span class="stack-tag">E-commerce</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -67,7 +112,7 @@
             </section>
         </main>
 
-        <?php require_once($root . 'components/footer.php') ?>
+        <?php require_once($root . "components/footer.php") ?>
     </div>
 
     <script src="<?=$root?>assets/js/general-scripts.js"></script>

@@ -58,10 +58,13 @@
                             <div class="category-card__icon">⛓️</div>
                             <div class="category-card__title">DApps</div>
                         </a>
+                        <a href="digital-health.php" class="category-card">
+                            <div class="category-card__icon">🏥</div>
+                            <div class="category-card__title">سلامت دیجیتال</div>
+                        </a>
                     </div>
                 </div>
             </section>
-
 
             <!-- ========== FEATURED PROJECTS SLIDESHOW ========== -->
             <section class="section">
@@ -70,93 +73,67 @@
                     <h2 class="section__title reveal">پروژه‌های شاخص</h2>
                     <div class="featured-slideshow" id="featuredSlideshow">
                         <div class="featured-slide">
-                            <div class="featured-slide__image" style="background: radial-gradient(circle at 30% 30%, rgba(12,192,223,0.25), transparent 70%), url('data:image/svg+xml,...') center/cover no-repeat;">
-                                <div class="featured-slide__logo">LOGO</div>
+                            <div class="featured-slide__image" style="background: radial-gradient(circle at 30% 30%, rgba(12,192,223,0.25), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
+                                <div class="featured-slide__logo">SMH</div>
                             </div>
                             <div class="featured-slide__body">
-                                <div class="featured-slide__partner">بنیاد اتریوم</div>
-                                <h3 class="featured-slide__title">داشبورد هویت غیرمتمرکز Devcon</h3>
-                                <p class="featured-slide__desc">رابط مدیریت هویت غیرمتمرکز برای شرکت‌کنندگان رویداد، ساخته شده با Next.js و قراردادهای هوشمند. زمان ورود کاربران ۶۰٪ کاهش یافت.</p>
+                                <div class="featured-slide__partner">Web3 · Polkadot</div>
+                                <h3 class="featured-slide__title"><a href="https://github.com/elamirch/smh" target="_blank" rel="noopener">سرویس دامنه غیرمتمرکز SMH</a></h3>
+                                <p class="featured-slide__desc">سرویس نام دامنه خودنگهدار (Self-custodial) روی بلاکچین Polkadot؛ ثبت دامنه‌های .smh با قراردادهای هوشمند ink! و همگام‌سازی زنده رکوردهای DNS با PowerDNS.</p>
+                                <div class="stack-tags">
+                                    <span class="stack-tag">Polkadot</span>
+                                    <span class="stack-tag">ink!</span>
+                                    <span class="stack-tag">Rust</span>
+                                    <span class="stack-tag">PowerDNS</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-slide">
+                            <div class="featured-slide__image" style="background: radial-gradient(circle at 70% 40%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
+                                <div class="featured-slide__logo"><img src="<?=$root?>assets/img/gordeh-logo.jpg" alt="گردِه"></div>
+                            </div>
+                            <div class="featured-slide__body">
+                                <div class="featured-slide__partner">سلامت دیجیتال</div>
+                                <h3 class="featured-slide__title"><a href="https://gordeh.com" target="_blank" rel="noopener">پلتفرم سلامت کلیه گردِه</a></h3>
+                                <p class="featured-slide__desc">آموزش پیشگیری از بیماری مزمن کلیه (CKD) با سنجش ریسک KFRE، پنل کاربری و محتوای تخصصی؛ توسعه‌یافته در همکاری با تیم گردِه.</p>
                                 <div class="stack-tags">
                                     <span class="stack-tag">Next.js</span>
-                                    <span class="stack-tag">Solidity</span>
-                                    <span class="stack-tag">Web3.js</span>
+                                    <span class="stack-tag">React</span>
+                                    <span class="stack-tag">PHP</span>
                                 </div>
                             </div>
                         </div>
                         <div class="featured-slide">
-                            <div class="featured-slide__image" style="background: radial-gradient(circle at 70% 40%, rgba(12,192,223,0.2), transparent 70%), url('data:image/svg+xml,...') center/cover no-repeat;">
-                                <div class="featured-slide__logo">LOGO</div>
+                            <div class="featured-slide__image" style="background: radial-gradient(circle at 50% 60%, rgba(12,192,223,0.15), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
+                                <div class="featured-slide__logo">HWD</div>
                             </div>
                             <div class="featured-slide__body">
-                                <div class="featured-slide__partner">شب.آی‌آر</div>
-                                <h3 class="featured-slide__title">بهینه‌سازی عملکرد فروشگاه</h3>
-                                <p class="featured-slide__desc">کاهش ۴۰٪ زمان بارگذاری با تفکیک کد، بهینه‌سازی CDN و فرمت‌های مدرن تصویر.</p>
+                                <div class="featured-slide__partner">سلامت دیجیتال · بیمارستان رازی رشت</div>
+                                <h3 class="featured-slide__title"><a href="https://hiward.ir" target="_blank" rel="noopener">های‌وارد؛ راهنمای جامع بخش‌های بیمارستان</a></h3>
+                                <p class="featured-slide__desc">وب‌اپلیکیشن راهنمای نوبت‌گیری، مراحل درمان و مراقبت‌های پس از عمل برای بیماران و همراهان؛ ساخته‌شده به‌همراه گیل‌مدز.</p>
                                 <div class="stack-tags">
-                                    <span class="stack-tag">Laravel</span>
-                                    <span class="stack-tag">Vue.js</span>
-                                    <span class="stack-tag">Redis</span>
+                                    <span class="stack-tag">React</span>
+                                    <span class="stack-tag">TypeScript</span>
                                 </div>
                             </div>
                         </div>
                         <div class="featured-slide">
-                            <div class="featured-slide__image" style="background: radial-gradient(circle at 50% 60%, rgba(12,192,223,0.15), transparent 70%), url('data:image/svg+xml,...') center/cover no-repeat;">
-                                <div class="featured-slide__logo">LOGO</div>
+                            <div class="featured-slide__image" style="background: radial-gradient(circle at 30% 70%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
+                                <div class="featured-slide__logo">RDM</div>
                             </div>
                             <div class="featured-slide__body">
-                                <div class="featured-slide__partner">دیوار.آی‌آر</div>
-                                <h3 class="featured-slide__title">ممیزی دسترسی‌پذیری راست‌چین</h3>
-                                <p class="featured-slide__desc">بهبود تجربه کاربری فارسی برای میلیون‌ها کاربر با رفع اشکالات چیدمان و پیمایش صفحه‌کلید.</p>
+                                <div class="featured-slide__partner">فروشگاه اینترنتی</div>
+                                <h3 class="featured-slide__title"><a href="https://redim.ir" target="_blank" rel="noopener">فروشگاه ووکامرسی ردیم</a></h3>
+                                <p class="featured-slide__desc">فروشگاه اینترنتی با قالب سفارشی وردپرس، پشتیبانی کامل راست‌چین فارسی و تنظیمات پیشرفته سئو.</p>
                                 <div class="stack-tags">
-                                    <span class="stack-tag">HTML/CSS</span>
-                                    <span class="stack-tag">JavaScript</span>
-                                    <span class="stack-tag">ARIA</span>
+                                    <span class="stack-tag">WordPress</span>
+                                    <span class="stack-tag">WooCommerce</span>
+                                    <span class="stack-tag">Elementor</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="featured-dots" id="featuredDots"></div>
-                </div>
-            </section>
-
-
-
-            <section class="section">
-                <div class="section__inner">
-                    <span class="section__label reveal">برگزیده‌ها</span>
-                    <h2 class="section__title reveal">پروژه‌های شاخص</h2>
-                    <div class="featured-grid">
-                        <div class="featured-card reveal">
-                            <div class="featured-card__partner">بنیاد اتریوم</div>
-                            <h3 class="featured-card__title">داشبورد هویت غیرمتمرکز Devcon</h3>
-                            <p class="featured-card__desc">رابط مدیریت هویت غیرمتمرکز برای شرکت‌کنندگان رویداد، ساخته شده با Next.js و قراردادهای هوشمند.</p>
-                            <div class="stack-tags">
-                                <span class="stack-tag">Next.js</span>
-                                <span class="stack-tag">Solidity</span>
-                                <span class="stack-tag">Web3.js</span>
-                            </div>
-                        </div>
-                        <div class="featured-card reveal">
-                            <div class="featured-card__partner">شب.آی‌آر</div>
-                            <h3 class="featured-card__title">بهینه‌سازی عملکرد فروشگاه</h3>
-                            <p class="featured-card__desc">کاهش ۴۰٪ زمان بارگذاری با تفکیک کد، بهینه‌سازی CDN و فرمت‌های مدرن تصویر.</p>
-                            <div class="stack-tags">
-                                <span class="stack-tag">Laravel</span>
-                                <span class="stack-tag">Vue.js</span>
-                                <span class="stack-tag">Redis</span>
-                            </div>
-                        </div>
-                        <div class="featured-card reveal">
-                            <div class="featured-card__partner">دیوار.آی‌آر</div>
-                            <h3 class="featured-card__title">ممیزی دسترسی‌پذیری راست‌چین</h3>
-                            <p class="featured-card__desc">بهبود تجربه کاربری فارسی برای میلیون‌ها کاربر با رفع اشکالات چیدمان و پیمایش صفحه‌کلید.</p>
-                            <div class="stack-tags">
-                                <span class="stack-tag">HTML/CSS</span>
-                                <span class="stack-tag">JavaScript</span>
-                                <span class="stack-tag">ARIA</span>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
 
@@ -166,16 +143,12 @@
                     <h2 class="section__title reveal">مشتریان چه می‌گویند</h2>
                     <div class="testimonials">
                         <div class="testimonial-card reveal">
-                            <p>“توجه وبرنال به امنیت داده‌های پزشکی فوق‌العاده بود. پورتال درمانگاهی که ساختند، محبوب پرسنل ماست.”</p>
-                            <div class="author">— دکتر امینی، مرکز قلب تهران</div>
+                            <p>«همکاری با وبرنال همه‌چیز را آسان و بدون دردسر کرد. پیش از شروع پروژه، با ارائه مشاوره تخصصی به ما کمک کردند تا بهترین تصمیم‌ها را بگیریم. آن‌ها یک وب‌سایت زیبا، یک لوگوی حرفه‌ای و یک پکیج کامل برندسازی برای شرکت ما طراحی کردند. در تمام مراحل پروژه با دقت به ایده‌ها و بازخوردهای ما گوش دادند. من از کیفیت کارشان کاملاً راضی هستم و وبرنال را به هر کسی که به دنبال خدمات حرفه‌ای برندسازی و طراحی وب باکیفیت است، صمیمانه توصیه می‌کنم.»</p>
+                            <div class="author">— حیات گاشاو، فعال استارتاپ اتیوپی · Merahyan</div>
                         </div>
                         <div class="testimonial-card reveal">
-                            <p>“ربات تلگرامی که توسعه دادند، روزانه هزاران پرسش مشتری را بدون مشکل پاسخ می‌دهد. حرفه‌ای واقعی.”</p>
-                            <div class="author">— سارا ک.، دیجی‌کالا سرویس</div>
-                        </div>
-                        <div class="testimonial-card reveal">
-                            <p>“هویت برند ما کاملاً متحول شد. لوگو و راهنما اکنون در تمام کانال‌های ما استفاده می‌شود.”</p>
-                            <div class="author">— رضا م.، بامیلو</div>
+                            <p>«همکاری با این تیم یکی از بهترین تجربه‌های حرفه‌ای من بوده است. ارتباط با اعضای تیم همیشه ساده، شفاف و لذت‌بخش است و هر فرد به‌خوبی بر حوزه تخصصی خود مسلط است. هم‌افزایی و حس مسئولیت‌پذیری اعضای تیم باعث شده همیشه مطمئن باشم خروجی نهایی با بالاترین کیفیت و مطابق با به‌روزترین استانداردها ارائه خواهد شد.»</p>
+                            <div class="author">— پارمیدا صارمی شهاب، دبیر کل کمیته تحقیقات دانشجویی · دانشگاه علوم پزشکی گیلان</div>
                         </div>
                     </div>
                 </div>

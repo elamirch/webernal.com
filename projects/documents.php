@@ -3,8 +3,8 @@
 <html lang="fa" dir="rtl">
 <head>
     <?php require_once($root . 'components/head-basics.php') ?>
-    <title>پروژه‌های وب‌سایت – وبرنال</title>
-    <meta name="description" content="وب‌سایت‌های ساخته شده توسط وبرنال: Laravel، WordPress، Next.js و HTML/CSS خام.">
+    <title>اسناد – وبرنال</title>
+    <meta name="description" content="اسناد طراحی‌شده توسط وبرنال: گزارش‌های صبحگاهی و جزوه‌های درسی خوانا و حرفه‌ای با Canva.">
     <link rel="stylesheet" href="assets/css/general-styles.css">
 </head>
 <body>
@@ -17,8 +17,8 @@
             <section class="section" style="padding-top:120px;">
                 <div class="section__inner reveal">
                     <span class="section__label">دسته‌بندی پروژه</span>
-                    <h1 class="section__title">وب‌سایت‌ها</h1>
-                    <p class="section__desc">وب‌سایت‌های مدرن و با عملکرد بالا با Laravel، WordPress، Next.js، Nest.js و HTML/CSS خام.</p>
+                    <h1 class="section__title">اسناد</h1>
+                    <p class="section__desc">ارائه‌های حرفه‌ای، پیچ‌دک، طرح کتاب و اسناد سازمانی شیک و خوانا.</p>
 
                     <div class="sub-nav">
                         <a href="websites.php">وب‌سایت‌ها</a>
@@ -26,40 +26,39 @@
                         <a href="logos.php">لوگوها</a>
                         <a href="documents.php" class="active">اسناد</a>
                         <a href="localizations.php">بومی‌سازی</a>
-                        <a href="dapps.php">سلامت دیجیتال</a>
                         <a href="desktop-apps.php">دسکتاپ</a>
                         <a href="dapps.php">DAppها</a>
+                        <a href="digital-health.php">سلامت دیجیتال</a>
                     </div>
 
                     <div class="project-grid">
-                        <div class="project-card">
-                            <h3>پرتال درمانگاه</h3>
-                            <div class="partner">مشتری: مرکز قلب تهران</div>
-                            <p>سیستم نوبت‌دهی، پرونده بیمار و حسابداری کامل با Laravel و MySQL.</p>
-                            <div class="stack-tags">
-                                <span class="stack-tag">Laravel</span>
-                                <span class="stack-tag">MySQL</span>
-                                <span class="stack-tag">Bootstrap</span>
+                        <div class="project-card featured-style">
+                            <div class="project-card__image" style="background: radial-gradient(circle at 30% 30%, rgba(12,192,223,0.25), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
+                                <div class="project-card__logo">MR</div>
+                            </div>
+                            <div class="project-card__body">
+                                <h3>گزارش‌های صبحگاهی</h3>
+                                <div class="partner">اسناد سازمانی</div>
+                                <p>طراحی و تولید قالب گزارش‌های صبحگاهی با Canva؛ خروجی منظم، خوانا و آماده استفاده روزمره برای تیم‌ها.</p>
+                                <div class="stack-tags">
+                                    <span class="stack-tag">Canva</span>
+                                    <span class="stack-tag">Docs</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="project-card">
-                            <h3>بازطراحی فروشگاه</h3>
-                            <div class="partner">مشتری: شب.آی‌آر</div>
-                            <p>بهینه‌سازی عملکرد و طراحی واکنش‌گرا با Next.js و رندر سمت سرور.</p>
-                            <div class="stack-tags">
-                                <span class="stack-tag">Next.js</span>
-                                <span class="stack-tag">Tailwind CSS</span>
-                                <span class="stack-tag">Redis</span>
+
+                        <div class="project-card featured-style">
+                            <div class="project-card__image" style="background: radial-gradient(circle at 70% 40%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
+                                <div class="project-card__logo">CN</div>
                             </div>
-                        </div>
-                        <div class="project-card">
-                            <h3>وبلاگ شرکتی</h3>
-                            <div class="partner">مشتری: استارت‌آپ محلی</div>
-                            <p>قالب سفارشی وردپرس با پشتیبانی از راست‌چین فارسی و تنظیمات پیشرفته SEO.</p>
-                            <div class="stack-tags">
-                                <span class="stack-tag">WordPress</span>
-                                <span class="stack-tag">PHP</span>
-                                <span class="stack-tag">RTL CSS</span>
+                            <div class="project-card__body">
+                                <h3>جزوه‌های درسی</h3>
+                                <div class="partner">اسناد آموزشی</div>
+                                <p>صفحه‌آرایی و طراحی جزوه‌های درسی با Canva؛ ساختار مشخص، خوانایی بالا و آماده چاپ.</p>
+                                <div class="stack-tags">
+                                    <span class="stack-tag">Canva</span>
+                                    <span class="stack-tag">Notes</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -67,7 +66,7 @@
             </section>
         </main>
 
-        <?php require_once($root . 'components/footer.php') ?>
+        <?php require_once($root . "components/footer.php") ?>
     </div>
 
     <script src="<?=$root?>assets/js/general-scripts.js"></script>

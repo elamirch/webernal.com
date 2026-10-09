@@ -1,14 +1,15 @@
-<?php $root = "../" ?>
+<?php $root = "../"; $base = "../../" ?>
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
     <?php require_once($root . 'components/head-basics.php') ?>
-    <title>پروژه‌های وب‌سایت – وبرنال</title>
-    <meta name="description" content="وب‌سایت‌های ساخته شده توسط وبرنال: Laravel، WordPress، Next.js و HTML/CSS خام.">
+    <title>Telegram Bots – Webernal Tech Studio</title>
+    <meta name="description" content="Telegram bots built by Webernal: meme generation bots and a lightweight AI chatbot, in pure PHP with zero dependencies.">
+    <link rel="stylesheet" href="<?=$base?>projects/assets/css/general-styles.css">
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <?php require_once($root . 'components/ambient-glows.php') ?>
+    <?php require_once($base . 'components/ambient-glows.php') ?>
 
     <div class="site-wrapper">
         <?php require_once($root . 'components/main-nav.php') ?>
@@ -16,50 +17,59 @@
         <main>
             <section class="section" style="padding-top:120px;">
                 <div class="section__inner reveal">
-                    <span class="section__label">دسته‌بندی پروژه</span>
-                    <h1 class="section__title">وب‌سایت‌ها</h1>
-                    <p class="section__desc">وب‌سایت‌های مدرن و با عملکرد بالا با Laravel، WordPress، Next.js، Nest.js و HTML/CSS خام.</p>
+                    <span class="section__label">Project Category</span>
+                    <h1 class="section__title">Telegram Bots</h1>
+                    <p class="section__desc">Smart, responsive bots for automation, support, fun and conversation; built with PHP and Python.</p>
 
                     <div class="sub-nav">
-                        <a href="websites.php">وب‌سایت‌ها</a>
-                        <a href="bots.php" class="active">ربات‌ها</a>
-                        <a href="logos.php">لوگوها</a>
-                        <a href="documents.php">اسناد</a>
-                        <a href="localizations.php">بومی‌سازی</a>
-                        <a href="dapps.php">سلامت دیجیتال</a>
-                        <a href="desktop-apps.php">دسکتاپ</a>
-                        <a href="dapps.php">DAppها</a>
+                        <a href="websites.php">Websites</a>
+                        <a href="bots.php" class="active">Bots</a>
+                        <a href="logos.php">Logos</a>
+                        <a href="documents.php">Documents</a>
+                        <a href="localizations.php">Localization</a>
+                        <a href="desktop-apps.php">Desktop</a>
+                        <a href="dapps.php">DApps</a>
+                        <a href="digital-health.php">Digital Health</a>
                     </div>
 
                     <div class="project-grid">
-                        <div class="project-card">
-                            <h3>پرتال درمانگاه</h3>
-                            <div class="partner">مشتری: مرکز قلب تهران</div>
-                            <p>سیستم نوبت‌دهی، پرونده بیمار و حسابداری کامل با Laravel و MySQL.</p>
-                            <div class="stack-tags">
-                                <span class="stack-tag">Laravel</span>
-                                <span class="stack-tag">MySQL</span>
-                                <span class="stack-tag">Bootstrap</span>
+                        <div class="project-card featured-style">
+                            <div class="project-card__image" style="background: radial-gradient(circle at 30% 30%, rgba(12,192,223,0.25), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
+                                <div class="project-card__logo">PISHU</div>
+                            </div>
+                            <div class="project-card__body">
+                                <h3><a href="https://github.com/elamirch/pishulizebot" target="_blank" rel="noopener">Pishulizebot / Gladiamemebot</a></h3>
+                                <div class="partner">
+                                    <a href="https://github.com/elamirch/pishulizebot" target="_blank" rel="noopener">GitHub</a> ·
+                                    <a href="https://t.me/gladiamemebot" target="_blank" rel="noopener">Telegram</a>
+                                </div>
+                                <p>Two meme generation bots written in pure PHP; send an image/video plus captions and get a meme back using 25 ready-made templates. Bilingual (English/Persian), open source and framework-free.</p>
+                                <div class="stack-tags">
+                                    <span class="stack-tag">PHP</span>
+                                    <span class="stack-tag">Telegram API</span>
+                                    <span class="stack-tag">ffmpeg</span>
+                                    <span class="stack-tag">MySQL</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="project-card">
-                            <h3>بازطراحی فروشگاه</h3>
-                            <div class="partner">مشتری: شب.آی‌آر</div>
-                            <p>بهینه‌سازی عملکرد و طراحی واکنش‌گرا با Next.js و رندر سمت سرور.</p>
-                            <div class="stack-tags">
-                                <span class="stack-tag">Next.js</span>
-                                <span class="stack-tag">Tailwind CSS</span>
-                                <span class="stack-tag">Redis</span>
+
+                        <div class="project-card featured-style">
+                            <div class="project-card__image" style="background: radial-gradient(circle at 70% 40%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
+                                <div class="project-card__logo">NAHH</div>
                             </div>
-                        </div>
-                        <div class="project-card">
-                            <h3>وبلاگ شرکتی</h3>
-                            <div class="partner">مشتری: استارت‌آپ محلی</div>
-                            <p>قالب سفارشی وردپرس با پشتیبانی از راست‌چین فارسی و تنظیمات پیشرفته SEO.</p>
-                            <div class="stack-tags">
-                                <span class="stack-tag">WordPress</span>
-                                <span class="stack-tag">PHP</span>
-                                <span class="stack-tag">RTL CSS</span>
+                            <div class="project-card__body">
+                                <h3><a href="https://github.com/elamirch/nahhuntelbot" target="_blank" rel="noopener">Nahhuntelbot</a></h3>
+                                <div class="partner">
+                                    <a href="https://github.com/elamirch/nahhuntelbot" target="_blank" rel="noopener">GitHub</a> ·
+                                    <a href="https://t.me/nahhuntelbot" target="_blank" rel="noopener">Telegram</a>
+                                </div>
+                                <p>A lightweight AI chatbot in PHP with zero external dependencies; powered by Metis AI with support for multiple simultaneous conversations. Named after Nahhunte, the Elamite god of the sun.</p>
+                                <div class="stack-tags">
+                                    <span class="stack-tag">PHP</span>
+                                    <span class="stack-tag">Metis AI</span>
+                                    <span class="stack-tag">Telegram API</span>
+                                    <span class="stack-tag">MySQL</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -67,9 +77,9 @@
             </section>
         </main>
 
-        <?php require_once($root . 'components/footer.php') ?>
+        <?php require_once($root . "components/footer.php") ?>
     </div>
 
-    <script src="<?=$root?>assets/script.js"></script>
+    <script src="<?=$base?>assets/js/general-scripts.js"></script>
 </body>
 </html>

@@ -1,14 +1,17 @@
-<?php $root = "../" ?>
+<?php $root = "../"; $base = "../../" ?>
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
     <?php require_once($root .'components/head-basics.php') ?>
-    <title>کارهای ما – استودیو فناوری وبرنال</title>
-    <meta name="description" content="نمایش پروژه‌های وبرنال: وب‌سایت‌ها، ربات‌ها، لوگوها، اسناد، بومی‌سازی، برنامه‌های دسکتاپ، راه‌حل‌های سلامت دیجیتال و DAppها.">
+    <title>Our Work – Webernal Tech Studio</title>
+    <meta name="description" content="A showcase of Webernal's projects: websites, bots, branding, documents, localization, desktop apps, digital health solutions and DApps.">
+    <link rel="stylesheet" href="<?=$base?>projects/assets/css/general-styles.css">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="<?=$base?>projects/assets/css/featured-projects-slideshow.css">
+    <script src="<?=$base?>projects/assets/js/featured-projects-script.js"></script>
 </head>
 <body>
-    <?php require_once($root . 'components/ambient-glows.php') ?>
+    <?php require_once($base . 'components/ambient-glows.php') ?>
 
     <div class="site-wrapper">
         <?php require_once($root . 'components/main-nav.php') ?>
@@ -16,105 +19,137 @@
         <main>
             <section class="portfolio-hero section">
                 <div class="section__inner reveal">
-                    <span class="section__label">چیا بلدیم؟</span>
-                    <h1 class="section__title">کارهای منتخب</h1>
+                    <span class="section__label">What can we do?</span>
+                    <h1 class="section__title">Selected Work</h1>
                     <p class="section__desc" style="max-width:700px;margin:0 auto;">
-                        پروژه‌هایی که در زمینه وب‌سایت، ربات، برندینگ، اسناد، بومی‌سازی، دسکتاپ و DApp ارائه کرده‌ایم و به آن‌ها افتخار می‌کنیم.
+                        Projects we've delivered across websites, bots, branding, documents, localization, desktop and DApps — and that we're proud of.
                     </p>
                 </div>
             </section>
 
             <section class="section">
                 <div class="section__inner">
-                    <h2 class="section__title reveal" style="font-size:1.8rem;">انواع پروژه‌ها</h2>
+                    <h2 class="section__title reveal" style="font-size:1.8rem;">Project Categories</h2>
                     <div class="categories-grid reveal">
                         <a href="websites.php" class="category-card">
                             <div class="category-card__icon">🌐</div>
-                            <div class="category-card__title">وب‌سایت‌ها</div>
+                            <div class="category-card__title">Websites</div>
                         </a>
                         <a href="bots.php" class="category-card">
                             <div class="category-card__icon">🤖</div>
-                            <div class="category-card__title">ربات‌های تلگرام</div>
+                            <div class="category-card__title">Telegram Bots</div>
                         </a>
                         <a href="logos.php" class="category-card">
                             <div class="category-card__icon">🎨</div>
-                            <div class="category-card__title">لوگو و برندینگ</div>
+                            <div class="category-card__title">Logo & Branding</div>
                         </a>
                         <a href="documents.php" class="category-card">
                             <div class="category-card__icon">📄</div>
-                            <div class="category-card__title">اسناد</div>
+                            <div class="category-card__title">Documents</div>
                         </a>
                         <a href="localizations.php" class="category-card">
                             <div class="category-card__icon">📝</div>
-                            <div class="category-card__title">بومی‌سازی</div>
+                            <div class="category-card__title">Localization</div>
                         </a>
                         <a href="desktop-apps.php" class="category-card">
                             <div class="category-card__icon">🖥️</div>
-                            <div class="category-card__title">برنامه‌های دسکتاپ</div>
+                            <div class="category-card__title">Desktop Apps</div>
                         </a>
                         <a href="dapps.php" class="category-card">
                             <div class="category-card__icon">⛓️</div>
                             <div class="category-card__title">DApps</div>
                         </a>
+                        <a href="digital-health.php" class="category-card">
+                            <div class="category-card__icon">🏥</div>
+                            <div class="category-card__title">Digital Health</div>
+                        </a>
                     </div>
+                </div>
+            </section>
+
+            <!-- ========== FEATURED PROJECTS SLIDESHOW ========== -->
+            <section class="section">
+                <div class="section__inner">
+                    <span class="section__label reveal">Highlights</span>
+                    <h2 class="section__title reveal">Featured Projects</h2>
+                    <div class="featured-slideshow" id="featuredSlideshow">
+                        <div class="featured-slide">
+                            <div class="featured-slide__image" style="background: radial-gradient(circle at 30% 30%, rgba(12,192,223,0.25), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
+                                <div class="featured-slide__logo">SMH</div>
+                            </div>
+                            <div class="featured-slide__body">
+                                <div class="featured-slide__partner">Web3 · Polkadot</div>
+                                <h3 class="featured-slide__title"><a href="https://github.com/elamirch/smh" target="_blank" rel="noopener">SMH Decentralized Domain Service</a></h3>
+                                <p class="featured-slide__desc">A self-custodial domain name service on the Polkadot blockchain; .smh domains registered with ink! smart contracts, with DNS records synced live to PowerDNS.</p>
+                                <div class="stack-tags">
+                                    <span class="stack-tag">Polkadot</span>
+                                    <span class="stack-tag">ink!</span>
+                                    <span class="stack-tag">Rust</span>
+                                    <span class="stack-tag">PowerDNS</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-slide">
+                            <div class="featured-slide__image" style="background: radial-gradient(circle at 70% 40%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
+                                <div class="featured-slide__logo"><img src="<?=$base?>assets/img/gordeh-logo.jpg" alt="Gordeh"></div>
+                            </div>
+                            <div class="featured-slide__body">
+                                <div class="featured-slide__partner">Digital Health</div>
+                                <h3 class="featured-slide__title"><a href="https://gordeh.com" target="_blank" rel="noopener">Gordeh Kidney Health Platform</a></h3>
+                                <p class="featured-slide__desc">Education for preventing chronic kidney disease (CKD) with KFRE risk assessment, a user panel and expert content; developed in collaboration with the Gordeh team.</p>
+                                <div class="stack-tags">
+                                    <span class="stack-tag">Next.js</span>
+                                    <span class="stack-tag">React</span>
+                                    <span class="stack-tag">PHP</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-slide">
+                            <div class="featured-slide__image" style="background: radial-gradient(circle at 50% 60%, rgba(12,192,223,0.15), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
+                                <div class="featured-slide__logo">HWD</div>
+                            </div>
+                            <div class="featured-slide__body">
+                                <div class="featured-slide__partner">Digital Health · Razi Hospital, Rasht</div>
+                                <h3 class="featured-slide__title"><a href="https://hiward.ir" target="_blank" rel="noopener">HiWard — Hospital Departments Guide</a></h3>
+                                <p class="featured-slide__desc">A web application guiding patients and companions through appointments, treatment steps and post-operative care; built together with Gilmeds.</p>
+                                <div class="stack-tags">
+                                    <span class="stack-tag">React</span>
+                                    <span class="stack-tag">TypeScript</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-slide">
+                            <div class="featured-slide__image" style="background: radial-gradient(circle at 30% 70%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
+                                <div class="featured-slide__logo">RDM</div>
+                            </div>
+                            <div class="featured-slide__body">
+                                <div class="featured-slide__partner">Online Store</div>
+                                <h3 class="featured-slide__title"><a href="https://redim.ir" target="_blank" rel="noopener">Redim WooCommerce Shop</a></h3>
+                                <p class="featured-slide__desc">An online store with a custom WordPress theme, full Persian RTL support and advanced SEO settings.</p>
+                                <div class="stack-tags">
+                                    <span class="stack-tag">WordPress</span>
+                                    <span class="stack-tag">WooCommerce</span>
+                                    <span class="stack-tag">Elementor</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured-dots" id="featuredDots"></div>
                 </div>
             </section>
 
             <section class="section">
                 <div class="section__inner">
-                    <span class="section__label reveal">برگزیده‌ها</span>
-                    <h2 class="section__title reveal">پروژه‌های شاخص</h2>
-                    <div class="featured-grid">
-                        <div class="featured-card reveal">
-                            <div class="featured-card__partner">بنیاد اتریوم</div>
-                            <h3 class="featured-card__title">داشبورد هویت غیرمتمرکز Devcon</h3>
-                            <p class="featured-card__desc">رابط مدیریت هویت غیرمتمرکز برای شرکت‌کنندگان رویداد، ساخته شده با Next.js و قراردادهای هوشمند.</p>
-                            <div class="stack-tags">
-                                <span class="stack-tag">Next.js</span>
-                                <span class="stack-tag">Solidity</span>
-                                <span class="stack-tag">Web3.js</span>
-                            </div>
-                        </div>
-                        <div class="featured-card reveal">
-                            <div class="featured-card__partner">شب.آی‌آر</div>
-                            <h3 class="featured-card__title">بهینه‌سازی عملکرد فروشگاه</h3>
-                            <p class="featured-card__desc">کاهش ۴۰٪ زمان بارگذاری با تفکیک کد، بهینه‌سازی CDN و فرمت‌های مدرن تصویر.</p>
-                            <div class="stack-tags">
-                                <span class="stack-tag">Laravel</span>
-                                <span class="stack-tag">Vue.js</span>
-                                <span class="stack-tag">Redis</span>
-                            </div>
-                        </div>
-                        <div class="featured-card reveal">
-                            <div class="featured-card__partner">دیوار.آی‌آر</div>
-                            <h3 class="featured-card__title">ممیزی دسترسی‌پذیری راست‌چین</h3>
-                            <p class="featured-card__desc">بهبود تجربه کاربری فارسی برای میلیون‌ها کاربر با رفع اشکالات چیدمان و پیمایش صفحه‌کلید.</p>
-                            <div class="stack-tags">
-                                <span class="stack-tag">HTML/CSS</span>
-                                <span class="stack-tag">JavaScript</span>
-                                <span class="stack-tag">ARIA</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section">
-                <div class="section__inner">
-                    <span class="section__label reveal">نظرات</span>
-                    <h2 class="section__title reveal">مشتریان چه می‌گویند</h2>
+                    <span class="section__label reveal">Testimonials</span>
+                    <h2 class="section__title reveal">What Our Clients Say</h2>
                     <div class="testimonials">
                         <div class="testimonial-card reveal">
-                            <p>“توجه وبرنال به امنیت داده‌های پزشکی فوق‌العاده بود. پورتال درمانگاهی که ساختند، محبوب پرسنل ماست.”</p>
-                            <div class="author">— دکتر امینی، مرکز قلب تهران</div>
+                            <p>“Working with Webernal made everything easy and painless. Before the project began, they helped us make the best decisions through expert consulting. They designed a beautiful website, a professional logo, and a complete branding package for our company. Throughout the project, they listened carefully to our ideas and feedback. I am completely satisfied with the quality of their work, and I wholeheartedly recommend Webernal to anyone looking for professional, high-quality branding and web design services.”</p>
+                            <div class="author">— Hayat Gashaw, Ethiopian Startup Activist · Merahyan</div>
                         </div>
                         <div class="testimonial-card reveal">
-                            <p>“ربات تلگرامی که توسعه دادند، روزانه هزاران پرسش مشتری را بدون مشکل پاسخ می‌دهد. حرفه‌ای واقعی.”</p>
-                            <div class="author">— سارا ک.، دیجی‌کالا سرویس</div>
-                        </div>
-                        <div class="testimonial-card reveal">
-                            <p>“هویت برند ما کاملاً متحول شد. لوگو و راهنما اکنون در تمام کانال‌های ما استفاده می‌شود.”</p>
-                            <div class="author">— رضا م.، بامیلو</div>
+                            <p>“Working with this team has been one of my best professional experiences. Communication with the team members is always simple, transparent and enjoyable, and everyone is on top of their specialty. The team's synergy and sense of responsibility have always assured me that the final output will meet the highest and most up-to-date standards.”</p>
+                            <div class="author">— Parmida Saremi Shahab, Secretary-General, Student Research Committee · Guilan University of Medical Sciences</div>
                         </div>
                     </div>
                 </div>
@@ -124,6 +159,6 @@
         <?php require_once($root . "components/footer.php") ?>
     </div>
 
-    <script src="<?=$root?>assets/script.js"></script>
+    <script src="<?=$base?>assets/js/general-scripts.js"></script>
 </body>
 </html>

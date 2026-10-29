@@ -89,7 +89,7 @@
                             </div>
                             <div class="project-card__body">
                                 <h3><a href="https://hiward.ir" target="_blank" rel="noopener">های‌وارد</a></h3>
-                                <div class="partner">بیمارستان رازی رشت · همکاری با گیل‌مدز</div>
+                                <div class="partner">بیمارستان رازی رشت</div>
                                 <p>راهنمای جامع بخش‌های بیمارستان؛ شامل نوبت‌گیری، مراحل درمان و مراقبت‌های پس از عمل برای بیماران و همراهان.</p>
                                 <div class="stack-tags">
                                     <span class="stack-tag">React</span>
@@ -135,7 +135,7 @@
                                 <div class="project-card__logo">HMJ</div>
                             </div>
                             <div class="project-card__body">
-                                <h3><a href="https://ojs.webernal.com" target="_blank" rel="noopener">Hyrcani Medical</a></h3>
+                                <h3><a href="https://hjcmed.com" target="_blank" rel="noopener">Hyrcani Medical</a></h3>
                                 <div class="partner">میزبانی مجله علمی</div>
                                 <p>راه‌اندازی و میزبانی سامانه مجله علمی Hyrcani Medical بر بستر OJS؛ مدیریت شماره‌ها، آرشیو، داوری و گردش کار تحریریه.</p>
                                 <div class="stack-tags">
@@ -158,7 +158,6 @@
                                 <div class="stack-tags">
                                     <span class="stack-tag">HTML/CSS</span>
                                     <span class="stack-tag">JavaScript</span>
-                                    <span class="stack-tag">SEO</span>
                                 </div>
                             </div>
                         </div>
@@ -200,7 +199,7 @@
                                 <div class="project-card__logo">EZ</div>
                             </div>
                             <div class="project-card__body">
-                                <h3><a href="https://ezstats.ir" target="_blank" rel="noopener">ezstats</a></h3>
+                                <h3><a href="https://ezstats.ir" target="_blank" rel="noopener">EZStats</a></h3>
                                 <div class="partner">پورتفولیو زیست‌آماردان</div>
                                 <p>وب‌سایت رزومه تک‌صفحه‌ای به زبان انگلیسی برای دانشجوی پزشک و زیست‌آماردان؛ شامل مقالات، پروژه‌های آماری و مهارت‌ها.</p>
                                 <div class="stack-tags">
@@ -229,36 +228,20 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 40% 30%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">MT</div>
+                            <div class="project-card__image" style="background: radial-gradient(circle at 30% 40%, rgba(12,192,223,0.22), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
+                                <div class="project-card__logo">HMT</div>
                             </div>
                             <div class="project-card__body">
-                                <h3><a href="https://medtick.ir" target="_blank" rel="noopener">Medtick</a></h3>
-                                <div class="partner">نمونه خودمیزبان Pixelfed</div>
-                                <p>راه‌اندازی و نگهداری Medtick؛ سرویس اشتراک‌گذاری تصویر غیرمتمرکز مبتنی بر Pixelfed.</p>
+                                <h3><a href="https://marlikradiology.ir" target="_blank" rel="noopener">کلینیک رادیولوژی مارلیک</a></h3>
+                                <div class="partner">مرکز تخصصی رادیولوژی و سونوگرافی مارلیک</div>
+                                <p>وب‌سایت رسمی کلینیک؛ معرفی خدمات تخصصی (سونوگرافی، تصویربرداری‌ها و ...)، راهنمای بیمار و نوبت‌دهی.</p>
                                 <div class="stack-tags">
-                                    <span class="stack-tag">Pixelfed</span>
-                                    <span class="stack-tag">Self-hosted</span>
-                                    <span class="stack-tag">Linux</span>
-                                    <span class="stack-tag">DevOps</span>
+                                    <span class="stack-tag">HTML/CSS</span>
+                                    <span class="stack-tag">JavaScript</span>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 60% 45%, rgba(12,192,223,0.16), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">IA</div>
-                            </div>
-                            <div class="project-card__body">
-                                <h3>ایران آکومودیشنز</h3>
-                                <div class="partner">نیروگرفته از Shab.ir</div>
-                                <p>وب‌سایت رزرو اقامتگاه؛ توسعه‌یافته در کارآموزی سایت شب و رویداد ستارگان آینده گلرنگ.</p>
-                                <div class="stack-tags">
-                                    <span class="stack-tag">Laravel</span>
-                                    <span class="stack-tag">MariaDB</span>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>

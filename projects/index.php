@@ -73,24 +73,9 @@
                     <h2 class="section__title reveal">پروژه‌های شاخص</h2>
                     <div class="featured-slideshow" id="featuredSlideshow">
                         <div class="featured-slide">
-                            <div class="featured-slide__image" style="background: radial-gradient(circle at 30% 30%, rgba(12,192,223,0.25), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="featured-slide__logo">SMH</div>
-                            </div>
-                            <div class="featured-slide__body">
-                                <div class="featured-slide__partner">Web3 · Polkadot</div>
-                                <h3 class="featured-slide__title"><a href="https://github.com/elamirch/smh" target="_blank" rel="noopener">سرویس دامنه غیرمتمرکز SMH</a></h3>
-                                <p class="featured-slide__desc">سرویس نام دامنه خودنگهدار (Self-custodial) روی بلاکچین Polkadot؛ ثبت دامنه‌های .smh با قراردادهای هوشمند ink! و همگام‌سازی زنده رکوردهای DNS با PowerDNS.</p>
-                                <div class="stack-tags">
-                                    <span class="stack-tag">Polkadot</span>
-                                    <span class="stack-tag">ink!</span>
-                                    <span class="stack-tag">Rust</span>
-                                    <span class="stack-tag">PowerDNS</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="featured-slide">
                             <div class="featured-slide__image" style="background: radial-gradient(circle at 70% 40%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="featured-slide__logo"><img src="<?=$root?>assets/img/gordeh-logo.jpg" alt="گردِه"></div>
+                                <div class="featured-slide__logo"><img src="<?=$root?>assets/img/logos/gordeh-logo.jpg" alt="گردِه"></div>
+                                <img src="<?=$root?>assets/img/projects/gordeh-scr.jpg" alt="گرده">                           
                             </div>
                             <div class="featured-slide__body">
                                 <div class="featured-slide__partner">سلامت دیجیتال</div>
@@ -105,7 +90,8 @@
                         </div>
                         <div class="featured-slide">
                             <div class="featured-slide__image" style="background: radial-gradient(circle at 50% 60%, rgba(12,192,223,0.15), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="featured-slide__logo">HWD</div>
+                                <div class="featured-slide__logo"><img src="<?=$root?>assets/img/logos/hiward-logo.png" alt="هایوارد"></div>
+                                <img src="<?=$root?>assets/img/projects/hiward-scr.jpg" alt="هایوارد">
                             </div>
                             <div class="featured-slide__body">
                                 <div class="featured-slide__partner">سلامت دیجیتال · بیمارستان رازی رشت</div>
@@ -119,7 +105,8 @@
                         </div>
                         <div class="featured-slide">
                             <div class="featured-slide__image" style="background: radial-gradient(circle at 30% 70%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="featured-slide__logo">RDM</div>
+                                <div class="featured-slide__logo"><img src="<?=$root?>assets/img/logos/redim-logo.jpg" alt="ردیم"></div>
+                                <img src="<?=$root?>assets/img/projects/redim-scr.jpg" alt="ردیم">
                             </div>
                             <div class="featured-slide__body">
                                 <div class="featured-slide__partner">فروشگاه اینترنتی</div>
@@ -129,6 +116,22 @@
                                     <span class="stack-tag">WordPress</span>
                                     <span class="stack-tag">WooCommerce</span>
                                     <span class="stack-tag">Elementor</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-slide">
+                            <div class="featured-slide__image" style="background: radial-gradient(circle at 30% 70%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
+                                <div class="featured-slide__logo"><img src="<?=$root?>assets/img/logos/aizheimer-logo.png" alt="ایزایمر"></div>
+                                <img src="<?=$root?>assets/img/projects/aizheimer-scr.jpg" alt="ایزایمر">
+                            </div>
+                            <div class="featured-slide__body">
+                                <div class="featured-slide__partner">سلامت دیجیتال</div>
+                                <h3 class="featured-slide__title"><a href="https://panel.aizheimer.com" target="_blank" rel="noopener">ایزایمر؛ مرکز جامع خدمات آلزایمر</a></h3>
+                                <p class="featured-slide__desc">بستر آنلاین پیشگیری و کمک‌مراقبتی آلزایمر؛ تست ریسک‌سنجی ۲۸ پارامتری، آزمون MMSE، پکیج‌های آموزشی، مجله سلامت و فروشگاه.</p>
+                                <div class="stack-tags">
+                                    <span class="stack-tag">PHP</span>
+                                    <span class="stack-tag">HTML/CSS</span>
+                                    <span class="stack-tag">Responsive</span>
                                 </div>
                             </div>
                         </div>

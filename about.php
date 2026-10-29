@@ -81,6 +81,22 @@
                             <div class="team-card__role">توسعه‌دهنده فول‌استک</div>
                             <p class="team-card__bio">توسعه دهنده صفر تا صد نرم‌افزارهای کاربردی تحت وب.</p>
                         </div>
+                        <div class="team-card reveal">
+                            <div class="team-card__avatar">
+                                <img src="assets/img/teams/farbod-avatar.jpg" alt="" srcset="">
+                            </div>
+                            <div class="team-card__name">فربد خلیلی</div>
+                            <div class="team-card__role">ادمین سیستم و لینوکس</div>
+                            <p class="team-card__bio">ادمین سرورهای پروژه و لینوکس‌کار قهار</p>
+                        </div>
+                        <div class="team-card reveal">
+                            <div class="team-card__avatar">
+                                <img src="assets/img/teams/maryam-avatar.jpg" alt="" srcset="">
+                            </div>
+                            <div class="team-card__name">مریم رمجی</div>
+                            <div class="team-card__role">دیجیتال مارکتر</div>
+                            <p class="team-card__bio">دیجیتال مارکتر، تولید کننده محتوا با AI و ادمین شبکه‌های اجتماعی</p>
+                        </div>
                     </div>
                 </div>
             </section>

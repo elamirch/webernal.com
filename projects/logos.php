@@ -32,51 +32,6 @@
                     </div>
 
                     <div class="project-grid">
-                        <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 30% 30%, rgba(12,192,223,0.25), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo"><img src="<?=$root?>assets/img/merahyan-logo.jpg" alt="Merahyan"></div>
-                            </div>
-                            <div class="project-card__body">
-                                <h3>هویت بصری Merahyan</h3>
-                                <div class="partner">برندینگ و تولید محتوا</div>
-                                <p>طراحی لوگو و هویت بصری برای برند Merahyan؛ به‌همراه توسعه برندینگ و قالب‌های ادیت ویدیو.</p>
-                                <div class="stack-tags">
-                                    <span class="stack-tag">Logo</span>
-                                    <span class="stack-tag">Branding</span>
-                                    <span class="stack-tag">SVG</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 70% 40%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo"><img src="<?=$root?>assets/img/gordeh-logo.jpg" alt="گردِه"></div>
-                            </div>
-                            <div class="project-card__body">
-                                <h3>لوگوی گردِه</h3>
-                                <div class="partner">استارتاپ سلامت کلیه</div>
-                                <p>طراحی لوگوی گردِه؛ نمادی ساده و به‌یادماندنی برای پلتفرم سلامت کلیه.</p>
-                                <div class="stack-tags">
-                                    <span class="stack-tag">Logo</span>
-                                    <span class="stack-tag">Health-tech</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 50% 60%, rgba(12,192,223,0.15), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">HWD</div>
-                            </div>
-                            <div class="project-card__body">
-                                <h3>لوگوی های‌وارد</h3>
-                                <div class="partner">راهنمای بیمارستان</div>
-                                <p>طراحی لوگوی های‌وارد؛ حس پزشکی و راهنماگونه برای راهنمای بخش‌های بیمارستان.</p>
-                                <div class="stack-tags">
-                                    <span class="stack-tag">Logo</span>
-                                    <span class="stack-tag">Web</span>
-                                </div>
-                            </div>
-                        </div>
 
                         <div class="project-card featured-style">
                             <div class="project-card__image" style="background: radial-gradient(circle at 30% 70%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">

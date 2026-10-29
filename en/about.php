@@ -35,15 +35,15 @@
                     <div class="team-grid">
                         <div class="team-card reveal">
                             <div class="team-card__avatar">
-                                <img src="<?=$base?>assets/img/elamir-avatar.jpg" alt="" srcset="">
+                                <img src="<?=$base?>assets/img/teams/elamir-avatar.jpg" alt="" srcset="">
                             </div>
-                            <div class="team-card__name">Amirreza Tavakoli</div>
+                            <div class="team-card__name">Amirreza Tavakkoli</div>
                             <div class="team-card__role">Backend Developer</div>
                             <p class="team-card__bio">Web developer with Laravel and Rust developer with 4+ years of experience.</p>
                         </div>
                         <div class="team-card reveal">
                             <div class="team-card__avatar">
-                                <img src="<?=$base?>assets/img/arya-avatar.jpg" alt="" srcset="">
+                                <img src="<?=$base?>assets/img/teams/arya-avatar.jpg" alt="" srcset="">
                             </div>
                             <div class="team-card__name">Arya Amin</div>
                             <div class="team-card__role">Frontend Developer</div>
@@ -51,7 +51,7 @@
                         </div>
                         <div class="team-card reveal">
                             <div class="team-card__avatar">
-                                <img src="<?=$base?>assets/img/ilya-avatar.jpg" alt="" srcset="">
+                                <img src="<?=$base?>assets/img/teams/ilya-avatar.jpg" alt="" srcset="">
                             </div>
                             <div class="team-card__name">Ilya Zakariapour</div>
                             <div class="team-card__role">Machine Learning Specialist</div>
@@ -59,15 +59,15 @@
                         </div>
                         <div class="team-card reveal">
                             <div class="team-card__avatar">
-                                <img src="<?=$base?>assets/img/sara-avatar.jpg" alt="" srcset="">
+                                <img src="<?=$base?>assets/img/teams/sara-avatar.jpg" alt="" srcset="">
                             </div>
-                            <div class="team-card__name">Sara Kiaee</div>
+                            <div class="team-card__name">Sara Kiaei</div>
                             <div class="team-card__role">Frontend Developer</div>
                             <p class="team-card__bio">Designing beautiful user interfaces with React and CSS.</p>
                         </div>
                         <div class="team-card reveal">
                             <div class="team-card__avatar">
-                                <img src="<?=$base?>assets/img/karim-avatar.jpg" alt="" srcset="">
+                                <img src="<?=$base?>assets/img/teams/karim-avatar.jpg" alt="" srcset="">
                             </div>
                             <div class="team-card__name">Karim Madani</div>
                             <div class="team-card__role">Frontend Developer</div>
@@ -75,11 +75,27 @@
                         </div>
                         <div class="team-card reveal">
                             <div class="team-card__avatar">
-                                <img src="<?=$base?>assets/img/amirmamad-avatar.jpg" alt="" srcset="">
+                                <img src="<?=$base?>assets/img/teams/amirmamad-avatar.jpg" alt="" srcset="">
                             </div>
                             <div class="team-card__name">Amirmohammad Nasiri</div>
                             <div class="team-card__role">Full-stack Developer</div>
                             <p class="team-card__bio">End-to-end developer of practical web applications.</p>
+                        </div>
+                        <div class="team-card reveal">
+                            <div class="team-card__avatar">
+                                <img src="<?=$base?>assets/img/teams/farbod-avatar.jpg" alt="" srcset="">
+                            </div>
+                            <div class="team-card__name">Farbod Khalili</div>
+                            <div class="team-card__role">System Admin & Linux Enthusiast</div>
+                            <p class="team-card__bio">Our projects' system admin and Linux expert</p>
+                        </div>
+                        <div class="team-card reveal">
+                            <div class="team-card__avatar">
+                                <img src="<?=$base?>assets/img/teams/maryam-avatar.jpg" alt="" srcset="">
+                            </div>
+                            <div class="team-card__name">Maryam Ramaji</div>
+                            <div class="team-card__role">Digital Marketer</div>
+                            <p class="team-card__bio">Digital marketer, AI content creator and social media administrator</p>
                         </div>
                     </div>
                 </div>

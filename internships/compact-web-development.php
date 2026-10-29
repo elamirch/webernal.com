@@ -155,8 +155,8 @@
                 <div class="section__inner internship-contact">
                     <span class="section__label">قدم بعدی شما</span>
                     <h2 class="section__title">دوست دارید با ما یاد بگیرید؟</h2>
-                    <p class="section__desc">برای پرسیدن درباره کارآموزی یا همکاری در برگزاری یک دوره، به امیررضا توکلی ایمیل بزنید. کمی از خودتان، علاقه‌هایتان و مهارتی که می‌خواهید یاد بگیرید بگویید.</p>
-                    <a class="btn btn--primary" href="mailto:amirrezatm@protonmail.com">ایمیل به امیررضا <span aria-hidden="true">↗</span></a>
+                    <p class="section__desc">برای پرسیدن درباره کارآموزی یا همکاری در برگزاری یک دوره، به ما ایمیل بزنید. کمی از خودتان، علاقه‌هایتان و مهارتی که می‌خواهید یاد بگیرید بگویید.</p>
+                    <a class="btn btn--primary" href="mailto:amirrezatm@protonmail.com">ایمیل به ما <span aria-hidden="true">↗</span></a>
                     <a class="internship-contact__email" href="mailto:amirrezatm@protonmail.com" dir="ltr">amirrezatm@protonmail.com</a>
                 </div>
             </section>

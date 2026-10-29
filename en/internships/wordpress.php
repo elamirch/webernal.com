@@ -91,8 +91,8 @@
                 <div class="section__inner internship-contact">
                     <span class="section__label">Your next step</span>
                     <h2 class="section__title">Want to learn with us?</h2>
-                    <p class="section__desc">Email Amirreza Tavakkoli to ask about internships or partnering on a training program. Tell us a little about yourself, your interests and what you would like to learn.</p>
-                    <a class="btn btn--primary" href="mailto:amirrezatm@protonmail.com">Email Amirreza <span aria-hidden="true">↗</span></a>
+                    <p class="section__desc">Email us to ask about internships or partnering on a training program. Tell us a little about yourself, your interests and what you would like to learn.</p>
+                    <a class="btn btn--primary" href="mailto:amirrezatm@protonmail.com">Email Us <span aria-hidden="true">↗</span></a>
                     <a class="internship-contact__email" href="mailto:amirrezatm@protonmail.com" dir="ltr">amirrezatm@protonmail.com</a>
                 </div>
             </section>

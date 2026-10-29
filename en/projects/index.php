@@ -1,4 +1,4 @@
-<?php $root = "../"; $base = "../../"; require_once __DIR__ . '/../../php/project-media.php'; ?>
+<?php $root = "../"; $base = "../../" ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
@@ -75,7 +75,14 @@
                     <h2 class="section__title reveal">Featured Projects</h2>
                     <div class="featured-slideshow" id="featuredSlideshow">
                         <div class="featured-slide">
-                            <?php renderProjectMedia('gordeh', $base, 'en', 'featured'); ?>
+                            <div class="featured-slide__image project-media">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="Gordeh screenshots">
+                                    <a class="project-media__slide" href="../../assets/img/projects/gordeh-scr.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/gordeh-scr.jpg" alt="Gordeh — screenshot 1" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
+                                <div class="featured-slide__logo"><img src="../../assets/img/logos/gordeh-logo.jpg" alt="Gordeh" loading="lazy" decoding="async"></div>
+                            </div>
                             <div class="featured-slide__body">
                                 <div class="featured-slide__partner">Digital Health</div>
                                 <h3 class="featured-slide__title"><a href="https://gordeh.com" target="_blank" rel="noopener">Gordeh Kidney Health Platform</a></h3>
@@ -88,7 +95,14 @@
                             </div>
                         </div>
                         <div class="featured-slide">
-                            <?php renderProjectMedia('hiward', $base, 'en', 'featured'); ?>
+                            <div class="featured-slide__image project-media">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="HiWard screenshots">
+                                    <a class="project-media__slide" href="../../assets/img/projects/hiward-scr.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/hiward-scr.jpg" alt="HiWard — screenshot 1" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
+                                <div class="featured-slide__logo"><img src="../../assets/img/logos/hiward-logo.png" alt="HiWard" loading="lazy" decoding="async"></div>
+                            </div>
                             <div class="featured-slide__body">
                                 <div class="featured-slide__partner">Digital Health · Razi Hospital, Rasht</div>
                                 <h3 class="featured-slide__title"><a href="https://hiward.ir" target="_blank" rel="noopener">HiWard — Hospital Departments Guide</a></h3>
@@ -100,7 +114,17 @@
                             </div>
                         </div>
                         <div class="featured-slide">
-                            <?php renderProjectMedia('redim', $base, 'en', 'featured'); ?>
+                            <div class="featured-slide__image project-media">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="Redim screenshots">
+                                    <a class="project-media__slide" href="../../assets/img/projects/redim-scr.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/redim-scr.jpg" alt="Redim — screenshot 1" loading="lazy" decoding="async">
+                                    </a>
+                                    <a class="project-media__slide" href="../../assets/img/projects/redim-scr-2.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/redim-scr-2.jpg" alt="Redim — screenshot 2" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
+                                <div class="featured-slide__logo"><img src="../../assets/img/logos/redim-logo.jpg" alt="Redim" loading="lazy" decoding="async"></div>
+                            </div>
                             <div class="featured-slide__body">
                                 <div class="featured-slide__partner">Online Store</div>
                                 <h3 class="featured-slide__title"><a href="https://redim.ir" target="_blank" rel="noopener">Redim WooCommerce Shop</a></h3>
@@ -113,7 +137,17 @@
                             </div>
                         </div>
                         <div class="featured-slide">
-                            <?php renderProjectMedia('aizheimer', $base, 'en', 'featured'); ?>
+                            <div class="featured-slide__image project-media">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="Aizheimer screenshots">
+                                    <a class="project-media__slide" href="../../assets/img/projects/aizheimer-scr.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/aizheimer-scr.jpg" alt="Aizheimer — screenshot 1" loading="lazy" decoding="async">
+                                    </a>
+                                    <a class="project-media__slide" href="../../assets/img/projects/aizheimer-scr-2.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/aizheimer-scr-2.jpg" alt="Aizheimer — screenshot 2" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
+                                <div class="featured-slide__logo project-media__logo--dark"><img src="../../assets/img/logos/aizheimer-logo.png" alt="Aizheimer" loading="lazy" decoding="async"></div>
+                            </div>
                             <div class="featured-slide__body">
                                 <div class="featured-slide__partner">Digital Health</div>
                                 <h3 class="featured-slide__title"><a href="https://panel.aizheimer.com" target="_blank" rel="noopener">Aizheimer — Comprehensive Alzheimer's Services Center</a></h3>

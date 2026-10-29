@@ -1,4 +1,4 @@
-<?php $root = "../"; require_once __DIR__ . '/../php/logo-projects.php'; ?>
+<?php $root = "../" ?>
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
@@ -32,7 +32,105 @@
                     </div>
 
                     <div class="project-grid">
-                        <?php renderLogoProjects($root, 'fa'); ?>
+                        <div class="project-card featured-style">
+                            <div class="project-card__image project-media project-media--logo">
+                                <div class="project-card__logo">SMH</div>
+                            </div>
+                            <div class="project-card__body">
+                                <h3>لوگوی SMH Domains</h3>
+                                <div class="partner">سرویس دامنه Web3</div>
+                                <p>طراحی لوگوی سرویس دامنه غیرمتمرکز SMH؛ هندسی و مدرن با حال‌وهوای Web3.</p>
+                                <div class="stack-tags"><span class="stack-tag">Logo</span><span class="stack-tag">Web3</span></div>
+                            </div>
+                        </div>
+                        <div class="project-card featured-style">
+                            <div class="project-card__image project-media project-media--logo">
+                                <div class="project-card__logo"><img src="../assets/img/logos/redim-logo.jpg" alt="ردیم" loading="lazy" decoding="async"></div>
+                            </div>
+                            <div class="project-card__body">
+                                <h3>لوگوی فروشگاه ردیم</h3>
+                                <div class="partner">فروشگاه اینترنتی</div>
+                                <p>طراحی لوگوی فروشگاه ردیم؛ ساده، کاربردی و به‌یادماندنی برای هویت یک فروشگاه اینترنتی.</p>
+                                <div class="stack-tags"><span class="stack-tag">Logo</span><span class="stack-tag">E-commerce</span></div>
+                            </div>
+                        </div>
+                        <div class="project-card featured-style">
+                            <div class="project-card__image project-media project-media--logo">
+                                <div class="project-card__logo"><img src="../assets/img/logos/hiward-logo.png" alt="های‌وارد" loading="lazy" decoding="async"></div>
+                            </div>
+                            <div class="project-card__body">
+                                <h3>لوگوی های‌وارد</h3>
+                                <div class="partner">راهنمای بیمارستان</div>
+                                <p>طراحی لوگوی های‌وارد برای راهنمای جامع بخش‌های بیمارستان.</p>
+                                <div class="stack-tags"><span class="stack-tag">Logo</span><span class="stack-tag">Branding</span></div>
+                            </div>
+                        </div>
+                        <div class="project-card featured-style">
+                            <div class="project-card__image project-media project-media--logo">
+                                <div class="project-card__logo project-media__logo--dark"><img src="../assets/img/logos/aizheimer-logo.png" alt="ایزایمر" loading="lazy" decoding="async"></div>
+                            </div>
+                            <div class="project-card__body">
+                                <h3>لوگوی ایزایمر</h3>
+                                <div class="partner">سلامت دیجیتال</div>
+                                <p>طراحی لوگوی ایزایمر، مرکز جامع خدمات آلزایمر.</p>
+                                <div class="stack-tags"><span class="stack-tag">Logo</span><span class="stack-tag">Branding</span></div>
+                            </div>
+                        </div>
+                        <div class="project-card featured-style">
+                            <div class="project-card__image project-media project-media--logo">
+                                <div class="project-card__logo"><img src="../assets/img/logos/pishulizebot-logo.jpg" alt="Pishulizebot" loading="lazy" decoding="async"></div>
+                            </div>
+                            <div class="project-card__body">
+                                <h3>لوگوی Pishulizebot</h3>
+                                <div class="partner">ربات تلگرام</div>
+                                <p>طراحی لوگوی ربات تولید میم Pishulizebot.</p>
+                                <div class="stack-tags"><span class="stack-tag">Logo</span><span class="stack-tag">Branding</span></div>
+                            </div>
+                        </div>
+                        <div class="project-card featured-style">
+                            <div class="project-card__image project-media project-media--logo">
+                                <div class="project-card__logo"><img src="../assets/img/logos/nahhuntel-logo.jpg" alt="Nahhuntelbot" loading="lazy" decoding="async"></div>
+                            </div>
+                            <div class="project-card__body">
+                                <h3>لوگوی Nahhuntelbot</h3>
+                                <div class="partner">ربات هوش مصنوعی</div>
+                                <p>طراحی لوگوی ربات گپ هوش مصنوعی Nahhuntelbot.</p>
+                                <div class="stack-tags"><span class="stack-tag">Logo</span><span class="stack-tag">Branding</span></div>
+                            </div>
+                        </div>
+                        <div class="project-card featured-style">
+                            <div class="project-card__image project-media project-media--logo">
+                                <div class="project-card__logo"><img src="../assets/img/logos/benchmarble-logo.jpg" alt="Benchmarble" loading="lazy" decoding="async"></div>
+                            </div>
+                            <div class="project-card__body">
+                                <h3>لوگوی Benchmarble</h3>
+                                <div class="partner">نرم‌افزار دسکتاپ</div>
+                                <p>طراحی لوگوی ابزار بنچمارک سخت‌افزار Benchmarble.</p>
+                                <div class="stack-tags"><span class="stack-tag">Logo</span><span class="stack-tag">Branding</span></div>
+                            </div>
+                        </div>
+                        <div class="project-card featured-style">
+                            <div class="project-card__image project-media project-media--logo">
+                                <div class="project-card__logo"><img src="../assets/img/logos/merahyan-logo.jpg" alt="Merahyan" loading="lazy" decoding="async"></div>
+                            </div>
+                            <div class="project-card__body">
+                                <h3>لوگوی Merahyan</h3>
+                                <div class="partner">هویت بصری برند</div>
+                                <p>طراحی لوگو و هویت بصری برند Merahyan.</p>
+                                <div class="stack-tags"><span class="stack-tag">Logo</span><span class="stack-tag">Branding</span></div>
+                            </div>
+                        </div>
+                        <div class="project-card featured-style">
+                            <div class="project-card__image project-media project-media--logo">
+                                <div class="project-card__logo"><img src="../assets/img/logos/kakayi-logo.jpg" alt="کاکایی" loading="lazy" decoding="async"></div>
+                            </div>
+                            <div class="project-card__body">
+                                <h3>لوگوی کاکایی</h3>
+                                <div class="partner">هویت بصری برند</div>
+                                <p>طراحی لوگو برای برند کاکایی.</p>
+                                <div class="stack-tags"><span class="stack-tag">Logo</span><span class="stack-tag">Branding</span></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

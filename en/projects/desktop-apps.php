@@ -1,4 +1,4 @@
-<?php $root = "../"; $base = "../../"; require_once __DIR__ . '/../../php/project-media.php'; ?>
+<?php $root = "../"; $base = "../../" ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
@@ -52,7 +52,9 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <?php renderProjectMedia('benchmarble', $base, 'en'); ?>
+                            <div class="project-card__image project-media">
+                                <div class="project-card__logo"><img src="../../assets/img/logos/benchmarble-logo.jpg" alt="Benchmarble" loading="lazy" decoding="async"></div>
+                            </div>
                             <div class="project-card__body">
                                 <h3><a href="https://github.com/elamirch/benchmarble" target="_blank" rel="noopener">Benchmarble</a></h3>
                                 <div class="partner">Built for the Divar Competition</div>

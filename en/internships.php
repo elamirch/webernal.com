@@ -1,82 +1,116 @@
-<?php $root = "./"; $base = "../" ?>
+<?php $root = './'; $base = '../' ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
     <?php require_once($root . 'components/head-basics.php') ?>
-    <title>Internships – Webernal Tech Studio</title>
-    <meta name="description" content="Join Webernal's internship program and gain hands-on experience in web development, design, and blockchain.">
-    <link rel="stylesheet" href="<?=$base?>assets/css/internships.css">
+    <title>Internships at Webernal – Webernal Tech Studio</title>
+    <meta name="description" content="Explore Webernal’s past internships in digital marketing, WordPress and web development, with training partners, intern projects and certificates.">
+    <link rel="stylesheet" href="../assets/css/internships.css">
 </head>
 <body>
     <?php require_once($base . 'components/ambient-glows.php') ?>
-
     <div class="site-wrapper">
         <?php require_once($root . 'components/main-nav.php') ?>
-
-        <main>
-            <section class="internship-hero section">
-                <div class="section__inner reveal">
-                    <span class="section__label">Join Our Team</span>
-                    <h1 class="section__title">Internships at Webernal</h1>
-                    <p class="section__desc" style="max-width:680px;margin:0 auto;">
-                        Gain hands-on experience working on real projects in web development, design, and blockchain.
-                        We offer paid, remote internship programs with mentorship from senior engineers.
-                    </p>
+        <main class="internships">
+            <section class="section internship-hero">
+                <div class="section__inner internship-hero__grid">
+                    <div class="internship-hero__copy">
+                        <span class="section__label">Learning by building</span>
+                        <h1 class="section__title">From learning to your first real project.</h1>
+                        <p class="section__desc">At Webernal, learning happens through doing. Explore the programs where interns turned new skills into content, stores and websites, together with training centers and student research committees.</p>
+                        <div class="internship-actions">
+                            <a href="#programs" class="btn btn--primary">Explore the programs</a>
+                            <a href="#contact" class="internship-text-link">Ask about internships</a>
+                        </div>
+                    </div>
+                    <aside class="internship-impact">
+                        <span class="section__label">What we’ve built together</span>
+                        <h2>Learn. Build. Share.</h2>
+                        <dl class="internship-stats">
+                            <div><dt>Past programs</dt><dd>3</dd></div>
+                            <div><dt>Published certificates</dt><dd>4</dd></div>
+                            <div><dt>Web showcase projects</dt><dd>8</dd></div>
+                        </dl>
+                    </aside>
                 </div>
             </section>
-
-            <section class="section">
+            <section class="section internship-section" id="programs">
                 <div class="section__inner">
-                    <h2 class="section__title reveal" style="font-size:1.8rem;margin-bottom:8px;">Open Positions</h2>
-                    <p class="reveal" style="color:var(--text-secondary);">Apply for the role that matches your skills. If you can't find an exact fit, use the form at the bottom of the page.</p>
-                    <div class="positions-grid">
-                        <div class="position-card reveal">
-                            <h3>Frontend Intern</h3>
-                            <div class="meta">Remote · 3–6 months · Paid</div>
-                            <p>Work on real client projects with Next.js, React and modern CSS. Learn through code reviews and contribute to production systems.</p>
-                            <a href="#apply" class="btn btn--outline btn--sm">Apply</a>
-                        </div>
-                        <div class="position-card reveal">
-                            <h3>Backend / Web3 Intern</h3>
-                            <div class="meta">Remote · 4 months · Paid</div>
-                            <p>Go deep with Laravel, Node.js or Solidity. Contribute to building APIs and smart contracts for health and fintech applications.</p>
-                            <a href="#apply" class="btn btn--outline btn--sm">Apply</a>
-                        </div>
-                        <div class="position-card reveal">
-                            <h3>UI/UX Design Intern</h3>
-                            <div class="meta">Remote · 3 months · Paid</div>
-                            <p>Collaborate on brand identities, wireframes and high-quality prototypes, working directly with our art director.</p>
-                            <a href="#apply" class="btn btn--outline btn--sm">Apply</a>
-                        </div>
+                    <header class="internship-section-heading">
+                        <span class="section__label">Program archive</span>
+                        <h2 class="section__title">A new experience in every program</h2>
+                        <p class="section__desc">Meet the training partners and discover what each cohort learned and created.</p>
+                    </header>
+                    <div class="internship-programs">
+                        <article class="internship-program">
+                            <div class="internship-program__visual" aria-hidden="true">
+                                <span class="internship-program__symbol" dir="ltr">Aa</span>
+                                <span class="internship-number">01</span>
+                            </div>
+                            <div class="internship-program__body">
+                                <span class="internship-status">Past program</span>
+                                <h3><a href="internships/digital-marketing.php">Digital Marketing Internship</a></h3>
+                                <p>A month of learning and content creation with three interns from Merahyan Training Center in Ethiopia, from bot manuals to content for an online store.</p>
+                                <ul class="internship-tags" aria-label="Skills &amp; tools">
+                                    <li>Kdenlive</li><li>Canva</li><li>Content creation</li><li>Digital marketing</li>
+                                </ul>
+                                <ul class="internship-program__facts">
+                                    <li>1 month of training</li><li>3 interns</li><li>3 certificates</li>
+                                </ul>
+                                <a href="internships/digital-marketing.php" class="internship-program__link" aria-label="Explore the Digital Marketing Internship">Explore this program <span aria-hidden="true">→</span></a>
+                            </div>
+                        </article>
+                        <article class="internship-program">
+                            <div class="internship-program__visual" aria-hidden="true">
+                                <span class="internship-program__symbol" dir="ltr">W</span>
+                                <span class="internship-number">02</span>
+                            </div>
+                            <div class="internship-program__body">
+                                <span class="internship-status">Past program</span>
+                                <h3><a href="internships/wordpress.php">WordPress Internship</a></h3>
+                                <p>Our second training collaboration with Merahyan, focused on WordPress, Elementor and WooCommerce.</p>
+                                <ul class="internship-tags" aria-label="Skills &amp; tools">
+                                    <li>WordPress</li><li>Elementor</li><li>WooCommerce</li>
+                                </ul>
+                                <ul class="internship-program__facts">
+                                    <li>Second program</li><li>WordPress development</li><li>1 certificate recipient</li>
+                                </ul>
+                                <a href="internships/wordpress.php" class="internship-program__link" aria-label="Explore the WordPress Internship">Explore this program <span aria-hidden="true">→</span></a>
+                            </div>
+                        </article>
+                        <article class="internship-program">
+                            <div class="internship-program__visual" aria-hidden="true">
+                                <span class="internship-program__symbol" dir="ltr">&lt;/&gt;</span>
+                                <span class="internship-number">03</span>
+                            </div>
+                            <div class="internship-program__body">
+                                <span class="internship-status">Past program</span>
+                                <h3><a href="internships/compact-web-development.php">Compact Web Development</a></h3>
+                                <p>With the student research committees of Guilan and Ardabil medical universities, from a first page to independently built projects.</p>
+                                <ul class="internship-tags" aria-label="Skills &amp; tools">
+                                    <li>HTML</li><li>CSS</li><li>JavaScript</li><li>GitHub</li><li>GitHub Pages</li>
+                                </ul>
+                                <ul class="internship-program__facts">
+                                    <li>Compact program</li><li>2 university partners</li><li>8 showcase projects</li>
+                                </ul>
+                                <a href="internships/compact-web-development.php" class="internship-program__link" aria-label="Explore Compact Web Development">Explore this program <span aria-hidden="true">→</span></a>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </section>
-
-            <section class="section" id="apply">
-                <div class="section__inner">
-                    <h2 class="section__title reveal" style="font-size:1.8rem;text-align:center;">Application Form</h2>
-                    <p class="reveal" style="text-align:center;color:var(--text-secondary);margin-bottom:32px;">Send us your details and a short note on why you'd like to join.</p>
-                    <form class="apply-form reveal" id="internshipForm" action="php/internship.php" method="POST">
-                        <input type="text" name="name" placeholder="Full Name" required>
-                        <input type="email" name="email" placeholder="Email" required>
-                        <select name="role">
-                            <option value="">Select a role</option>
-                            <option value="frontend">Frontend Intern</option>
-                            <option value="backend">Backend / Web3 Intern</option>
-                            <option value="design">UI/UX Design Intern</option>
-                            <option value="general">General Application</option>
-                        </select>
-                        <textarea name="message" placeholder="Tell us about yourself and why you'd like to intern at Webernal..." required></textarea>
-                        <button type="submit" class="btn btn--primary">Send Application ✦</button>
-                        <div class="form-feedback" id="formFeedback" style="margin-top:10px;"></div>
-                    </form>
+            <section class="section internship-section" id="contact">
+                <div class="section__inner internship-contact">
+                    <span class="section__label">Your next step</span>
+                    <h2 class="section__title">Want to learn with us?</h2>
+                    <p class="section__desc">Email Amirreza Tavakkoli to ask about internships or partnering on a training program. Tell us a little about yourself, your interests and what you would like to learn.</p>
+                    <a class="btn btn--primary" href="mailto:amirrezatm@protonmail.com">Email Amirreza <span aria-hidden="true">↗</span></a>
+                    <a class="internship-contact__email" href="mailto:amirrezatm@protonmail.com" dir="ltr">amirrezatm@protonmail.com</a>
                 </div>
             </section>
         </main>
-
         <?php require_once($root . 'components/footer.php') ?>
     </div>
-
-    <script src="<?=$root?>assets/js/internships-script.js"></script>
+    <script src="../assets/js/general-scripts.js"></script>
 </body>
 </html>

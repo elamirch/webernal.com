@@ -1,4 +1,4 @@
-<?php $root = "../"; $base = "../../"; require_once __DIR__ . '/../../php/project-media.php'; ?>
+<?php $root = "../"; $base = "../../" ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
@@ -34,7 +34,9 @@
 
                     <div class="project-grid">
                         <div class="project-card featured-style">
-                            <?php renderProjectMedia('pishulizebot', $base, 'en'); ?>
+                            <div class="project-card__image project-media">
+                                <div class="project-card__logo"><img src="../../assets/img/logos/pishulizebot-logo.jpg" alt="Pishulizebot" loading="lazy" decoding="async"></div>
+                            </div>
                             <div class="project-card__body">
                                 <h3><a href="https://github.com/elamirch/pishulizebot" target="_blank" rel="noopener">Pishulizebot / Gladiamemebot</a></h3>
                                 <div class="partner">
@@ -52,7 +54,9 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <?php renderProjectMedia('nahhuntel', $base, 'en'); ?>
+                            <div class="project-card__image project-media">
+                                <div class="project-card__logo"><img src="../../assets/img/logos/nahhuntel-logo.jpg" alt="Nahhuntelbot" loading="lazy" decoding="async"></div>
+                            </div>
                             <div class="project-card__body">
                                 <h3><a href="https://github.com/elamirch/nahhuntelbot" target="_blank" rel="noopener">Nahhuntelbot</a></h3>
                                 <div class="partner">

@@ -1,4 +1,4 @@
-<?php $root = "../"; require_once __DIR__ . '/../php/project-media.php'; ?>
+<?php $root = "../" ?>
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
@@ -74,7 +74,14 @@
                     <h2 class="section__title reveal">پروژه‌های شاخص</h2>
                     <div class="featured-slideshow" id="featuredSlideshow">
                         <div class="featured-slide">
-                            <?php renderProjectMedia('gordeh', $root, 'fa', 'featured'); ?>
+                            <div class="featured-slide__image project-media">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="تصاویر گردِه">
+                                    <a class="project-media__slide" href="../assets/img/projects/gordeh-scr.jpg" target="_blank" rel="noopener">
+                                        <img src="../assets/img/projects/gordeh-scr.jpg" alt="نمای ۱ از گردِه" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
+                                <div class="featured-slide__logo"><img src="../assets/img/logos/gordeh-logo.jpg" alt="گردِه" loading="lazy" decoding="async"></div>
+                            </div>
                             <div class="featured-slide__body">
                                 <div class="featured-slide__partner">سلامت دیجیتال</div>
                                 <h3 class="featured-slide__title"><a href="https://gordeh.com" target="_blank" rel="noopener">پلتفرم سلامت کلیه گردِه</a></h3>
@@ -87,7 +94,14 @@
                             </div>
                         </div>
                         <div class="featured-slide">
-                            <?php renderProjectMedia('hiward', $root, 'fa', 'featured'); ?>
+                            <div class="featured-slide__image project-media">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="تصاویر های‌وارد">
+                                    <a class="project-media__slide" href="../assets/img/projects/hiward-scr.jpg" target="_blank" rel="noopener">
+                                        <img src="../assets/img/projects/hiward-scr.jpg" alt="نمای ۱ از های‌وارد" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
+                                <div class="featured-slide__logo"><img src="../assets/img/logos/hiward-logo.png" alt="های‌وارد" loading="lazy" decoding="async"></div>
+                            </div>
                             <div class="featured-slide__body">
                                 <div class="featured-slide__partner">سلامت دیجیتال · بیمارستان رازی رشت</div>
                                 <h3 class="featured-slide__title"><a href="https://hiward.ir" target="_blank" rel="noopener">های‌وارد؛ راهنمای جامع بخش‌های بیمارستان</a></h3>
@@ -99,7 +113,17 @@
                             </div>
                         </div>
                         <div class="featured-slide">
-                            <?php renderProjectMedia('redim', $root, 'fa', 'featured'); ?>
+                            <div class="featured-slide__image project-media">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="تصاویر ردیم">
+                                    <a class="project-media__slide" href="../assets/img/projects/redim-scr.jpg" target="_blank" rel="noopener">
+                                        <img src="../assets/img/projects/redim-scr.jpg" alt="نمای ۱ از ردیم" loading="lazy" decoding="async">
+                                    </a>
+                                    <a class="project-media__slide" href="../assets/img/projects/redim-scr-2.jpg" target="_blank" rel="noopener">
+                                        <img src="../assets/img/projects/redim-scr-2.jpg" alt="نمای ۲ از ردیم" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
+                                <div class="featured-slide__logo"><img src="../assets/img/logos/redim-logo.jpg" alt="ردیم" loading="lazy" decoding="async"></div>
+                            </div>
                             <div class="featured-slide__body">
                                 <div class="featured-slide__partner">فروشگاه اینترنتی</div>
                                 <h3 class="featured-slide__title"><a href="https://redim.ir" target="_blank" rel="noopener">فروشگاه ووکامرسی ردیم</a></h3>
@@ -112,7 +136,17 @@
                             </div>
                         </div>
                         <div class="featured-slide">
-                            <?php renderProjectMedia('aizheimer', $root, 'fa', 'featured'); ?>
+                            <div class="featured-slide__image project-media">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="تصاویر ایزایمر">
+                                    <a class="project-media__slide" href="../assets/img/projects/aizheimer-scr.jpg" target="_blank" rel="noopener">
+                                        <img src="../assets/img/projects/aizheimer-scr.jpg" alt="نمای ۱ از ایزایمر" loading="lazy" decoding="async">
+                                    </a>
+                                    <a class="project-media__slide" href="../assets/img/projects/aizheimer-scr-2.jpg" target="_blank" rel="noopener">
+                                        <img src="../assets/img/projects/aizheimer-scr-2.jpg" alt="نمای ۲ از ایزایمر" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
+                                <div class="featured-slide__logo project-media__logo--dark"><img src="../assets/img/logos/aizheimer-logo.png" alt="ایزایمر" loading="lazy" decoding="async"></div>
+                            </div>
                             <div class="featured-slide__body">
                                 <div class="featured-slide__partner">سلامت دیجیتال</div>
                                 <h3 class="featured-slide__title"><a href="https://panel.aizheimer.com" target="_blank" rel="noopener">ایزایمر؛ مرکز جامع خدمات آلزایمر</a></h3>

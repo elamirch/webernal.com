@@ -1,4 +1,4 @@
-<?php $root = "../"; require_once __DIR__ . '/../php/project-media.php'; ?>
+<?php $root = "../" ?>
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
@@ -51,7 +51,9 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <?php renderProjectMedia('benchmarble', $root, 'fa'); ?>
+                            <div class="project-card__image project-media">
+                                <div class="project-card__logo"><img src="../assets/img/logos/benchmarble-logo.jpg" alt="Benchmarble" loading="lazy" decoding="async"></div>
+                            </div>
                             <div class="project-card__body">
                                 <h3><a href="https://github.com/elamirch/benchmarble" target="_blank" rel="noopener">Benchmarble</a></h3>
                                 <div class="partner">ساخته‌شده برای مسابقه دیوار</div>

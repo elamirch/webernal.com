@@ -1,4 +1,4 @@
-<?php $root = "../"; $base = "../../"; require_once __DIR__ . '/../../php/project-media.php'; ?>
+<?php $root = "../"; $base = "../../" ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
@@ -35,7 +35,14 @@
 
                     <div class="project-grid">
                         <div class="project-card featured-style">
-                            <?php renderProjectMedia('gordeh', $base, 'en'); ?>
+                            <div class="project-card__image project-media">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="Gordeh screenshots">
+                                    <a class="project-media__slide" href="../../assets/img/projects/gordeh-scr.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/gordeh-scr.jpg" alt="Gordeh — screenshot 1" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
+                                <div class="project-card__logo"><img src="../../assets/img/logos/gordeh-logo.jpg" alt="Gordeh" loading="lazy" decoding="async"></div>
+                            </div>
                             <div class="project-card__body">
                                 <h3><a href="https://gordeh.com" target="_blank" rel="noopener">Gordeh</a></h3>
                                 <div class="partner">Kidney Health Platform</div>
@@ -49,7 +56,17 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <?php renderProjectMedia('aizheimer', $base, 'en'); ?>
+                            <div class="project-card__image project-media">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="Aizheimer screenshots">
+                                    <a class="project-media__slide" href="../../assets/img/projects/aizheimer-scr.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/aizheimer-scr.jpg" alt="Aizheimer — screenshot 1" loading="lazy" decoding="async">
+                                    </a>
+                                    <a class="project-media__slide" href="../../assets/img/projects/aizheimer-scr-2.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/aizheimer-scr-2.jpg" alt="Aizheimer — screenshot 2" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
+                                <div class="project-card__logo project-media__logo--dark"><img src="../../assets/img/logos/aizheimer-logo.png" alt="Aizheimer" loading="lazy" decoding="async"></div>
+                            </div>
                             <div class="project-card__body">
                                 <h3><a href="https://aizheimer.com" target="_blank" rel="noopener">Aizheimer</a></h3>
                                 <div class="partner">Comprehensive Alzheimer's Services Center</div>
@@ -63,7 +80,14 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <?php renderProjectMedia('hiward', $base, 'en'); ?>
+                            <div class="project-card__image project-media">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="HiWard screenshots">
+                                    <a class="project-media__slide" href="../../assets/img/projects/hiward-scr.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/hiward-scr.jpg" alt="HiWard — screenshot 1" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
+                                <div class="project-card__logo"><img src="../../assets/img/logos/hiward-logo.png" alt="HiWard" loading="lazy" decoding="async"></div>
+                            </div>
                             <div class="project-card__body">
                                 <h3><a href="https://hiward.ir" target="_blank" rel="noopener">HiWard</a></h3>
                                 <div class="partner">Razi Hospital, Rasht · with Gilmeds</div>
@@ -76,7 +100,20 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <?php renderProjectMedia('clinic-pro', $base, 'en'); ?>
+                            <div class="project-card__image project-media">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="Clinic PRO screenshots">
+                                    <a class="project-media__slide" href="../../assets/img/projects/clinic-pro-scr.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/clinic-pro-scr.jpg" alt="Clinic PRO — screenshot 1" loading="lazy" decoding="async">
+                                    </a>
+                                    <a class="project-media__slide" href="../../assets/img/projects/clinic-pro-scr-2.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/clinic-pro-scr-2.jpg" alt="Clinic PRO — screenshot 2" loading="lazy" decoding="async">
+                                    </a>
+                                    <a class="project-media__slide" href="../../assets/img/projects/clinic-pro-scr-3.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/clinic-pro-scr-3.jpg" alt="Clinic PRO — screenshot 3" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
+                                <div class="project-card__logo">CPRO</div>
+                            </div>
                             <div class="project-card__body">
                                 <h3><a href="https://face-analysis.webernal.com" target="_blank" rel="noopener">Clinic PRO</a></h3>
                                 <div class="partner">Facial Aesthetics Analysis</div>
@@ -90,7 +127,17 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <?php renderProjectMedia('dr-jozve', $base, 'en'); ?>
+                            <div class="project-card__image project-media">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="Dr. Jozve screenshots">
+                                    <a class="project-media__slide" href="../../assets/img/projects/dr-jozve-scr-1.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/dr-jozve-scr-1.jpg" alt="Dr. Jozve — screenshot 1" loading="lazy" decoding="async">
+                                    </a>
+                                    <a class="project-media__slide" href="../../assets/img/projects/dr-jozve-scr-2.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/dr-jozve-scr-2.jpg" alt="Dr. Jozve — screenshot 2" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
+                                <div class="project-card__logo"><img src="../../assets/img/logos/dr-jozve-logo.jpg" alt="Dr. Jozve" loading="lazy" decoding="async"></div>
+                            </div>
                             <div class="project-card__body">
                                 <h3><a href="https://dr-jozve.ir" target="_blank" rel="noopener">Dr. Jozve</a></h3>
                                 <div class="partner">Medical Education</div>
@@ -103,7 +150,14 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <?php renderProjectMedia('hjcmed', $base, 'en'); ?>
+                            <div class="project-card__image project-media">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="Hyrcani Medical screenshots">
+                                    <a class="project-media__slide" href="../../assets/img/projects/hjcmed-scr-1.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/hjcmed-scr-1.jpg" alt="Hyrcani Medical — screenshot 1" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
+                                <div class="project-card__logo">HMJ</div>
+                            </div>
                             <div class="project-card__body">
                                 <h3><a href="https://ojs.webernal.com" target="_blank" rel="noopener">Hyrcani Medical</a></h3>
                                 <div class="partner">Medical Scientific Journal</div>
@@ -117,7 +171,17 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <?php renderProjectMedia('gil-vsc', $base, 'en'); ?>
+                            <div class="project-card__image project-media">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="Dr. Hemati Clinic screenshots">
+                                    <a class="project-media__slide" href="../../assets/img/projects/gil-vsc-scr-1.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/gil-vsc-scr-1.jpg" alt="Dr. Hemati Clinic — screenshot 1" loading="lazy" decoding="async">
+                                    </a>
+                                    <a class="project-media__slide" href="../../assets/img/projects/gil-vsc-scr-2.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/gil-vsc-scr-2.jpg" alt="Dr. Hemati Clinic — screenshot 2" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
+                                <div class="project-card__logo">HMT</div>
+                            </div>
                             <div class="project-card__body">
                                 <h3><a href="https://gil-vsc.ir" target="_blank" rel="noopener">Dr. Hemati Vascular Surgery Clinic</a></h3>
                                 <div class="partner">Vascular Surgery Sub-specialist</div>
@@ -131,7 +195,17 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <?php renderProjectMedia('drsim', $base, 'en'); ?>
+                            <div class="project-card__image project-media">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="Dr. Simin Zare Karizi screenshots">
+                                    <a class="project-media__slide" href="../../assets/img/projects/drsim-scr-1.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/drsim-scr-1.jpg" alt="Dr. Simin Zare Karizi — screenshot 1" loading="lazy" decoding="async">
+                                    </a>
+                                    <a class="project-media__slide" href="../../assets/img/projects/drsim-scr-2.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/drsim-scr-2.jpg" alt="Dr. Simin Zare Karizi — screenshot 2" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
+                                <div class="project-card__logo">SZK</div>
+                            </div>
                             <div class="project-card__body">
                                 <h3><a href="https://drsiminzarekarizi.com" target="_blank" rel="noopener">Dr. Simin Zare Karizi</a></h3>
                                 <div class="partner">Pediatric Endocrinology Sub-specialist</div>
@@ -144,7 +218,17 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <?php renderProjectMedia('gumsmeai', $base, 'en'); ?>
+                            <div class="project-card__image project-media">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="MEAI Event screenshots">
+                                    <a class="project-media__slide" href="../../assets/img/projects/gumsmeai-scr.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/gumsmeai-scr.jpg" alt="MEAI Event — screenshot 1" loading="lazy" decoding="async">
+                                    </a>
+                                    <a class="project-media__slide" href="../../assets/img/projects/gumsmeai-scr-2.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/gumsmeai-scr-2.jpg" alt="MEAI Event — screenshot 2" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
+                                <div class="project-card__logo">MEAI</div>
+                            </div>
                             <div class="project-card__body">
                                 <h3><a href="https://gumsmeai.ir" target="_blank" rel="noopener">MEAI Event</a></h3>
                                 <div class="partner">AI in Medical Entrepreneurship</div>

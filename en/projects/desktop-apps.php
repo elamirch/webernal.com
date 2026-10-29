@@ -1,4 +1,4 @@
-<?php $root = "../"; $base = "../../" ?>
+<?php $root = "../"; $base = "../../"; require_once __DIR__ . '/../../php/project-media.php'; ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
@@ -16,7 +16,7 @@
 
         <main>
             <section class="section" style="padding-top:120px;">
-                <div class="section__inner reveal">
+                <div class="section__inner">
                     <span class="section__label">Project Category</span>
                     <h1 class="section__title">Desktop Apps</h1>
                     <p class="section__desc">Standard, well-performing software for Windows and Linux-based systems; built with VB.NET and Rust.</p>
@@ -52,9 +52,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 70% 40%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">BM</div>
-                            </div>
+                            <?php renderProjectMedia('benchmarble', $base, 'en'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://github.com/elamirch/benchmarble" target="_blank" rel="noopener">Benchmarble</a></h3>
                                 <div class="partner">Built for the Divar Competition</div>

@@ -16,7 +16,7 @@
 
         <main>
             <section class="section" style="padding-top:120px;">
-                <div class="section__inner reveal">
+                <div class="section__inner">
                     <span class="section__label">Project Category</span>
                     <h1 class="section__title">Persian Localization</h1>
                     <p class="section__desc">Translating documentation and technical texts, plus Persian localization of ready-made digital products.</p>
@@ -35,7 +35,7 @@
                     <div class="project-grid">
                         <div class="project-card featured-style">
                             <div class="project-card__image" style="background: radial-gradient(circle at 30% 30%, rgba(12,192,223,0.25), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo"><img src="<?=$base?>assets/img/ethereum-foundation-logo.jpg" alt="Ethereum Foundation"></div>
+                                <div class="project-card__logo"><img src="<?=$base?>assets/img/logos/ethereum-foundation-logo.jpg" alt="Ethereum Foundation" loading="lazy"></div>
                             </div>
                             <div class="project-card__body">
                                 <h3><a href="https://ethereum.org" target="_blank" rel="noopener">Ethereum Website, Persian Translation</a></h3>

@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/../../php/language-switch.php'; ?>
 <nav class="nav" id="navbar">
     <a href="<?=$root?>index.php" class="nav__logo" aria-label="Webernal: Home">
         <img src="<?=$base?>Logo-transparent.png" width="44" height="44"/>
@@ -12,7 +13,7 @@
         <li><a href="<?=$root?>projects/index.php">Projects</a></li>
         <li><a href="<?=$root?>entities.php">Partners</a></li>
         <li><a href="<?=$root?>internships.php">Internships</a></li>
-        <li><a href="<?=$base?>index.php" style="opacity:0.7;">🇮🇷 فارسی</a></li>
+        <li><a href="<?=htmlspecialchars(languageSwitchUrl('fa', $base), ENT_QUOTES, 'UTF-8')?>" lang="fa" hreflang="fa" style="opacity:0.7;">🇮🇷 فارسی</a></li>
         <li><a href="<?=$root?>index.php#order" class="nav__cta">Order a Project</a></li>
     </ul>
 </nav>

@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/../php/language-switch.php'; ?>
 <nav class="nav" id="navbar">
     <a href="<?=$root?>index.php" class="nav__logo" aria-label="وبرنال: خانه">
         <img src="<?=$root?>Logo-transparent.png" width="44" height="44"/>
@@ -12,7 +13,7 @@
         <li><a href="<?=$root?>projects/index.php">نمونه‌کارها</a></li>
         <li><a href="<?=$root?>entities.php">همراهان</a></li>
         <li><a href="<?=$root?>internships.php">کارآموزی</a></li>
-        <li><a href="<?=$root?>en/index.php" style="opacity:0.7;">🇬🇧 English</a></li>
+        <li><a href="<?=htmlspecialchars(languageSwitchUrl('en', $root), ENT_QUOTES, 'UTF-8')?>" lang="en" hreflang="en" style="opacity:0.7;">🇬🇧 English</a></li>
         <li><a href="<?=$root?>index.php#order" class="nav__cta">سفارش پروژه</a></li>
     </ul>
 </nav>

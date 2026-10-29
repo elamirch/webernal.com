@@ -32,7 +32,7 @@
                         <div class="entity-card reveal">
                             <div class="entity-card__sidebar">
                                 <div class="entity-card__logo">
-                                    <img src="<?=$base?>assets/img/ethereum-foundation-logo.jpg" alt="Ethereum Foundation">
+                                    <img src="<?=$base?>assets/img/logos/ethereum-foundation-logo.jpg" alt="Ethereum Foundation">
                                 </div>
                                 <h3 class="entity-card__name">Ethereum Foundation</h3>
                             </div>
@@ -48,7 +48,7 @@
                         <div class="entity-card reveal">
                             <div class="entity-card__sidebar">
                                 <div class="entity-card__logo">
-                                    <img src="<?=$base?>assets/img/shab-logo.jpg" alt="Shab">
+                                    <img src="<?=$base?>assets/img/logos/shab-logo.jpg" alt="Shab">
                                 </div>
                                 <h3 class="entity-card__name">Shab | Shab.ir</h3>
                             </div>
@@ -64,7 +64,7 @@
                         <div class="entity-card reveal">
                             <div class="entity-card__sidebar">
                                 <div class="entity-card__logo">
-                                    <img src="<?=$base?>assets/img/divar-logo.jpg" alt="Divar">
+                                    <img src="<?=$base?>assets/img/logos/divar-logo.jpg" alt="Divar">
                                 </div>
                                 <h3 class="entity-card__name">Divar</h3>
                             </div>
@@ -80,7 +80,7 @@
                         <div class="entity-card reveal">
                             <div class="entity-card__sidebar">
                                 <div class="entity-card__logo">
-                                    <img src="<?=$base?>assets/img/merahyan-logo.jpg" alt="Merahyan">
+                                    <img src="<?=$base?>assets/img/logos/merahyan-logo.jpg" alt="Merahyan">
                                 </div>
                                 <h3 class="entity-card__name">Merahyan</h3>
                             </div>
@@ -96,7 +96,7 @@
                         <div class="entity-card reveal">
                             <div class="entity-card__sidebar">
                                 <div class="entity-card__logo">
-                                    <img src="<?=$base?>assets/img/src-gums-logo.jpg" alt="SRC-GUMS">
+                                    <img src="<?=$base?>assets/img/logos/src-gums-logo.jpg" alt="SRC-GUMS">
                                 </div>
                                 <h3 class="entity-card__name">Student Research Committee, Guilan University of Medical Sciences</h3>
                             </div>
@@ -112,7 +112,7 @@
                         <div class="entity-card reveal">
                             <div class="entity-card__sidebar">
                                 <div class="entity-card__logo">
-                                    <img src="<?=$base?>assets/img/trauma-institute-logo.jpg" alt="Trauma Institute">
+                                    <img src="<?=$base?>assets/img/logos/trauma-institute-logo.jpg" alt="Trauma Institute">
                                 </div>
                                 <h3 class="entity-card__name">Trauma Institute</h3>
                             </div>
@@ -128,7 +128,7 @@
                         <div class="entity-card reveal">
                             <div class="entity-card__sidebar">
                                 <div class="entity-card__logo">
-                                    <img src="<?=$base?>assets/img/gordeh-logo.jpg" alt="Gordeh">
+                                    <img src="<?=$base?>assets/img/logos/gordeh-logo.jpg" alt="Gordeh">
                                 </div>
                                 <h3 class="entity-card__name">Gordeh</h3>
                             </div>

@@ -1,4 +1,4 @@
-<?php $root = "../" ?>
+<?php $root = "../"; require_once __DIR__ . '/../php/logo-projects.php'; ?>
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
@@ -15,7 +15,7 @@
 
         <main>
             <section class="section" style="padding-top:120px;">
-                <div class="section__inner reveal">
+                <div class="section__inner">
                     <span class="section__label">دسته‌بندی پروژه</span>
                     <h1 class="section__title">لوگو و برندینگ</h1>
                     <p class="section__desc">لوگوهای تمیز، به‌یادماندنی و متناسب با مخاطب شما؛ به‌همراه راهنمای برند و آیکون‌نگاری.</p>
@@ -32,36 +32,7 @@
                     </div>
 
                     <div class="project-grid">
-
-                        <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 30% 70%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">SMH</div>
-                            </div>
-                            <div class="project-card__body">
-                                <h3>لوگوی SMH Domains</h3>
-                                <div class="partner">سرویس دامنه Web3</div>
-                                <p>طراحی لوگوی سرویس دامنه غیرمتمرکز SMH؛ هندسی و مدرن با حال‌وهوای Web3.</p>
-                                <div class="stack-tags">
-                                    <span class="stack-tag">Logo</span>
-                                    <span class="stack-tag">Web3</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 60% 25%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">RDM</div>
-                            </div>
-                            <div class="project-card__body">
-                                <h3>لوگوی فروشگاه ردیم</h3>
-                                <div class="partner">فروشگاه اینترنتی</div>
-                                <p>طراحی لوگوی فروشگاه ردیم؛ ساده، کاربردی و به‌یادماندنی برای هویت یک فروشگاه اینترنتی.</p>
-                                <div class="stack-tags">
-                                    <span class="stack-tag">Logo</span>
-                                    <span class="stack-tag">E-commerce</span>
-                                </div>
-                            </div>
-                        </div>
+                        <?php renderLogoProjects($root, 'fa'); ?>
                     </div>
                 </div>
             </section>

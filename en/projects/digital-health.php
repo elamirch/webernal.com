@@ -1,4 +1,4 @@
-<?php $root = "../"; $base = "../../" ?>
+<?php $root = "../"; $base = "../../"; require_once __DIR__ . '/../../php/project-media.php'; ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
@@ -7,6 +7,7 @@
     <meta name="description" content="Webernal's digital health solutions: patient education platforms, online clinics, scientific journals and health events.">
     <link rel="stylesheet" href="<?=$base?>projects/assets/css/general-styles.css">
     <link rel="stylesheet" href="assets/style.css">
+    <script src="<?=$base?>projects/assets/js/project-media.js" defer></script>
 </head>
 <body>
     <?php require_once($base . 'components/ambient-glows.php') ?>
@@ -16,7 +17,7 @@
 
         <main>
             <section class="section" style="padding-top:120px;">
-                <div class="section__inner reveal">
+                <div class="section__inner">
                     <span class="section__label">Our Specialty</span>
                     <h1 class="section__title">Digital Health</h1>
                     <p class="section__desc">Digital solutions for medicine and healthcare; from patient education platforms and online clinics to scientific journals and health events.</p>
@@ -34,9 +35,7 @@
 
                     <div class="project-grid">
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 30% 30%, rgba(12,192,223,0.25), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo"><img src="<?=$base?>assets/img/gordeh-logo.jpg" alt="Gordeh"></div>
-                            </div>
+                            <?php renderProjectMedia('gordeh', $base, 'en'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://gordeh.com" target="_blank" rel="noopener">Gordeh</a></h3>
                                 <div class="partner">Kidney Health Platform</div>
@@ -50,9 +49,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 70% 40%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">AIZ</div>
-                            </div>
+                            <?php renderProjectMedia('aizheimer', $base, 'en'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://aizheimer.com" target="_blank" rel="noopener">Aizheimer</a></h3>
                                 <div class="partner">Comprehensive Alzheimer's Services Center</div>
@@ -66,9 +63,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 50% 60%, rgba(12,192,223,0.15), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">HWD</div>
-                            </div>
+                            <?php renderProjectMedia('hiward', $base, 'en'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://hiward.ir" target="_blank" rel="noopener">HiWard</a></h3>
                                 <div class="partner">Razi Hospital, Rasht · with Gilmeds</div>
@@ -81,9 +76,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 60% 25%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">CPRO</div>
-                            </div>
+                            <?php renderProjectMedia('clinic-pro', $base, 'en'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://face-analysis.webernal.com" target="_blank" rel="noopener">Clinic PRO</a></h3>
                                 <div class="partner">Facial Aesthetics Analysis</div>
@@ -97,9 +90,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 40% 35%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">DJ</div>
-                            </div>
+                            <?php renderProjectMedia('dr-jozve', $base, 'en'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://dr-jozve.ir" target="_blank" rel="noopener">Dr. Jozve</a></h3>
                                 <div class="partner">Medical Education</div>
@@ -112,9 +103,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 65% 60%, rgba(12,192,223,0.18), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">HMJ</div>
-                            </div>
+                            <?php renderProjectMedia('hjcmed', $base, 'en'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://ojs.webernal.com" target="_blank" rel="noopener">Hyrcani Medical</a></h3>
                                 <div class="partner">Medical Scientific Journal</div>
@@ -128,9 +117,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 30% 40%, rgba(12,192,223,0.22), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">HMT</div>
-                            </div>
+                            <?php renderProjectMedia('gil-vsc', $base, 'en'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://gil-vsc.ir" target="_blank" rel="noopener">Dr. Hemati Vascular Surgery Clinic</a></h3>
                                 <div class="partner">Vascular Surgery Sub-specialist</div>
@@ -144,9 +131,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 55% 30%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">SZK</div>
-                            </div>
+                            <?php renderProjectMedia('drsim', $base, 'en'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://drsiminzarekarizi.com" target="_blank" rel="noopener">Dr. Simin Zare Karizi</a></h3>
                                 <div class="partner">Pediatric Endocrinology Sub-specialist</div>
@@ -159,9 +144,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 45% 65%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">MEAI</div>
-                            </div>
+                            <?php renderProjectMedia('gumsmeai', $base, 'en'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://gumsmeai.ir" target="_blank" rel="noopener">MEAI Event</a></h3>
                                 <div class="partner">AI in Medical Entrepreneurship</div>

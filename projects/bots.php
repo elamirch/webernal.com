@@ -1,4 +1,4 @@
-<?php $root = "../" ?>
+<?php $root = "../"; require_once __DIR__ . '/../php/project-media.php'; ?>
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
@@ -15,7 +15,7 @@
 
         <main>
             <section class="section" style="padding-top:120px;">
-                <div class="section__inner reveal">
+                <div class="section__inner">
                     <span class="section__label">دسته‌بندی پروژه</span>
                     <h1 class="section__title">ربات‌های تلگرام</h1>
                     <p class="section__desc">ربات‌های هوشمند و واکنش‌گرا برای اتوماسیون، پشتیبانی، سرگرمی و گفتگو؛ با PHP و Python.</p>
@@ -33,9 +33,7 @@
 
                     <div class="project-grid">
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 30% 30%, rgba(12,192,223,0.25), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">PISHU</div>
-                            </div>
+                            <?php renderProjectMedia('pishulizebot', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://github.com/elamirch/pishulizebot" target="_blank" rel="noopener">Pishulizebot / Gladiamemebot</a></h3>
                                 <div class="partner">
@@ -53,9 +51,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 70% 40%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">NAHH</div>
-                            </div>
+                            <?php renderProjectMedia('nahhuntel', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://github.com/elamirch/nahhuntelbot" target="_blank" rel="noopener">Nahhuntelbot</a></h3>
                                 <div class="partner">

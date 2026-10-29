@@ -35,7 +35,7 @@
                     <div class="team-grid">
                         <div class="team-card reveal">
                             <div class="team-card__avatar">
-                                <img src="assets/img/elamir-avatar.jpg" alt="" srcset="">
+                                <img src="assets/img/teams/elamir-avatar.jpg" alt="" srcset="">
                             </div>
                             <div class="team-card__name">امیررضا توکلی</div>
                             <div class="team-card__role">توسعه‌دهنده بک‌اند</div>
@@ -43,7 +43,7 @@
                         </div>
                         <div class="team-card reveal">
                             <div class="team-card__avatar">
-                                <img src="assets/img/arya-avatar.jpg" alt="" srcset="">
+                                <img src="assets/img/teams/arya-avatar.jpg" alt="" srcset="">
                             </div>
                             <div class="team-card__name">آریا امین</div>
                             <div class="team-card__role">توسعه‌دهنده فرانت‌اند</div>
@@ -51,7 +51,7 @@
                         </div>
                         <div class="team-card reveal">
                             <div class="team-card__avatar">
-                                <img src="assets/img/ilya-avatar.jpg" alt="" srcset="">
+                                <img src="assets/img/teams/ilya-avatar.jpg" alt="" srcset="">
                             </div>
                             <div class="team-card__name">ایلیا ذکریاپور</div>
                             <div class="team-card__role">متخصص یادگیری ماشین</div>
@@ -59,7 +59,7 @@
                         </div>
                         <div class="team-card reveal">
                             <div class="team-card__avatar">
-                                <img src="assets/img/sara-avatar.jpg" alt="" srcset="">
+                                <img src="assets/img/teams/sara-avatar.jpg" alt="" srcset="">
                             </div>
                             <div class="team-card__name">سارا کیائی</div>
                             <div class="team-card__role">توسعه‌دهنده فرانت‌اند</div>
@@ -67,7 +67,7 @@
                         </div>
                         <div class="team-card reveal">
                             <div class="team-card__avatar">
-                                <img src="assets/img/karim-avatar.jpg" alt="" srcset="">
+                                <img src="assets/img/teams/karim-avatar.jpg" alt="" srcset="">
                             </div>
                             <div class="team-card__name">کریم مدنی</div>
                             <div class="team-card__role">توسعه‌دهنده فرانت‌اند</div>
@@ -75,7 +75,7 @@
                         </div>
                         <div class="team-card reveal">
                             <div class="team-card__avatar">
-                                <img src="assets/img/amirmamad-avatar.jpg" alt="" srcset="">
+                                <img src="assets/img/teams/amirmamad-avatar.jpg" alt="" srcset="">
                             </div>
                             <div class="team-card__name">امیرمحمد نصیری</div>
                             <div class="team-card__role">توسعه‌دهنده فول‌استک</div>

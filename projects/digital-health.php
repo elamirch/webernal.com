@@ -1,4 +1,4 @@
-<?php $root = "../" ?>
+<?php $root = "../"; require_once __DIR__ . '/../php/project-media.php'; ?>
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
@@ -6,6 +6,7 @@
     <title>سلامت دیجیتال – وبرنال</title>
     <meta name="description" content="راه‌حل‌های دیجیتال وبرنال برای حوزه پزشکی و سلامت: پلتفرم‌های آموزش بیمار، کلینیک‌های آنلاین، مجلات علمی و رویدادهای سلامت.">
     <link rel="stylesheet" href="assets/css/general-styles.css">
+    <script src="assets/js/project-media.js" defer></script>
 </head>
 <body>
     <?php require_once($root . 'components/ambient-glows.php') ?>
@@ -15,7 +16,7 @@
 
         <main>
             <section class="section" style="padding-top:120px;">
-                <div class="section__inner reveal">
+                <div class="section__inner">
                     <span class="section__label">تمرکز ویژه ما</span>
                     <h1 class="section__title">سلامت دیجیتال</h1>
                     <p class="section__desc">راه‌حل‌های دیجیتال برای حوزه پزشکی و سلامت؛ از پلتفرم‌های آموزش بیمار و کلینیک‌های آنلاین تا مجلات علمی و رویدادهای سلامت.</p>
@@ -33,9 +34,7 @@
 
                     <div class="project-grid">
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 30% 30%, rgba(12,192,223,0.25), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo"><img src="<?=$root?>assets/img/gordeh-logo.jpg" alt="گردِه"></div>
-                            </div>
+                            <?php renderProjectMedia('gordeh', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://gordeh.com" target="_blank" rel="noopener">گردِه</a></h3>
                                 <div class="partner">پلتفرم سلامت کلیه</div>
@@ -49,9 +48,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 70% 40%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">AIZ</div>
-                            </div>
+                            <?php renderProjectMedia('aizheimer', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://aizheimer.com" target="_blank" rel="noopener">ایزایمر</a></h3>
                                 <div class="partner">مرکز جامع خدمات آلزایمر</div>
@@ -65,9 +62,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 50% 60%, rgba(12,192,223,0.15), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">HWD</div>
-                            </div>
+                            <?php renderProjectMedia('hiward', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://hiward.ir" target="_blank" rel="noopener">های‌وارد</a></h3>
                                 <div class="partner">بیمارستان رازی رشت · همکاری با گیل‌مدز</div>
@@ -80,9 +75,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 60% 25%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">CPRO</div>
-                            </div>
+                            <?php renderProjectMedia('clinic-pro', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://face-analysis.webernal.com" target="_blank" rel="noopener">Clinic PRO</a></h3>
                                 <div class="partner">آنالیز زیبایی‌شناسی چهره</div>
@@ -96,9 +89,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 40% 35%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">DJ</div>
-                            </div>
+                            <?php renderProjectMedia('dr-jozve', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://dr-jozve.ir" target="_blank" rel="noopener">دکتر جزوه</a></h3>
                                 <div class="partner">آموزش پزشکی</div>
@@ -111,9 +102,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 65% 60%, rgba(12,192,223,0.18), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">HMJ</div>
-                            </div>
+                            <?php renderProjectMedia('hjcmed', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://ojs.webernal.com" target="_blank" rel="noopener">Hyrcani Medical</a></h3>
                                 <div class="partner">مجله علمی پزشکی</div>
@@ -127,9 +116,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 30% 40%, rgba(12,192,223,0.22), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">HMT</div>
-                            </div>
+                            <?php renderProjectMedia('gil-vsc', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://gil-vsc.ir" target="_blank" rel="noopener">کلینیک جراحی عروق دکتر همتی</a></h3>
                                 <div class="partner">فوق‌تخصص جراحی عروق</div>
@@ -143,9 +130,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 55% 30%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">SZK</div>
-                            </div>
+                            <?php renderProjectMedia('drsim', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://drsiminzarekarizi.com" target="_blank" rel="noopener">دکتر سیمین زارع کاریزی</a></h3>
                                 <div class="partner">فوق‌تخصص غدد کودکان</div>
@@ -158,9 +143,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 45% 65%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">MEAI</div>
-                            </div>
+                            <?php renderProjectMedia('gumsmeai', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://gumsmeai.ir" target="_blank" rel="noopener">رویداد MEAI</a></h3>
                                 <div class="partner">هوش مصنوعی در کارآفرینی پزشکی</div>

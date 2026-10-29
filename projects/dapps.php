@@ -15,7 +15,7 @@
 
         <main>
             <section class="section" style="padding-top:120px;">
-                <div class="section__inner reveal">
+                <div class="section__inner">
                     <span class="section__label">دسته‌بندی پروژه</span>
                     <h1 class="section__title">DAppها و Web3</h1>
                     <p class="section__desc">برنامه‌های غیرمتمرکز، قراردادهای هوشمند و راهکارهای مبتنی بر بلاکچین؛ با Polkadot، Substrate و Ethereum.</p>

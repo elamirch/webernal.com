@@ -1,4 +1,4 @@
-<?php $root = "../" ?>
+<?php $root = "../"; require_once __DIR__ . '/../php/project-media.php'; ?>
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
@@ -7,7 +7,8 @@
     <meta name="description" content="نمایش پروژه‌های وبرنال: وب‌سایت‌ها، ربات‌ها، لوگوها، اسناد، بومی‌سازی، برنامه‌های دسکتاپ، راه‌حل‌های سلامت دیجیتال و DAppها.">
     <link rel="stylesheet" href="assets/css/general-styles.css">
     <link rel="stylesheet" href="assets/css/featured-projects-slideshow.css">
-    <script src="assets/js/featured-projects-script.js"></script>
+    <script src="assets/js/featured-projects-script.js" defer></script>
+    <script src="assets/js/project-media.js" defer></script>
 </head>
 <body>
     <?php require_once($root . 'components/ambient-glows.php') ?>
@@ -73,10 +74,7 @@
                     <h2 class="section__title reveal">پروژه‌های شاخص</h2>
                     <div class="featured-slideshow" id="featuredSlideshow">
                         <div class="featured-slide">
-                            <div class="featured-slide__image" style="background: radial-gradient(circle at 70% 40%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="featured-slide__logo"><img src="<?=$root?>assets/img/logos/gordeh-logo.jpg" alt="گردِه"></div>
-                                <img src="<?=$root?>assets/img/projects/gordeh-scr.jpg" alt="گرده">                           
-                            </div>
+                            <?php renderProjectMedia('gordeh', $root, 'fa', 'featured'); ?>
                             <div class="featured-slide__body">
                                 <div class="featured-slide__partner">سلامت دیجیتال</div>
                                 <h3 class="featured-slide__title"><a href="https://gordeh.com" target="_blank" rel="noopener">پلتفرم سلامت کلیه گردِه</a></h3>
@@ -89,10 +87,7 @@
                             </div>
                         </div>
                         <div class="featured-slide">
-                            <div class="featured-slide__image" style="background: radial-gradient(circle at 50% 60%, rgba(12,192,223,0.15), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="featured-slide__logo"><img src="<?=$root?>assets/img/logos/hiward-logo.png" alt="هایوارد"></div>
-                                <img src="<?=$root?>assets/img/projects/hiward-scr.jpg" alt="هایوارد">
-                            </div>
+                            <?php renderProjectMedia('hiward', $root, 'fa', 'featured'); ?>
                             <div class="featured-slide__body">
                                 <div class="featured-slide__partner">سلامت دیجیتال · بیمارستان رازی رشت</div>
                                 <h3 class="featured-slide__title"><a href="https://hiward.ir" target="_blank" rel="noopener">های‌وارد؛ راهنمای جامع بخش‌های بیمارستان</a></h3>
@@ -104,10 +99,7 @@
                             </div>
                         </div>
                         <div class="featured-slide">
-                            <div class="featured-slide__image" style="background: radial-gradient(circle at 30% 70%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="featured-slide__logo"><img src="<?=$root?>assets/img/logos/redim-logo.jpg" alt="ردیم"></div>
-                                <img src="<?=$root?>assets/img/projects/redim-scr.jpg" alt="ردیم">
-                            </div>
+                            <?php renderProjectMedia('redim', $root, 'fa', 'featured'); ?>
                             <div class="featured-slide__body">
                                 <div class="featured-slide__partner">فروشگاه اینترنتی</div>
                                 <h3 class="featured-slide__title"><a href="https://redim.ir" target="_blank" rel="noopener">فروشگاه ووکامرسی ردیم</a></h3>
@@ -120,10 +112,7 @@
                             </div>
                         </div>
                         <div class="featured-slide">
-                            <div class="featured-slide__image" style="background: radial-gradient(circle at 30% 70%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="featured-slide__logo"><img src="<?=$root?>assets/img/logos/aizheimer-logo.png" alt="ایزایمر"></div>
-                                <img src="<?=$root?>assets/img/projects/aizheimer-scr.jpg" alt="ایزایمر">
-                            </div>
+                            <?php renderProjectMedia('aizheimer', $root, 'fa', 'featured'); ?>
                             <div class="featured-slide__body">
                                 <div class="featured-slide__partner">سلامت دیجیتال</div>
                                 <h3 class="featured-slide__title"><a href="https://panel.aizheimer.com" target="_blank" rel="noopener">ایزایمر؛ مرکز جامع خدمات آلزایمر</a></h3>

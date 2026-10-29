@@ -179,7 +179,7 @@
                 <div class="partners-grid reveal">
 
                     <article class="partner-card">
-                        <img src="assets/img/shab-logo.jpg" alt="Shab.ir" class="partner-card__logo">
+                        <img src="assets/img/logos/shab-logo.jpg" alt="Shab.ir" class="partner-card__logo">
 
                         <div class="partner-card__content">
                             <div class="partner-card__header">
@@ -194,7 +194,7 @@
                     </article>
 
                     <article class="partner-card">
-                        <img src="assets/img/divar-logo.jpg" alt="Divar" class="partner-card__logo">
+                        <img src="assets/img/logos/divar-logo.jpg" alt="Divar" class="partner-card__logo">
 
                         <div class="partner-card__content">
                             <div class="partner-card__header">
@@ -209,7 +209,7 @@
                     </article>
 
                     <article class="partner-card">
-                        <img src="assets/img/ethereum-foundation-logo.jpg" alt="Ethereum Foundation" class="partner-card__logo">
+                        <img src="assets/img/logos/ethereum-foundation-logo.jpg" alt="Ethereum Foundation" class="partner-card__logo">
 
                         <div class="partner-card__content">
                             <div class="partner-card__header">
@@ -224,7 +224,7 @@
                     </article>
 
                     <article class="partner-card">
-                        <img src="assets/img/merahyan-logo.jpg" alt="Merahyan" class="partner-card__logo">
+                        <img src="assets/img/logos/merahyan-logo.jpg" alt="Merahyan" class="partner-card__logo">
 
                         <div class="partner-card__content">
                             <div class="partner-card__header">
@@ -239,7 +239,7 @@
                     </article>
 
                     <article class="partner-card">
-                        <img src="assets/img/src-gums-logo.jpg" alt="SRC-GUMS" class="partner-card__logo">
+                        <img src="assets/img/logos/src-gums-logo.jpg" alt="SRC-GUMS" class="partner-card__logo">
 
                         <div class="partner-card__content">
                             <div class="partner-card__header">
@@ -255,7 +255,7 @@
                     </article>
 
                     <article class="partner-card">
-                        <img src="assets/img/trauma-institute-logo.jpg" alt="Trauma-Institute" class="partner-card__logo">
+                        <img src="assets/img/logos/trauma-institute-logo.jpg" alt="Trauma-Institute" class="partner-card__logo">
 
                         <div class="partner-card__content">
                             <div class="partner-card__header">
@@ -270,7 +270,7 @@
                     </article>
 
                     <article class="partner-card">
-                        <img src="assets/img/gordeh-logo.jpg" alt="Gordeh" class="partner-card__logo">
+                        <img src="assets/img/logos/gordeh-logo.jpg" alt="Gordeh" class="partner-card__logo">
 
                         <div class="partner-card__content">
                             <div class="partner-card__header">

@@ -1,4 +1,4 @@
-<?php $root = "../"; $base = "../../" ?>
+<?php $root = "../"; $base = "../../"; require_once __DIR__ . '/../../php/project-media.php'; ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="<?=$base?>projects/assets/css/general-styles.css">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="<?=$base?>projects/assets/css/featured-projects-slideshow.css">
-    <script src="<?=$base?>projects/assets/js/featured-projects-script.js"></script>
+    <script src="<?=$base?>projects/assets/js/featured-projects-script.js" defer></script>
+    <script src="<?=$base?>projects/assets/js/project-media.js" defer></script>
 </head>
 <body>
     <?php require_once($base . 'components/ambient-glows.php') ?>
@@ -74,25 +75,7 @@
                     <h2 class="section__title reveal">Featured Projects</h2>
                     <div class="featured-slideshow" id="featuredSlideshow">
                         <div class="featured-slide">
-                            <div class="featured-slide__image" style="background: radial-gradient(circle at 30% 30%, rgba(12,192,223,0.25), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="featured-slide__logo">SMH</div>
-                            </div>
-                            <div class="featured-slide__body">
-                                <div class="featured-slide__partner">Web3 · Polkadot</div>
-                                <h3 class="featured-slide__title"><a href="https://github.com/elamirch/smh" target="_blank" rel="noopener">SMH Decentralized Domain Service</a></h3>
-                                <p class="featured-slide__desc">A self-custodial domain name service on the Polkadot blockchain; .smh domains registered with ink! smart contracts, with DNS records synced live to PowerDNS.</p>
-                                <div class="stack-tags">
-                                    <span class="stack-tag">Polkadot</span>
-                                    <span class="stack-tag">ink!</span>
-                                    <span class="stack-tag">Rust</span>
-                                    <span class="stack-tag">PowerDNS</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="featured-slide">
-                            <div class="featured-slide__image" style="background: radial-gradient(circle at 70% 40%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="featured-slide__logo"><img src="<?=$base?>assets/img/gordeh-logo.jpg" alt="Gordeh"></div>
-                            </div>
+                            <?php renderProjectMedia('gordeh', $base, 'en', 'featured'); ?>
                             <div class="featured-slide__body">
                                 <div class="featured-slide__partner">Digital Health</div>
                                 <h3 class="featured-slide__title"><a href="https://gordeh.com" target="_blank" rel="noopener">Gordeh Kidney Health Platform</a></h3>
@@ -105,9 +88,7 @@
                             </div>
                         </div>
                         <div class="featured-slide">
-                            <div class="featured-slide__image" style="background: radial-gradient(circle at 50% 60%, rgba(12,192,223,0.15), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="featured-slide__logo">HWD</div>
-                            </div>
+                            <?php renderProjectMedia('hiward', $base, 'en', 'featured'); ?>
                             <div class="featured-slide__body">
                                 <div class="featured-slide__partner">Digital Health · Razi Hospital, Rasht</div>
                                 <h3 class="featured-slide__title"><a href="https://hiward.ir" target="_blank" rel="noopener">HiWard — Hospital Departments Guide</a></h3>
@@ -119,9 +100,7 @@
                             </div>
                         </div>
                         <div class="featured-slide">
-                            <div class="featured-slide__image" style="background: radial-gradient(circle at 30% 70%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="featured-slide__logo">RDM</div>
-                            </div>
+                            <?php renderProjectMedia('redim', $base, 'en', 'featured'); ?>
                             <div class="featured-slide__body">
                                 <div class="featured-slide__partner">Online Store</div>
                                 <h3 class="featured-slide__title"><a href="https://redim.ir" target="_blank" rel="noopener">Redim WooCommerce Shop</a></h3>
@@ -130,6 +109,19 @@
                                     <span class="stack-tag">WordPress</span>
                                     <span class="stack-tag">WooCommerce</span>
                                     <span class="stack-tag">Elementor</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-slide">
+                            <?php renderProjectMedia('aizheimer', $base, 'en', 'featured'); ?>
+                            <div class="featured-slide__body">
+                                <div class="featured-slide__partner">Digital Health</div>
+                                <h3 class="featured-slide__title"><a href="https://panel.aizheimer.com" target="_blank" rel="noopener">Aizheimer — Comprehensive Alzheimer's Services Center</a></h3>
+                                <p class="featured-slide__desc">An online platform for Alzheimer's prevention and care support; a 28-parameter risk test, the MMSE exam, educational packages, a health magazine and a shop.</p>
+                                <div class="stack-tags">
+                                    <span class="stack-tag">PHP</span>
+                                    <span class="stack-tag">HTML/CSS</span>
+                                    <span class="stack-tag">Responsive</span>
                                 </div>
                             </div>
                         </div>

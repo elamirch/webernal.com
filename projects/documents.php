@@ -15,7 +15,7 @@
 
         <main>
             <section class="section" style="padding-top:120px;">
-                <div class="section__inner reveal">
+                <div class="section__inner">
                     <span class="section__label">دسته‌بندی پروژه</span>
                     <h1 class="section__title">اسناد</h1>
                     <p class="section__desc">ارائه‌های حرفه‌ای، پیچ‌دک، طرح کتاب و اسناد سازمانی شیک و خوانا.</p>

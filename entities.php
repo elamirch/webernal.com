@@ -32,7 +32,7 @@
                         <div class="entity-card reveal">
                             <div class="entity-card__sidebar">
                                 <div class="entity-card__logo">
-                                    <img src="assets/img/ethereum-foundation-logo.jpg" alt="Ethereum Foundation">
+                                    <img src="assets/img/logos/ethereum-foundation-logo.jpg" alt="Ethereum Foundation">
                                 </div>
                                 <h3 class="entity-card__name">بنیاد اتریوم</h3>
                             </div>
@@ -48,7 +48,7 @@
                         <div class="entity-card reveal">
                             <div class="entity-card__sidebar">
                                 <div class="entity-card__logo">
-                                    <img src="assets/img/shab-logo.jpg" alt="Shab">
+                                    <img src="assets/img/logos/shab-logo.jpg" alt="Shab">
                                 </div>
                                 <h3 class="entity-card__name">شب | Shab.ir</h3>
                             </div>
@@ -64,7 +64,7 @@
                         <div class="entity-card reveal">
                             <div class="entity-card__sidebar">
                                 <div class="entity-card__logo">
-                                    <img src="assets/img/divar-logo.jpg" alt="Divar">
+                                    <img src="assets/img/logos/divar-logo.jpg" alt="Divar">
                                 </div>
                                 <h3 class="entity-card__name">دیوار</h3>
                             </div>
@@ -80,7 +80,7 @@
                         <div class="entity-card reveal">
                             <div class="entity-card__sidebar">
                                 <div class="entity-card__logo">
-                                    <img src="assets/img/merahyan-logo.jpg" alt="Merahyan">
+                                    <img src="assets/img/logos/merahyan-logo.jpg" alt="Merahyan">
                                 </div>
                                 <h3 class="entity-card__name">Merahyan</h3>
                             </div>
@@ -96,7 +96,7 @@
                         <div class="entity-card reveal">
                             <div class="entity-card__sidebar">
                                 <div class="entity-card__logo">
-                                    <img src="assets/img/src-gums-logo.jpg" alt="SRC-GUMS">
+                                    <img src="assets/img/logos/src-gums-logo.jpg" alt="SRC-GUMS">
                                 </div>
                                 <h3 class="entity-card__name">کمیته تحقیقات دانشجویی دانشگاه علوم پزشکی گیلان</h3>
                             </div>
@@ -112,7 +112,7 @@
                         <div class="entity-card reveal">
                             <div class="entity-card__sidebar">
                                 <div class="entity-card__logo">
-                                    <img src="assets/img/trauma-institute-logo.jpg" alt="Trauma Institute">
+                                    <img src="assets/img/logos/trauma-institute-logo.jpg" alt="Trauma Institute">
                                 </div>
                                 <h3 class="entity-card__name">پژوهشکده تروما</h3>
                             </div>
@@ -128,7 +128,7 @@
                         <div class="entity-card reveal">
                             <div class="entity-card__sidebar">
                                 <div class="entity-card__logo">
-                                    <img src="assets/img/gordeh-logo.jpg" alt="Gordeh">
+                                    <img src="assets/img/logos/gordeh-logo.jpg" alt="Gordeh">
                                 </div>
                                 <h3 class="entity-card__name">گرده</h3>
                             </div>

@@ -13,6 +13,7 @@
 
 .featured-slide {
     flex: 0 0 100%;
+    min-width: 0;
     scroll-snap-align: start;
     border-radius: var(--radius-xl);
     background: var(--bg-card);

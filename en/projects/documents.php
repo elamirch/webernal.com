@@ -16,7 +16,7 @@
 
         <main>
             <section class="section" style="padding-top:120px;">
-                <div class="section__inner reveal">
+                <div class="section__inner">
                     <span class="section__label">Project Category</span>
                     <h1 class="section__title">Documents</h1>
                     <p class="section__desc">Professional presentations, pitch decks, book layouts and stylish, readable corporate documents.</p>

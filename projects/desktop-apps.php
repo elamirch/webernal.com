@@ -1,4 +1,4 @@
-<?php $root = "../" ?>
+<?php $root = "../"; require_once __DIR__ . '/../php/project-media.php'; ?>
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
@@ -15,7 +15,7 @@
 
         <main>
             <section class="section" style="padding-top:120px;">
-                <div class="section__inner reveal">
+                <div class="section__inner">
                     <span class="section__label">دسته‌بندی پروژه</span>
                     <h1 class="section__title">برنامه‌های دسکتاپ</h1>
                     <p class="section__desc">نرم‌افزارهای استاندارد و با عملکرد مناسب برای ویندوز و سیستم‌های مبتنی بر لینوکس؛ با VB.NET و Rust.</p>
@@ -51,9 +51,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 70% 40%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">BM</div>
-                            </div>
+                            <?php renderProjectMedia('benchmarble', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://github.com/elamirch/benchmarble" target="_blank" rel="noopener">Benchmarble</a></h3>
                                 <div class="partner">ساخته‌شده برای مسابقه دیوار</div>

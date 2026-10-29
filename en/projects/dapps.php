@@ -16,7 +16,7 @@
 
         <main>
             <section class="section" style="padding-top:120px;">
-                <div class="section__inner reveal">
+                <div class="section__inner">
                     <span class="section__label">Project Category</span>
                     <h1 class="section__title">DApps & Web3</h1>
                     <p class="section__desc">Decentralized applications, smart contracts and blockchain-based solutions; with Polkadot, Substrate and Ethereum.</p>

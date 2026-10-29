@@ -1,4 +1,4 @@
-<?php $root = "../" ?>
+<?php $root = "../"; require_once __DIR__ . '/../php/project-media.php'; ?>
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
@@ -6,6 +6,7 @@
     <title>پروژه‌های وب‌سایت – وبرنال</title>
     <meta name="description" content="وب‌سایت‌ها و برنامه‌های تحت وب ساخته‌شده توسط وبرنال: فروشگاه ووکامرسی، پلتفرم‌های سلامت، سایت‌های پزشکی، شبکه‌های اجتماعی خودمیزبان و…">
     <link rel="stylesheet" href="assets/css/general-styles.css">
+    <script src="assets/js/project-media.js" defer></script>
 </head>
 <body>
     <?php require_once($root . 'components/ambient-glows.php') ?>
@@ -15,7 +16,7 @@
 
         <main>
             <section class="section" style="padding-top:120px;">
-                <div class="section__inner reveal">
+                <div class="section__inner">
                     <span class="section__label">دسته‌بندی پروژه</span>
                     <h1 class="section__title">وب‌سایت‌ها</h1>
                     <p class="section__desc">وب‌سایت‌ها و برنامه‌های تحت وب مدرن و با عملکرد بالا؛ با Laravel، WordPress، Next.js، Nest.js، PHP و HTML/CSS خام.</p>
@@ -33,9 +34,7 @@
 
                     <div class="project-grid">
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 30% 30%, rgba(12,192,223,0.25), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo"><img src="<?=$root?>assets/img/gordeh-logo.jpg" alt="گردِه"></div>
-                            </div>
+                            <?php renderProjectMedia('gordeh', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://gordeh.com" target="_blank" rel="noopener">گردِه</a></h3>
                                 <div class="partner">پلتفرم سلامت کلیه</div>
@@ -49,9 +48,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 70% 40%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">RDM</div>
-                            </div>
+                            <?php renderProjectMedia('redim', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://redim.ir" target="_blank" rel="noopener">فروشگاه ردیم</a></h3>
                                 <div class="partner">فروشگاه اینترنتی</div>
@@ -67,9 +64,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 50% 60%, rgba(12,192,223,0.15), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">AIZ</div>
-                            </div>
+                            <?php renderProjectMedia('aizheimer', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://aizheimer.com" target="_blank" rel="noopener">ایزایمر</a></h3>
                                 <div class="partner">مرکز جامع خدمات آلزایمر</div>
@@ -84,9 +79,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 30% 70%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">HWD</div>
-                            </div>
+                            <?php renderProjectMedia('hiward', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://hiward.ir" target="_blank" rel="noopener">های‌وارد</a></h3>
                                 <div class="partner">بیمارستان رازی رشت</div>
@@ -99,9 +92,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 60% 25%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">CPRO</div>
-                            </div>
+                            <?php renderProjectMedia('clinic-pro', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://face-analysis.webernal.com" target="_blank" rel="noopener">Clinic PRO</a></h3>
                                 <div class="partner">محصول وبرنال</div>
@@ -115,9 +106,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 40% 35%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">DJ</div>
-                            </div>
+                            <?php renderProjectMedia('dr-jozve', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://dr-jozve.ir" target="_blank" rel="noopener">دکتر جزوه</a></h3>
                                 <div class="partner">مخزن جزوات پزشکی دانشگاه تهران</div>
@@ -131,9 +120,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 65% 60%, rgba(12,192,223,0.18), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">HMJ</div>
-                            </div>
+                            <?php renderProjectMedia('hjcmed', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://hjcmed.com" target="_blank" rel="noopener">Hyrcani Medical</a></h3>
                                 <div class="partner">میزبانی مجله علمی</div>
@@ -148,9 +135,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 30% 40%, rgba(12,192,223,0.22), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">HMT</div>
-                            </div>
+                            <?php renderProjectMedia('gil-vsc', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://gil-vsc.ir" target="_blank" rel="noopener">کلینیک جراحی عروق دکتر همتی</a></h3>
                                 <div class="partner">مرکز تخصصی جراحی عروق</div>
@@ -163,9 +148,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 55% 30%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">SZK</div>
-                            </div>
+                            <?php renderProjectMedia('drsim', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://drsiminzarekarizi.com" target="_blank" rel="noopener">دکتر سیمین زارع کاریزی</a></h3>
                                 <div class="partner">فوق‌تخصص غدد، رشد و متابولیسم کودکان</div>
@@ -179,9 +162,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 45% 65%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">MEAI</div>
-                            </div>
+                            <?php renderProjectMedia('gumsmeai', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://gumsmeai.ir" target="_blank" rel="noopener">رویداد MEAI</a></h3>
                                 <div class="partner">دانشگاه علوم پزشکی گیلان</div>
@@ -195,9 +176,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 35% 55%, rgba(12,192,223,0.18), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">EZ</div>
-                            </div>
+                            <?php renderProjectMedia('ezstats', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://ezstats.ir" target="_blank" rel="noopener">EZStats</a></h3>
                                 <div class="partner">پورتفولیو زیست‌آماردان</div>
@@ -211,9 +190,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 70% 65%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">LF</div>
-                            </div>
+                            <?php renderProjectMedia('librefeed', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://librefeed.top" target="_blank" rel="noopener">LibreFeed</a></h3>
                                 <div class="partner">نمونه خودمیزبان ماستودون</div>
@@ -228,9 +205,7 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 30% 40%, rgba(12,192,223,0.22), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">HMT</div>
-                            </div>
+                            <?php renderProjectMedia('marlikradiology', $root, 'fa'); ?>
                             <div class="project-card__body">
                                 <h3><a href="https://marlikradiology.ir" target="_blank" rel="noopener">کلینیک رادیولوژی مارلیک</a></h3>
                                 <div class="partner">مرکز تخصصی رادیولوژی و سونوگرافی مارلیک</div>

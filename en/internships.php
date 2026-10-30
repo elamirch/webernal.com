@@ -4,7 +4,7 @@
 <head>
     <?php require_once($root . 'components/head-basics.php') ?>
     <title>Internships at Webernal – Webernal Tech Studio</title>
-    <meta name="description" content="Explore Webernal’s past internships in digital marketing, WordPress and web development, with training partners, intern projects and certificates.">
+    <meta name="description" content="Explore Webernal’s past internships in web development, video editing, WordPress and digital marketing, with training partners, intern projects and certificates.">
     <link rel="stylesheet" href="../assets/css/internships.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
                     <div class="internship-hero__copy">
                         <span class="section__label">Learning by building</span>
                         <h1 class="section__title">From learning to your first real project.</h1>
-                        <p class="section__desc">At Webernal, learning happens through doing. Explore the programs where interns turned new skills into content, stores and websites, together with training centers and student research committees.</p>
+                        <p class="section__desc">At Webernal, learning happens through doing. Explore the programs where interns turned new skills into videos, content, stores and websites. Our collaborators include training centers and student research committees.</p>
                         <div class="internship-actions">
                             <a href="#programs" class="btn btn--primary">Explore the programs</a>
                             <a href="#contact" class="internship-text-link">Ask about internships</a>
@@ -27,7 +27,7 @@
                         <span class="section__label">What we’ve built together</span>
                         <h2>Learn. Build. Share.</h2>
                         <dl class="internship-stats">
-                            <div><dt>Past programs</dt><dd>3</dd></div>
+                            <div><dt>Past programs</dt><dd>4</dd></div>
                             <div><dt>Interns trained</dt><dd>10+</dd></div>
                         </dl>
                     </aside>
@@ -43,20 +43,42 @@
                     <div class="internship-programs">
                         <article class="internship-program">
                             <div class="internship-program__visual" aria-hidden="true">
-                                <span class="internship-program__symbol" dir="ltr">Aa</span>
-                                <span class="internship-number">01</span>
+                                <span class="internship-program__symbol" dir="ltr">&lt;/&gt;</span>
+                                <span class="internship-number">04</span>
                             </div>
                             <div class="internship-program__body">
                                 <span class="internship-status">Past program</span>
-                                <h3><a href="internships/digital-marketing.php">Digital Marketing Internship</a></h3>
-                                <p>A month of learning and content creation with three interns from Merahyan Training Center in Ethiopia, from bot manuals to content for an online store.</p>
+                                <h3><a href="internships/compact-webdev-01.php">Compact Webdev 01</a></h3>
+                                <div class="internship-program__partners" role="group" aria-label="Training partners">
+                                    <img src="../assets/img/logos/src-gums-logo.jpg" alt="Guilan University of Medical Sciences Student Research Committee" title="Guilan University of Medical Sciences Student Research Committee" width="48" height="48" loading="lazy">
+                                    <img src="../assets/img/logos/src-arums-logo.jpg" alt="Ardabil University of Medical Sciences Student Research Committee" title="Ardabil University of Medical Sciences Student Research Committee" width="48" height="48" loading="lazy">
+                                </div>
+                                <p>With the student research committees of Guilan and Ardabil medical universities, from a first page to independently built projects.</p>
                                 <ul class="internship-tags" aria-label="Skills &amp; tools">
-                                    <li>Kdenlive</li><li>Canva</li><li>Content creation</li><li>Digital marketing</li>
+                                    <li>HTML</li><li>CSS</li><li>JavaScript</li><li>GitHub</li><li>GitHub Pages</li>
                                 </ul>
                                 <ul class="internship-program__facts">
-                                    <li>1 month of training</li><li>3 interns</li><li>3 certificates</li>
+                                    <li>Compact program</li><li>2 university partners</li><li>8 showcase projects</li>
                                 </ul>
-                                <a href="internships/digital-marketing.php" class="internship-program__link" aria-label="Explore the Digital Marketing Internship">Explore this program <span aria-hidden="true">→</span></a>
+                                <a href="internships/compact-webdev-01.php" class="internship-program__link" aria-label="Explore Compact Webdev 01">Explore this program <span aria-hidden="true">→</span></a>
+                            </div>
+                        </article>
+                        <article class="internship-program">
+                            <div class="internship-program__visual" aria-hidden="true">
+                                <span class="internship-program__symbol" dir="ltr">▶</span>
+                                <span class="internship-number">03</span>
+                            </div>
+                            <div class="internship-program__body">
+                                <span class="internship-status">Past program</span>
+                                <h3><a href="internships/video-editing-01.php">Video Editing 01</a></h3>
+                                <p>An introduction to video editing with Kdenlive over four sessions in November and December 2025. Watch the projects by Zeinab, Mahta and Alireza.</p>
+                                <ul class="internship-tags" aria-label="Skills &amp; tools">
+                                    <li>Kdenlive</li><li>Video editing</li>
+                                </ul>
+                                <ul class="internship-program__facts">
+                                    <li>4 sessions</li><li>Nov–Dec 2025</li><li>3 video projects</li>
+                                </ul>
+                                <a href="internships/video-editing-01.php" class="internship-program__link" aria-label="Explore Video Editing 01">Explore this program <span aria-hidden="true">→</span></a>
                             </div>
                         </article>
                         <article class="internship-program">
@@ -66,7 +88,10 @@
                             </div>
                             <div class="internship-program__body">
                                 <span class="internship-status">Past program</span>
-                                <h3><a href="internships/wordpress.php">WordPress Internship</a></h3>
+                                <h3><a href="internships/wordpress-01.php">WordPress 01</a></h3>
+                                <div class="internship-program__partners" role="group" aria-label="Training partners">
+                                    <img src="../assets/img/logos/merahyan-logo.jpg" alt="Merahyan Training Center" title="Merahyan Training Center" width="48" height="48" loading="lazy">
+                                </div>
                                 <p>Our second training collaboration with Merahyan, focused on WordPress, Elementor and WooCommerce.</p>
                                 <ul class="internship-tags" aria-label="Skills &amp; tools">
                                     <li>WordPress</li><li>Elementor</li><li>WooCommerce</li>
@@ -74,25 +99,28 @@
                                 <ul class="internship-program__facts">
                                     <li>Second program</li><li>WordPress development</li><li>1 certificate recipient</li>
                                 </ul>
-                                <a href="internships/wordpress.php" class="internship-program__link" aria-label="Explore the WordPress Internship">Explore this program <span aria-hidden="true">→</span></a>
+                                <a href="internships/wordpress-01.php" class="internship-program__link" aria-label="Explore WordPress 01">Explore this program <span aria-hidden="true">→</span></a>
                             </div>
                         </article>
                         <article class="internship-program">
                             <div class="internship-program__visual" aria-hidden="true">
-                                <span class="internship-program__symbol" dir="ltr">&lt;/&gt;</span>
-                                <span class="internship-number">03</span>
+                                <span class="internship-program__symbol" dir="ltr">Aa</span>
+                                <span class="internship-number">01</span>
                             </div>
                             <div class="internship-program__body">
                                 <span class="internship-status">Past program</span>
-                                <h3><a href="internships/compact-web-development.php">Compact Web Development</a></h3>
-                                <p>With the student research committees of Guilan and Ardabil medical universities, from a first page to independently built projects.</p>
+                                <h3><a href="internships/digital-marketing-01.php">Digital Marketing 01</a></h3>
+                                <div class="internship-program__partners" role="group" aria-label="Training partners">
+                                    <img src="../assets/img/logos/merahyan-logo.jpg" alt="Merahyan Training Center" title="Merahyan Training Center" width="48" height="48" loading="lazy">
+                                </div>
+                                <p>A month of learning and content creation with three interns from Merahyan Training Center in Ethiopia, from bot manuals to content for an online store.</p>
                                 <ul class="internship-tags" aria-label="Skills &amp; tools">
-                                    <li>HTML</li><li>CSS</li><li>JavaScript</li><li>GitHub</li><li>GitHub Pages</li>
+                                    <li>Kdenlive</li><li>Canva</li><li>Content creation</li><li>Digital marketing</li>
                                 </ul>
                                 <ul class="internship-program__facts">
-                                    <li>Compact program</li><li>2 university partners</li><li>8 showcase projects</li>
+                                    <li>1 month of training</li><li>3 interns</li><li>3 certificates</li>
                                 </ul>
-                                <a href="internships/compact-web-development.php" class="internship-program__link" aria-label="Explore Compact Web Development">Explore this program <span aria-hidden="true">→</span></a>
+                                <a href="internships/digital-marketing-01.php" class="internship-program__link" aria-label="Explore Digital Marketing 01">Explore this program <span aria-hidden="true">→</span></a>
                             </div>
                         </article>
                     </div>

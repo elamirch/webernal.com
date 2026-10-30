@@ -3,7 +3,7 @@
 <html lang="en" dir="ltr">
 <head>
     <?php require_once($root . 'components/head-basics.php') ?>
-    <title>Digital Marketing Internship – Webernal</title>
+    <title>Digital Marketing 01 – Webernal</title>
     <meta name="description" content="A one-month digital marketing internship with three interns from Merahyan Training Center in Ethiopia. Explore Ammar, Natnael and Rahel’s work and certificates.">
     <link rel="stylesheet" href="../../assets/css/internships.css">
 </head>
@@ -16,12 +16,12 @@
                 <div class="section__inner">
                     <nav class="internship-breadcrumb" aria-label="Breadcrumb">
                         <a href="../internships.php">All internship programs</a><span aria-hidden="true">/</span>
-                        <span aria-current="page">Digital Marketing</span>
+                        <span aria-current="page">Digital Marketing 01</span>
                     </nav>
                     <div class="internship-hero__grid">
                         <div class="internship-hero__copy">
                             <span class="section__label">Inside the program</span>
-                            <h1 class="section__title">Digital Marketing Internship</h1>
+                            <h1 class="section__title">Digital Marketing 01</h1>
                             <p class="section__desc">Webernal’s first internship welcomed three interns from Merahyan Training Center in Ethiopia. Over one month, Ammar, Natnael and Rahel learned video editing with Kdenlive and visual content creation with Canva, putting their skills into practice on real projects.</p>
                             <div class="internship-actions">
                                 <a href="#outcomes" class="btn btn--primary">Program outcomes</a>
@@ -117,8 +117,9 @@
                 <div class="section__inner">
                     <h2 class="internship-small-heading">Discover the other programs</h2>
                     <div class="internship-more">
-                        <a href="wordpress.php"><span class="internship-number" aria-hidden="true">02</span><span>WordPress Internship</span><span aria-hidden="true">→</span></a>
-                        <a href="compact-web-development.php"><span class="internship-number" aria-hidden="true">03</span><span>Compact Web Development</span><span aria-hidden="true">→</span></a>
+                        <a href="compact-webdev-01.php"><span class="internship-number" aria-hidden="true">04</span><span>Compact Webdev 01</span><span aria-hidden="true">→</span></a>
+                        <a href="video-editing-01.php"><span class="internship-number" aria-hidden="true">03</span><span>Video Editing 01</span><span aria-hidden="true">→</span></a>
+                        <a href="wordpress-01.php"><span class="internship-number" aria-hidden="true">02</span><span>WordPress 01</span><span aria-hidden="true">→</span></a>
                     </div>
                 </div>
             </section>

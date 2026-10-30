@@ -134,6 +134,22 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 24px;
 }
+.internship-programs {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.internship-program__partners {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.internship-program__partners img {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    object-fit: contain;
+    background: #fff;
+}
 .internship-program,
 .internship-graduate,
 .internship-project {
@@ -381,6 +397,20 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 24px;
 }
+.internship-videos {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    align-items: start;
+}
+.internship-videos video {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-block: 24px;
+    border-radius: var(--radius-md);
+    background: #000;
+}
 .internship-project {
     padding: 32px;
     display: flex;
@@ -482,6 +512,7 @@
     .internship-hero__grid,
     .internship-outcomes,
     .internship-showcase,
+    .internship-videos,
     .internship-more,
     .internship-graduates--single .internship-graduate {
         grid-template-columns: minmax(0, 1fr);

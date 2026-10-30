@@ -3,8 +3,8 @@
 <html lang="fa" dir="rtl">
 <head>
     <?php require_once($root . 'components/head-basics.php') ?>
-    <title>دوره فشرده توسعه وب – وبرنال</title>
-    <meta name="description" content="دوره فشرده توسعه وب با همکاری کمیته‌های تحقیقات دانشجویی دانشگاه‌های علوم پزشکی گیلان و اردبیل؛ نمایشگاه هشت پروژه کارآموزان.">
+    <title>توسعه وب کامپکت ۰۱ – وبرنال</title>
+    <meta name="description" content="دوره توسعه وب کامپکت با همکاری کمیته‌های تحقیقات دانشجویی دانشگاه‌های علوم پزشکی گیلان و اردبیل؛ نمایشگاه هشت پروژه کارآموزان.">
     <link rel="stylesheet" href="../assets/css/internships.css">
 </head>
 <body>
@@ -16,20 +16,20 @@
                 <div class="section__inner">
                     <nav class="internship-breadcrumb" aria-label="مسیر صفحه">
                         <a href="../internships.php">همه دوره‌های کارآموزی</a><span aria-hidden="true">/</span>
-                        <span aria-current="page">دوره فشرده توسعه وب</span>
+                        <span aria-current="page">توسعه وب کامپکت ۰۱</span>
                     </nav>
                     <div class="internship-hero__grid">
                         <div class="internship-hero__copy">
                             <span class="section__label">روایت یک دوره</span>
-                            <h1 class="section__title">دوره فشرده توسعه وب</h1>
-                            <p class="section__desc">سومین دوره با همکاری کمیته‌های تحقیقات دانشجویی دانشگاه‌های علوم پزشکی گیلان و اردبیل برگزار شد. کارآموزان ایده‌هایشان را به وب‌سایت تبدیل کردند؛ از تجهیزات پزشکی و نوبت‌گیری تا گردشگری و آزمون آنلاین. این صفحه به تلاش و خلاقیت آن‌ها اختصاص دارد.</p>
+                            <h1 class="section__title">توسعه وب کامپکت ۰۱</h1>
+                            <p class="section__desc">چهارمین دوره با همکاری کمیته‌های تحقیقات دانشجویی دانشگاه‌های علوم پزشکی گیلان و اردبیل برگزار شد. کارآموزان ایده‌هایشان را به وب‌سایت تبدیل کردند؛ از تجهیزات پزشکی و نوبت‌گیری تا گردشگری و آزمون آنلاین. این صفحه به تلاش و خلاقیت آن‌ها اختصاص دارد.</p>
                             <div class="internship-actions">
                                 <a href="#showcase" class="btn btn--primary">پروژه‌ها را ببینید</a>
                                 <a href="#contact" class="internship-text-link">درباره کارآموزی بپرسید</a>
                             </div>
                         </div>
                         <aside class="internship-impact">
-                            <div class="internship-impact__top"><span class="internship-status">برگزارشده</span><span class="internship-number" aria-hidden="true">۰۳</span></div>
+                            <div class="internship-impact__top"><span class="internship-status">برگزارشده</span><span class="internship-number" aria-hidden="true">۰۴</span></div>
                             <ul class="internship-facts"><li>دوره فشرده</li><li>۲ همکار دانشگاهی</li><li>۸ پروژه در نمایشگاه</li></ul>
                             <h2 class="internship-small-heading">همکاران آموزشی</h2>
                             <div class="internship-partners">
@@ -146,8 +146,9 @@
                 <div class="section__inner">
                     <h2 class="internship-small-heading">دوره‌های دیگر را هم ببینید</h2>
                     <div class="internship-more">
-                        <a href="digital-marketing.php"><span class="internship-number" aria-hidden="true">۰۱</span><span>کارآموزی بازاریابی دیجیتال</span><span aria-hidden="true">←</span></a>
-                        <a href="wordpress.php"><span class="internship-number" aria-hidden="true">۰۲</span><span>کارآموزی وردپرس</span><span aria-hidden="true">←</span></a>
+                        <a href="video-editing-01.php"><span class="internship-number" aria-hidden="true">۰۳</span><span>تدوین ویدیو ۰۱</span><span aria-hidden="true">←</span></a>
+                        <a href="wordpress-01.php"><span class="internship-number" aria-hidden="true">۰۲</span><span>وردپرس ۰۱</span><span aria-hidden="true">←</span></a>
+                        <a href="digital-marketing-01.php"><span class="internship-number" aria-hidden="true">۰۱</span><span>بازاریابی دیجیتال ۰۱</span><span aria-hidden="true">←</span></a>
                     </div>
                 </div>
             </section>

@@ -3,7 +3,7 @@
 <html lang="fa" dir="rtl">
 <head>
     <?php require_once($root . 'components/head-basics.php') ?>
-    <title>کارآموزی بازاریابی دیجیتال – وبرنال</title>
+    <title>بازاریابی دیجیتال ۰۱ – وبرنال</title>
     <meta name="description" content="دوره یک‌ماهه بازاریابی دیجیتال وبرنال با سه کارآموز مرکز آموزشی Merahyan در اتیوپی؛ پروژه‌ها و گواهی‌های عمار، ناتنائل و راحیل.">
     <link rel="stylesheet" href="../assets/css/internships.css">
 </head>
@@ -16,12 +16,12 @@
                 <div class="section__inner">
                     <nav class="internship-breadcrumb" aria-label="مسیر صفحه">
                         <a href="../internships.php">همه دوره‌های کارآموزی</a><span aria-hidden="true">/</span>
-                        <span aria-current="page">بازاریابی دیجیتال</span>
+                        <span aria-current="page">بازاریابی دیجیتال ۰۱</span>
                     </nav>
                     <div class="internship-hero__grid">
                         <div class="internship-hero__copy">
                             <span class="section__label">روایت یک دوره</span>
-                            <h1 class="section__title">کارآموزی بازاریابی دیجیتال</h1>
+                            <h1 class="section__title">بازاریابی دیجیتال ۰۱</h1>
                             <p class="section__desc">اولین دوره کارآموزی وبرنال با حضور سه کارآموز از مرکز آموزشی Merahyan در اتیوپی برگزار شد. در طول یک ماه، عمار، ناتنائل و راحیل با تدوین ویدیو در Kdenlive و تولید محتوای بصری با Canva آشنا شدند و مهارت‌هایشان را در پروژه‌های واقعی به کار گرفتند.</p>
                             <div class="internship-actions">
                                 <a href="#outcomes" class="btn btn--primary">دستاوردهای دوره</a>
@@ -117,8 +117,9 @@
                 <div class="section__inner">
                     <h2 class="internship-small-heading">دوره‌های دیگر را هم ببینید</h2>
                     <div class="internship-more">
-                        <a href="wordpress.php"><span class="internship-number" aria-hidden="true">۰۲</span><span>کارآموزی وردپرس</span><span aria-hidden="true">←</span></a>
-                        <a href="compact-web-development.php"><span class="internship-number" aria-hidden="true">۰۳</span><span>دوره فشرده توسعه وب</span><span aria-hidden="true">←</span></a>
+                        <a href="compact-webdev-01.php"><span class="internship-number" aria-hidden="true">۰۴</span><span>توسعه وب کامپکت ۰۱</span><span aria-hidden="true">←</span></a>
+                        <a href="video-editing-01.php"><span class="internship-number" aria-hidden="true">۰۳</span><span>تدوین ویدیو ۰۱</span><span aria-hidden="true">←</span></a>
+                        <a href="wordpress-01.php"><span class="internship-number" aria-hidden="true">۰۲</span><span>وردپرس ۰۱</span><span aria-hidden="true">←</span></a>
                     </div>
                 </div>
             </section>

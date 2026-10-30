@@ -3,8 +3,8 @@
 <html lang="en" dir="ltr">
 <head>
     <?php require_once($root . 'components/head-basics.php') ?>
-    <title>Compact Web Development – Webernal</title>
-    <meta name="description" content="A compact web-development program with the Student Research Committees of Guilan and Ardabil Universities of Medical Sciences. Explore eight intern projects.">
+    <title>Compact Webdev 01 – Webernal</title>
+    <meta name="description" content="Compact Webdev 01 with the Student Research Committees of Guilan and Ardabil Universities of Medical Sciences. Explore eight intern projects.">
     <link rel="stylesheet" href="../../assets/css/internships.css">
 </head>
 <body>
@@ -16,20 +16,20 @@
                 <div class="section__inner">
                     <nav class="internship-breadcrumb" aria-label="Breadcrumb">
                         <a href="../internships.php">All internship programs</a><span aria-hidden="true">/</span>
-                        <span aria-current="page">Compact Web Development</span>
+                        <span aria-current="page">Compact Webdev 01</span>
                     </nav>
                     <div class="internship-hero__grid">
                         <div class="internship-hero__copy">
                             <span class="section__label">Inside the program</span>
-                            <h1 class="section__title">Compact Web Development</h1>
-                            <p class="section__desc">Our third program was held in partnership with the Student Research Committees of Guilan and Ardabil Universities of Medical Sciences. Interns turned their ideas into websites, spanning medical equipment, appointments, tourism and online quizzes. This page celebrates their effort and creativity.</p>
+                            <h1 class="section__title">Compact Webdev 01</h1>
+                            <p class="section__desc">Our fourth program was held in partnership with the Student Research Committees of Guilan and Ardabil Universities of Medical Sciences. Interns turned their ideas into websites, spanning medical equipment, appointments, tourism and online quizzes. This page celebrates their effort and creativity.</p>
                             <div class="internship-actions">
                                 <a href="#showcase" class="btn btn--primary">Explore the projects</a>
                                 <a href="#contact" class="internship-text-link">Ask about internships</a>
                             </div>
                         </div>
                         <aside class="internship-impact">
-                            <div class="internship-impact__top"><span class="internship-status">Past program</span><span class="internship-number" aria-hidden="true">03</span></div>
+                            <div class="internship-impact__top"><span class="internship-status">Past program</span><span class="internship-number" aria-hidden="true">04</span></div>
                             <ul class="internship-facts"><li>Compact program</li><li>2 university partners</li><li>8 showcase projects</li></ul>
                             <h2 class="internship-small-heading">Training partners</h2>
                             <div class="internship-partners">
@@ -146,8 +146,9 @@
                 <div class="section__inner">
                     <h2 class="internship-small-heading">Discover the other programs</h2>
                     <div class="internship-more">
-                        <a href="digital-marketing.php"><span class="internship-number" aria-hidden="true">01</span><span>Digital Marketing Internship</span><span aria-hidden="true">→</span></a>
-                        <a href="wordpress.php"><span class="internship-number" aria-hidden="true">02</span><span>WordPress Internship</span><span aria-hidden="true">→</span></a>
+                        <a href="video-editing-01.php"><span class="internship-number" aria-hidden="true">03</span><span>Video Editing 01</span><span aria-hidden="true">→</span></a>
+                        <a href="wordpress-01.php"><span class="internship-number" aria-hidden="true">02</span><span>WordPress 01</span><span aria-hidden="true">→</span></a>
+                        <a href="digital-marketing-01.php"><span class="internship-number" aria-hidden="true">01</span><span>Digital Marketing 01</span><span aria-hidden="true">→</span></a>
                     </div>
                 </div>
             </section>

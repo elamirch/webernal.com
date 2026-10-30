@@ -29,6 +29,10 @@
                     <a href="#order" class="btn btn--outline">شروع یک پروژه</a>
                 </div>
             </div>
+            <a class="hero__portfolio" href="projects/index.php">
+                <img src="assets/img/webernal-projects-portfolio.webp" width="1640" height="924" alt="نمایی از وب‌سایت‌ها، اپلیکیشن‌ها و ربات‌های وبرنال" decoding="async" fetchpriority="high">
+                <span class="hero__portfolio-caption">نمونه‌کارهای ما <span aria-hidden="true">←</span></span>
+            </a>
             <div class="hero__scroll-indicator" aria-hidden="true">
                 <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
             </div>
@@ -46,7 +50,7 @@
 
                 <div class="services-grid">
                     <!-- 1. Websites -->
-                    <a class="service-card reveal">
+                    <a class="service-card reveal" href="projects/websites.php">
                         <div class="service-card__icon">🌐</div>
                         <h3 class="service-card__title">وب‌سایت‌ها و برنامه‌های تحت وب</h3>
                         <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
@@ -63,7 +67,7 @@
                     </a>
 
                     <!-- 2. Telegram Bots -->
-                    <a class="service-card reveal">
+                    <a class="service-card reveal" href="projects/bots.php">
                         <div class="service-card__icon">🤖</div>
                         <h3 class="service-card__title">ربات‌های تلگرام</h3>
                         <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
@@ -78,7 +82,7 @@
                     </a>
 
                     <!-- 3. Logos -->
-                    <a class="service-card reveal">
+                    <a class="service-card reveal" href="projects/logos.php">
                         <div class="service-card__icon">🎨</div>
                         <h3 class="service-card__title">لوگو و هویت برند</h3>
                         <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
@@ -92,7 +96,7 @@
                     </a>
 
                     <!-- 4. Documents -->
-                    <a class="service-card reveal">
+                    <a class="service-card reveal" href="projects/documents.php">
                         <div class="service-card__icon">📄</div>
                         <h3 class="service-card__title">اسناد و مدارک شیک</h3>
                         <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
@@ -106,7 +110,7 @@
                     </a>
 
                     <!-- 5. Persian Localization -->
-                    <a class="service-card reveal">
+                    <a class="service-card reveal" href="projects/localizations.php">
                         <div class="service-card__icon">📝</div>
                         <h3 class="service-card__title">بومی‌سازی فارسی</h3>
                         <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
@@ -118,7 +122,7 @@
                     </a>
 
                     <!-- 6. Digital Health -->
-                    <a class="service-card reveal">
+                    <a class="service-card reveal" href="projects/digital-health.php">
                         <div class="service-card__icon">⛓️</div>
                         <h3 class="service-card__title">پزشکی و سلامت</h3>
                         <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
@@ -132,7 +136,7 @@
                     </a>
 
                     <!-- 7. Desktop Apps -->
-                    <a class="service-card reveal">
+                    <a class="service-card reveal" href="projects/desktop-apps.php">
                         <div class="service-card__icon">🖥️</div>
                         <h3 class="service-card__title">برنامه‌های دسکتاپ</h3>
                         <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
@@ -146,7 +150,7 @@
                     </a>
 
                     <!-- 8. DApps -->
-                    <a class="service-card reveal">
+                    <a class="service-card reveal" href="projects/dapps.php">
                         <div class="service-card__icon">⛓️</div>
                         <h3 class="service-card__title">DApps و Web3</h3>
                         <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">

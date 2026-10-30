@@ -28,8 +28,7 @@
                         <h2>Learn. Build. Share.</h2>
                         <dl class="internship-stats">
                             <div><dt>Past programs</dt><dd>3</dd></div>
-                            <div><dt>Published certificates</dt><dd>4</dd></div>
-                            <div><dt>Web showcase projects</dt><dd>8</dd></div>
+                            <div><dt>Interns trained</dt><dd>10+</dd></div>
                         </dl>
                     </aside>
                 </div>

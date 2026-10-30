@@ -266,6 +266,8 @@ body {
 .hero {
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
+    gap: 48px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -273,8 +275,46 @@ body {
     position: relative;
 }
 .hero__content {
+    width: 100%;
     max-width: 780px;
     z-index: 2;
+}
+.hero__portfolio {
+    display: block;
+    width: 100%;
+    max-width: var(--max-width);
+    overflow: hidden;
+    border: 1px solid var(--accent-medium);
+    border-radius: var(--radius-xl);
+    background: var(--bg-card);
+    color: var(--accent);
+    text-decoration: none;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+}
+.hero__portfolio img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero__portfolio-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 16px 24px;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+.hero__portfolio:hover {
+    border-color: var(--accent);
+}
+.hero__portfolio:hover .hero__portfolio-caption {
+    color: #fff;
+}
+.hero__portfolio:focus-visible,
+.service-card:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 4px;
 }
 .hero__badge {
     display: inline-block;
@@ -359,7 +399,7 @@ body {
 }
 .hero__scroll-indicator {
     position: absolute;
-    bottom: 40px;
+    bottom: 24px;
     right: 50%;
     transform: translateX(50%);
     animation: bounceDown 2s ease-in-out infinite;
@@ -427,7 +467,7 @@ body {
     transition: all var(--transition-smooth);
     position: relative;
     overflow: hidden;
-    cursor: default;
+    cursor: pointer;
     text-decoration: none;
     color: inherit;
     display: block;
@@ -687,7 +727,7 @@ body {
 /* ---------- Responsive ---------- */
 @media (max-width: 640px) {
     .hero {
-        padding: 100px 16px 60px;
+        padding: 100px 16px 80px;
     }
     .section {
         padding: 60px 16px;

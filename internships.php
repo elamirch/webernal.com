@@ -28,8 +28,7 @@
                         <h2>یاد بگیر. بساز. به اشتراک بگذار.</h2>
                         <dl class="internship-stats">
                             <div><dt>دوره برگزارشده</dt><dd>۳</dd></div>
-                            <div><dt>گواهی قابل مشاهده</dt><dd>۴</dd></div>
-                            <div><dt>پروژه در نمایشگاه وب</dt><dd>۸</dd></div>
+                            <div><dt>کارآموز آموزش‌دیده</dt><dd><bdi dir="ltr">۱۰+</bdi></dd></div>
                         </dl>
                     </aside>
                 </div>

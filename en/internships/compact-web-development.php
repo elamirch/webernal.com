@@ -38,7 +38,7 @@
                                     <div><p>Guilan University of Medical Sciences Student Research Committee</p><span>Iran</span></div>
                                 </div>
                                 <div class="internship-partner">
-                                    <span class="internship-partner__mark" aria-hidden="true">SRC</span>
+                                    <img src="../../assets/img/logos/src-arums-logo.jpg" alt="" width="48" height="48">
                                     <div><p>Ardabil University of Medical Sciences Student Research Committee</p><span>Iran</span></div>
                                 </div>
                             </div>

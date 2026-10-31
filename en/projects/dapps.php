@@ -30,6 +30,8 @@
                         <a href="desktop-apps.php">Desktop</a>
                         <a href="dapps.php" class="active">DApps</a>
                         <a href="digital-health.php">Digital Health</a>
+                        <a href="mobile-apps.php">Mobile Apps</a>
+                        <a href="content-creation.php">Content Creation</a>
                     </div>
 
                     <div class="project-grid">
@@ -40,8 +42,7 @@
                             <div class="project-card__body">
                                 <h3><a href="https://github.com/elamirch/smh" target="_blank" rel="noopener">SMH Domains</a></h3>
                                 <div class="partner">
-                                    <a href="https://github.com/elamirch/smh" target="_blank" rel="noopener">GitHub</a> ·
-                                    <a href="https://smh.elamir.ch" target="_blank" rel="noopener">Live Demo</a>
+                                    <a href="https://github.com/elamirch/smh" target="_blank" rel="noopener">GitHub</a>
                                 </div>
                                 <p>A self-custodial domain name service on the Polkadot blockchain (Passet Hub parachain); .smh domains registered on-chain with ink! smart contracts, with DNS records synced live to PowerDNS.</p>
                                 <div class="stack-tags">

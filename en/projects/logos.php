@@ -30,20 +30,11 @@
                         <a href="desktop-apps.php">Desktop</a>
                         <a href="dapps.php">DApps</a>
                         <a href="digital-health.php">Digital Health</a>
+                        <a href="mobile-apps.php">Mobile Apps</a>
+                        <a href="content-creation.php">Content Creation</a>
                     </div>
 
                     <div class="project-grid">
-                        <div class="project-card featured-style">
-                            <div class="project-card__image project-media project-media--logo">
-                                <div class="project-card__logo">SMH</div>
-                            </div>
-                            <div class="project-card__body">
-                                <h3>SMH Domains Logo</h3>
-                                <div class="partner">Web3 Domain Service</div>
-                                <p>Logo design for the SMH decentralized domain service; geometric and modern with a Web3 feel.</p>
-                                <div class="stack-tags"><span class="stack-tag">Logo</span><span class="stack-tag">Web3</span></div>
-                            </div>
-                        </div>
                         <div class="project-card featured-style">
                             <div class="project-card__image project-media project-media--logo">
                                 <div class="project-card__logo"><img src="../../assets/img/logos/redim-logo.jpg" alt="Redim" loading="lazy" decoding="async"></div>
@@ -53,28 +44,6 @@
                                 <div class="partner">Online Store</div>
                                 <p>Logo design for the Redim shop; simple, practical and memorable for an e-commerce identity.</p>
                                 <div class="stack-tags"><span class="stack-tag">Logo</span><span class="stack-tag">E-commerce</span></div>
-                            </div>
-                        </div>
-                        <div class="project-card featured-style">
-                            <div class="project-card__image project-media project-media--logo">
-                                <div class="project-card__logo"><img src="../../assets/img/logos/hiward-logo.png" alt="HiWard" loading="lazy" decoding="async"></div>
-                            </div>
-                            <div class="project-card__body">
-                                <h3>HiWard Logo</h3>
-                                <div class="partner">Hospital Guide</div>
-                                <p>Logo design for HiWard, the comprehensive guide to hospital departments.</p>
-                                <div class="stack-tags"><span class="stack-tag">Logo</span><span class="stack-tag">Branding</span></div>
-                            </div>
-                        </div>
-                        <div class="project-card featured-style">
-                            <div class="project-card__image project-media project-media--logo">
-                                <div class="project-card__logo project-media__logo--dark"><img src="../../assets/img/logos/aizheimer-logo.png" alt="Aizheimer" loading="lazy" decoding="async"></div>
-                            </div>
-                            <div class="project-card__body">
-                                <h3>Aizheimer Logo</h3>
-                                <div class="partner">Digital Health</div>
-                                <p>Logo design for Aizheimer, the comprehensive Alzheimer’s services center.</p>
-                                <div class="stack-tags"><span class="stack-tag">Logo</span><span class="stack-tag">Branding</span></div>
                             </div>
                         </div>
                         <div class="project-card featured-style">

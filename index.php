@@ -4,7 +4,7 @@
 <head>
     <?php require_once('components/head-basics.php') ?>
     <title>وبرنال — استودیو فناوری</title>
-    <meta name="description" content="استودیو فناوری وبرنال — طراحی وب‌سایت، ربات تلگرام، لوگو، اسناد حرفه‌ای، بومی‌سازی فارسی، برنامه‌های دسکتاپ و DApp با تمرکز بر حوزه پزشکی.">
+    <meta name="description" content="استودیو فناوری وبرنال — طراحی وب‌سایت، ربات تلگرام، لوگو، اسناد حرفه‌ای، بومی‌سازی فارسی، برنامه‌های دسکتاپ و موبایل، تولید محتوا و DApp با تمرکز بر حوزه پزشکی.">
 </head>
 <body>
     <?php require_once('components/ambient-glows.php') ?>
@@ -161,6 +161,32 @@
                             <span class="service-card__tag">Substrate</span>
                             <span class="service-card__tag">Ethereum</span>
                             <span class="service-card__tag">OpenZeppelin</span>
+                        </div>
+                    </a>
+                    <!-- 9. Mobile Apps -->
+                    <a class="service-card reveal" href="projects/mobile-apps.php">
+                        <div class="service-card__icon">📱</div>
+                        <h3 class="service-card__title">اپلیکیشن‌های موبایل</h3>
+                        <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
+                            اپلیکیشن‌های کاربردی برای دسترسی به خدمات، اطلاعات و ابزارهای کسب‌وکار روی موبایل و تبلت.
+                        </p>
+                        <div class="service-card__tags">
+                            <span class="service-card__tag">iOS</span>
+                            <span class="service-card__tag">iPadOS</span>
+                            <span class="service-card__tag">Mobile UI</span>
+                        </div>
+                    </a>
+                    <!-- 10. Content Creation -->
+                    <a class="service-card reveal" href="projects/content-creation.php">
+                        <div class="service-card__icon">🎬</div>
+                        <h3 class="service-card__title">تولید محتوا</h3>
+                        <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
+                            تولید پست و محتوای تصویری، تدوین ویدیو و داستان‌پردازی برای اینستاگرام، یوتیوب و شبکه‌های اجتماعی.
+                        </p>
+                        <div class="service-card__tags">
+                            <span class="service-card__tag">Instagram</span>
+                            <span class="service-card__tag">YouTube</span>
+                            <span class="service-card__tag">Video Editing</span>
                         </div>
                     </a>
                 </div>

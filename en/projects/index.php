@@ -4,7 +4,7 @@
 <head>
     <?php require_once($root .'components/head-basics.php') ?>
     <title>Our Work – Webernal Tech Studio</title>
-    <meta name="description" content="A showcase of Webernal's projects: websites, bots, branding, documents, localization, desktop apps, digital health solutions and DApps.">
+    <meta name="description" content="A showcase of Webernal's projects: websites, bots, branding, documents, localization, desktop and mobile apps, content creation, digital health solutions and DApps.">
     <link rel="stylesheet" href="<?=$base?>projects/assets/css/general-styles.css">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="<?=$base?>projects/assets/css/featured-projects-slideshow.css">
@@ -23,7 +23,7 @@
                     <span class="section__label">What can we do?</span>
                     <h1 class="section__title">Selected Work</h1>
                     <p class="section__desc" style="max-width:700px;margin:0 auto;">
-                        Projects we've delivered across websites, bots, branding, documents, localization, desktop and DApps — and that we're proud of.
+                        Projects we've delivered across websites, bots, branding, documents, localization, desktop, mobile, content creation and DApps — and that we're proud of.
                     </p>
                 </div>
             </section>
@@ -63,6 +63,14 @@
                         <a href="digital-health.php" class="category-card">
                             <div class="category-card__icon">🏥</div>
                             <div class="category-card__title">Digital Health</div>
+                        </a>
+                        <a href="mobile-apps.php" class="category-card">
+                            <div class="category-card__icon">📱</div>
+                            <div class="category-card__title">Mobile Apps</div>
+                        </a>
+                        <a href="content-creation.php" class="category-card">
+                            <div class="category-card__icon">🎬</div>
+                            <div class="category-card__title">Content Creation</div>
                         </a>
                     </div>
                 </div>

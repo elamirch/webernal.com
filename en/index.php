@@ -4,7 +4,7 @@
 <head>
     <?php require_once($root . 'components/head-basics.php') ?>
     <title>Webernal — Tech Studio</title>
-    <meta name="description" content="Webernal Tech Studio — modern websites, Telegram bots, logos, professional documents, Persian localization, desktop apps and DApps, with a sharp focus on healthcare innovation.">
+    <meta name="description" content="Webernal Tech Studio — modern websites, Telegram bots, logos, professional documents, Persian localization, desktop and mobile apps, content creation and DApps, with a sharp focus on healthcare innovation.">
 </head>
 <body>
     <?php require_once($base . 'components/ambient-glows.php') ?>
@@ -161,6 +161,32 @@
                             <span class="service-card__tag">Substrate</span>
                             <span class="service-card__tag">Ethereum</span>
                             <span class="service-card__tag">OpenZeppelin</span>
+                        </div>
+                    </a>
+                    <!-- 9. Mobile Apps -->
+                    <a class="service-card reveal" href="projects/mobile-apps.php">
+                        <div class="service-card__icon">📱</div>
+                        <h3 class="service-card__title">Mobile Apps</h3>
+                        <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
+                            Practical apps that bring services, information and business tools to phones and tablets.
+                        </p>
+                        <div class="service-card__tags">
+                            <span class="service-card__tag">iOS</span>
+                            <span class="service-card__tag">iPadOS</span>
+                            <span class="service-card__tag">Mobile UI</span>
+                        </div>
+                    </a>
+                    <!-- 10. Content Creation -->
+                    <a class="service-card reveal" href="projects/content-creation.php">
+                        <div class="service-card__icon">🎬</div>
+                        <h3 class="service-card__title">Content Creation</h3>
+                        <p style="color:var(--text-secondary);font-size:0.9rem;position:relative;z-index:1;">
+                            Social posts, visual content, video editing and storytelling for Instagram, YouTube and beyond.
+                        </p>
+                        <div class="service-card__tags">
+                            <span class="service-card__tag">Instagram</span>
+                            <span class="service-card__tag">YouTube</span>
+                            <span class="service-card__tag">Video Editing</span>
                         </div>
                     </a>
                 </div>

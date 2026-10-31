@@ -29,6 +29,8 @@
                         <a href="desktop-apps.php">دسکتاپ</a>
                         <a href="dapps.php" class="active">DAppها</a>
                         <a href="digital-health.php">سلامت دیجیتال</a>
+                        <a href="mobile-apps.php">اپلیکیشن‌های موبایل</a>
+                        <a href="content-creation.php">تولید محتوا</a>
                     </div>
 
                     <div class="project-grid">
@@ -39,8 +41,7 @@
                             <div class="project-card__body">
                                 <h3><a href="https://github.com/elamirch/smh" target="_blank" rel="noopener">SMH Domains</a></h3>
                                 <div class="partner">
-                                    <a href="https://github.com/elamirch/smh" target="_blank" rel="noopener">GitHub</a> ·
-                                    <a href="https://smh.elamir.ch" target="_blank" rel="noopener">دموی زنده</a>
+                                    <a href="https://github.com/elamirch/smh" target="_blank" rel="noopener">GitHub</a>
                                 </div>
                                 <p>سرویس نام دامنه خودنگهدار (Self-custodial) روی بلاکچین Polkadot (پاراچین Passet Hub)؛ ثبت دامنه‌های .smh به‌صورت زنجیره‌ای با قراردادهای هوشمند ink! و همگام‌سازی رکوردهای DNS با PowerDNS.</p>
                                 <div class="stack-tags">

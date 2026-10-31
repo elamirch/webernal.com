@@ -29,12 +29,14 @@
                         <a href="desktop-apps.php">دسکتاپ</a>
                         <a href="dapps.php">DAppها</a>
                         <a href="digital-health.php">سلامت دیجیتال</a>
+                        <a href="mobile-apps.php">اپلیکیشن‌های موبایل</a>
+                        <a href="content-creation.php">تولید محتوا</a>
                     </div>
 
                     <div class="project-grid">
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 30% 30%, rgba(12,192,223,0.25), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo"><img src="<?=$root?>assets/img/logos/ethereum-foundation-logo.jpg" alt="بنیاد اتریوم" loading="lazy"></div>
+                            <div class="project-card__image project-media--identity">
+                                <img src="<?=$root?>assets/img/logos/ethereum-foundation-logo-dark.webp" alt="بنیاد اتریوم" loading="lazy" decoding="async">
                             </div>
                             <div class="project-card__body">
                                 <h3><a href="https://ethereum.org" target="_blank" rel="noopener">ترجمه فارسی وب‌سایت اتریوم</a></h3>
@@ -49,8 +51,8 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 70% 40%, rgba(12,192,223,0.2), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">DOC</div>
+                            <div class="project-card__image project-media--identity">
+                                <img src="<?=$root?>assets/img/logos/php-logo-transparent.webp" alt="PHP" loading="lazy" decoding="async">
                             </div>
                             <div class="project-card__body">
                                 <h3><a href="https://github.com/elamirch/doc-fa" target="_blank" rel="noopener">مستندات فارسی PHP</a></h3>

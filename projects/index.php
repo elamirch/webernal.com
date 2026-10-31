@@ -4,7 +4,7 @@
 <head>
     <?php require_once($root .'components/head-basics.php') ?>
     <title>کارهای ما – استودیو فناوری وبرنال</title>
-    <meta name="description" content="نمایش پروژه‌های وبرنال: وب‌سایت‌ها، ربات‌ها، لوگوها، اسناد، بومی‌سازی، برنامه‌های دسکتاپ، راه‌حل‌های سلامت دیجیتال و DAppها.">
+    <meta name="description" content="نمایش پروژه‌های وبرنال: وب‌سایت‌ها، ربات‌ها، لوگوها، اسناد، بومی‌سازی، برنامه‌های دسکتاپ و موبایل، تولید محتوا، سلامت دیجیتال و DAppها.">
     <link rel="stylesheet" href="assets/css/general-styles.css">
     <link rel="stylesheet" href="assets/css/featured-projects-slideshow.css">
     <script src="assets/js/featured-projects-script.js" defer></script>
@@ -22,7 +22,7 @@
                     <span class="section__label">چیا بلدیم؟</span>
                     <h1 class="section__title">کارهای منتخب</h1>
                     <p class="section__desc" style="max-width:700px;margin:0 auto;">
-                        پروژه‌هایی که در زمینه وب‌سایت، ربات، برندینگ، اسناد، بومی‌سازی، دسکتاپ و DApp ارائه کرده‌ایم و به آن‌ها افتخار می‌کنیم.
+                        پروژه‌هایی که در زمینه وب‌سایت، ربات، برندینگ، اسناد، بومی‌سازی، دسکتاپ، موبایل، تولید محتوا و DApp ارائه کرده‌ایم و به آن‌ها افتخار می‌کنیم.
                     </p>
                 </div>
             </section>
@@ -62,6 +62,14 @@
                         <a href="digital-health.php" class="category-card">
                             <div class="category-card__icon">🏥</div>
                             <div class="category-card__title">سلامت دیجیتال</div>
+                        </a>
+                        <a href="mobile-apps.php" class="category-card">
+                            <div class="category-card__icon">📱</div>
+                            <div class="category-card__title">اپلیکیشن‌های موبایل</div>
+                        </a>
+                        <a href="content-creation.php" class="category-card">
+                            <div class="category-card__icon">🎬</div>
+                            <div class="category-card__title">تولید محتوا</div>
                         </a>
                     </div>
                 </div>

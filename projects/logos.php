@@ -29,20 +29,11 @@
                         <a href="desktop-apps.php">دسکتاپ</a>
                         <a href="dapps.php">DAppها</a>
                         <a href="digital-health.php">سلامت دیجیتال</a>
+                        <a href="mobile-apps.php">اپلیکیشن‌های موبایل</a>
+                        <a href="content-creation.php">تولید محتوا</a>
                     </div>
 
                     <div class="project-grid">
-                        <div class="project-card featured-style">
-                            <div class="project-card__image project-media project-media--logo">
-                                <div class="project-card__logo">SMH</div>
-                            </div>
-                            <div class="project-card__body">
-                                <h3>لوگوی SMH Domains</h3>
-                                <div class="partner">سرویس دامنه Web3</div>
-                                <p>طراحی لوگوی سرویس دامنه غیرمتمرکز SMH؛ هندسی و مدرن با حال‌وهوای Web3.</p>
-                                <div class="stack-tags"><span class="stack-tag">Logo</span><span class="stack-tag">Web3</span></div>
-                            </div>
-                        </div>
                         <div class="project-card featured-style">
                             <div class="project-card__image project-media project-media--logo">
                                 <div class="project-card__logo"><img src="../assets/img/logos/redim-logo.jpg" alt="ردیم" loading="lazy" decoding="async"></div>
@@ -52,28 +43,6 @@
                                 <div class="partner">فروشگاه اینترنتی</div>
                                 <p>طراحی لوگوی فروشگاه ردیم؛ ساده، کاربردی و به‌یادماندنی برای هویت یک فروشگاه اینترنتی.</p>
                                 <div class="stack-tags"><span class="stack-tag">Logo</span><span class="stack-tag">E-commerce</span></div>
-                            </div>
-                        </div>
-                        <div class="project-card featured-style">
-                            <div class="project-card__image project-media project-media--logo">
-                                <div class="project-card__logo"><img src="../assets/img/logos/hiward-logo.png" alt="های‌وارد" loading="lazy" decoding="async"></div>
-                            </div>
-                            <div class="project-card__body">
-                                <h3>لوگوی های‌وارد</h3>
-                                <div class="partner">راهنمای بیمارستان</div>
-                                <p>طراحی لوگوی های‌وارد برای راهنمای جامع بخش‌های بیمارستان.</p>
-                                <div class="stack-tags"><span class="stack-tag">Logo</span><span class="stack-tag">Branding</span></div>
-                            </div>
-                        </div>
-                        <div class="project-card featured-style">
-                            <div class="project-card__image project-media project-media--logo">
-                                <div class="project-card__logo project-media__logo--dark"><img src="../assets/img/logos/aizheimer-logo.png" alt="ایزایمر" loading="lazy" decoding="async"></div>
-                            </div>
-                            <div class="project-card__body">
-                                <h3>لوگوی ایزایمر</h3>
-                                <div class="partner">سلامت دیجیتال</div>
-                                <p>طراحی لوگوی ایزایمر، مرکز جامع خدمات آلزایمر.</p>
-                                <div class="stack-tags"><span class="stack-tag">Logo</span><span class="stack-tag">Branding</span></div>
                             </div>
                         </div>
                         <div class="project-card featured-style">

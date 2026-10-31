@@ -31,9 +31,30 @@
                         <a href="desktop-apps.php">Desktop</a>
                         <a href="dapps.php">DApps</a>
                         <a href="digital-health.php">Digital Health</a>
+                        <a href="mobile-apps.php">Mobile Apps</a>
+                        <a href="content-creation.php">Content Creation</a>
                     </div>
 
                     <div class="project-grid">
+                        <div class="project-card featured-style">
+                            <div class="project-card__image project-media">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="RegMedSummit screenshots">
+                                    <a class="project-media__slide" href="../../assets/img/projects/regmedsummit-scr-1.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/regmedsummit-scr-1.jpg" alt="RegMedSummit — screenshot 1" loading="lazy" decoding="async">
+                                    </a>
+                                    <a class="project-media__slide" href="../../assets/img/projects/regmedsummit-scr-2.jpg" target="_blank" rel="noopener">
+                                        <img src="../../assets/img/projects/regmedsummit-scr-2.jpg" alt="RegMedSummit — screenshot 2" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
+                                <div class="project-card__logo"><img src="../../assets/img/logos/regmedsummit-logo.webp" alt="RegMedSummit" loading="lazy" decoding="async"></div>
+                            </div>
+                            <div class="project-card__body">
+                                <h3><a href="https://regmedsummit.ir" target="_blank" rel="noopener">RegMedSummit</a></h3>
+                                <div class="partner">Regenerative Medicine Research Group, Razi Hospital, Rasht · <a href="https://github.com/mina-daneshi/regmedsummit" target="_blank" rel="noopener">GitHub ↗</a></div>
+                                <p>A website for the Organ Donation, Transplantation and Regenerative Medicine seminar, with event and organizer information, a speaker schedule, registration and article-submission guidance in a responsive Persian layout.</p>
+                                <div class="stack-tags"><span class="stack-tag">Django</span><span class="stack-tag">Python</span><span class="stack-tag">HTML/CSS</span><span class="stack-tag">RTL</span></div>
+                            </div>
+                        </div>
                         <div class="project-card featured-style">
                             <div class="project-card__image project-media">
                                 <div class="project-media__gallery" tabindex="0" role="region" aria-label="Gordeh screenshots">
@@ -143,8 +164,8 @@
                             </div>
                             <div class="project-card__body">
                                 <h3><a href="https://face-analysis.webernal.com" target="_blank" rel="noopener">Clinic PRO</a></h3>
-                                <div class="partner">A Webernal Product</div>
-                                <p>Facial aesthetics analysis system for clinics; capture photos via camera or gallery, frontal and profile analysis, and clinical PDF reports with analytical charts.</p>
+                                <div class="partner"><span class="project-role-tag">Only DevOps by us</span></div>
+                                <p>Hosting and DevOps for Clinic PRO, a facial aesthetics analysis system for clinics. Webernal’s role in this project was limited to infrastructure and hosting.</p>
                                 <div class="stack-tags">
                                     <span class="stack-tag">Web App</span>
                                     <span class="stack-tag">AI</span>

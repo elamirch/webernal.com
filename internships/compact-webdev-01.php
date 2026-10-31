@@ -72,7 +72,8 @@
                             <p class="internship-project__author">مینا دانشی</p>
                             <p class="internship-project__description">ساختار اصلی وب‌سایت رویداد پزشکی بازساختی، به سفارش هسته پژوهشی پزشکی بازساختی بیمارستان رازی رشت؛ یک تجربه واقعی از تبدیل نیاز یک مجموعه پژوهشی به وب‌سایت.</p>
                             <div class="internship-project__links">
-                                <a href="https://github.com/mina-boop-23/regmedsummit" target="_blank" rel="noopener" aria-label="کد پروژه RegMedSummit در GitHub">کد پروژه در GitHub <span aria-hidden="true">↗</span></a>
+                                <a href="https://github.com/mina-daneshi/regmedsummit" target="_blank" rel="noopener" aria-label="کد پروژه RegMedSummit در GitHub">کد پروژه در GitHub <span aria-hidden="true">↗</span></a>
+                                <a href="https://regmedsummit.ir" target="_blank" rel="noopener" aria-label="مشاهده وب‌سایت RegMedSummit">مشاهده وب‌سایت <span aria-hidden="true">↗</span></a>
                             </div>
                         </article>
                         <article class="internship-project">

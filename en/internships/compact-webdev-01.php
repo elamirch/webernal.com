@@ -72,7 +72,8 @@
                             <p class="internship-project__author">Mina Daneshi</p>
                             <p class="internship-project__description">The core website structure for a regenerative medicine summit, commissioned by the Regenerative Medicine Research Group at Razi Hospital in Rasht: a real-world brief turned into a website.</p>
                             <div class="internship-project__links">
-                                <a href="https://github.com/mina-boop-23/regmedsummit" target="_blank" rel="noopener" aria-label="View RegMedSummit code on GitHub">View code on GitHub <span aria-hidden="true">↗</span></a>
+                                <a href="https://github.com/mina-daneshi/regmedsummit" target="_blank" rel="noopener" aria-label="View RegMedSummit code on GitHub">View code on GitHub <span aria-hidden="true">↗</span></a>
+                                <a href="https://regmedsummit.ir" target="_blank" rel="noopener" aria-label="Visit RegMedSummit website">Visit website <span aria-hidden="true">↗</span></a>
                             </div>
                         </article>
                         <article class="internship-project">

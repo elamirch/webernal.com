@@ -4,7 +4,7 @@
 <head>
     <?php require_once($root . 'components/head-basics.php') ?>
     <title>برنامه‌های دسکتاپ – وبرنال</title>
-    <meta name="description" content="برنامه‌های دسکتاپ ساخته‌شده توسط وبرنال: ابزار امنیت داده NAE برای ویندوز و ابزار بنچمارک Benchmarble.">
+    <meta name="description" content="برنامه‌های دسکتاپ ساخته‌شده توسط وبرنال: نرم‌افزار حسابداری و انبارداری گوجه، ابزار امنیت داده NAE و ابزار بنچمارک Benchmarble.">
     <link rel="stylesheet" href="assets/css/general-styles.css">
 </head>
 <body>
@@ -18,7 +18,7 @@
                 <div class="section__inner">
                     <span class="section__label">دسته‌بندی پروژه</span>
                     <h1 class="section__title">برنامه‌های دسکتاپ</h1>
-                    <p class="section__desc">نرم‌افزارهای استاندارد و با عملکرد مناسب برای ویندوز و سیستم‌های مبتنی بر لینوکس؛ با VB.NET و Rust.</p>
+                    <p class="section__desc">نرم‌افزارهای استاندارد و با عملکرد مناسب برای ویندوز و سیستم‌های مبتنی بر لینوکس؛ با Electron، React، VB.NET و Rust.</p>
 
                     <div class="sub-nav">
                         <a href="websites.php">وب‌سایت‌ها</a>
@@ -29,12 +29,30 @@
                         <a href="desktop-apps.php" class="active">دسکتاپ</a>
                         <a href="dapps.php">DAppها</a>
                         <a href="digital-health.php">سلامت دیجیتال</a>
+                        <a href="mobile-apps.php">اپلیکیشن‌های موبایل</a>
+                        <a href="content-creation.php">تولید محتوا</a>
                     </div>
 
                     <div class="project-grid">
                         <div class="project-card featured-style">
-                            <div class="project-card__image" style="background: radial-gradient(circle at 30% 30%, rgba(12,192,223,0.25), transparent 70%), linear-gradient(135deg, #15152b, #0d0d1a);">
-                                <div class="project-card__logo">NAE</div>
+                            <div class="project-card__image project-media project-media--logo">
+                                <div class="project-card__logo"><img src="../assets/img/logos/goje-logo.webp" alt="گوجه" loading="lazy" decoding="async"></div>
+                            </div>
+                            <div class="project-card__body">
+                                <h3><a href="https://github.com/imkarimkarim/goje" target="_blank" rel="noopener">گوجه / Goje</a></h3>
+                                <div class="partner"><a href="https://github.com/imkarimkarim/goje" target="_blank" rel="noopener">GitHub ↗</a> · حسابداری و انبارداری</div>
+                                <p>نرم‌افزار رایگان حسابداری و انبارداری برای فروشندگان میوه و سبزیجات؛ مدیریت مشتریان، محصولات و فاکتورها، وضعیت فروش و خروجی PDF. ساخته‌شده با Electron و React برای ویندوز و لینوکس.</p>
+                                <div class="stack-tags"><span class="stack-tag">Electron</span><span class="stack-tag">React</span><span class="stack-tag">JavaScript</span><span class="stack-tag">Windows</span><span class="stack-tag">Linux</span></div>
+                            </div>
+                        </div>
+                        <div class="project-card featured-style">
+                            <div class="project-card__image project-media project-media--contain">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="تصاویر NAE">
+                                    <a class="project-media__slide" href="../assets/img/projects/nae-scr.png" target="_blank" rel="noopener">
+                                        <img src="../assets/img/projects/nae-scr.png" alt="نمای نرم‌افزار NAE" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
+                                <div class="project-card__logo"><img src="../assets/img/logos/nae-logo.jpg" alt="NAE" loading="lazy" decoding="async"></div>
                             </div>
                             <div class="project-card__body">
                                 <h3><a href="https://github.com/elamirch/NAE" target="_blank" rel="noopener">NAE</a></h3>
@@ -51,7 +69,12 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image project-media">
+                            <div class="project-card__image project-media project-media--contain">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="تصاویر Benchmarble">
+                                    <a class="project-media__slide" href="../assets/img/projects/benchmarble-scr.jpg" target="_blank" rel="noopener">
+                                        <img src="../assets/img/projects/benchmarble-scr.jpg" alt="نمای نرم‌افزار Benchmarble" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
                                 <div class="project-card__logo"><img src="../assets/img/logos/benchmarble-logo.jpg" alt="Benchmarble" loading="lazy" decoding="async"></div>
                             </div>
                             <div class="project-card__body">

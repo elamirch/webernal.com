@@ -29,11 +29,18 @@
                         <a href="desktop-apps.php">دسکتاپ</a>
                         <a href="dapps.php">DAppها</a>
                         <a href="digital-health.php">سلامت دیجیتال</a>
+                        <a href="mobile-apps.php">اپلیکیشن‌های موبایل</a>
+                        <a href="content-creation.php">تولید محتوا</a>
                     </div>
 
                     <div class="project-grid">
                         <div class="project-card featured-style">
-                            <div class="project-card__image project-media">
+                            <div class="project-card__image project-media project-media--contain">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="تصاویر پیشولیزه و Gladiameme">
+                                    <a class="project-media__slide" href="../assets/img/projects/gladiameme-scr-1.png" target="_blank" rel="noopener">
+                                        <img src="../assets/img/projects/gladiameme-scr-1.png" alt="نمای ربات Gladiameme" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
                                 <div class="project-card__logo"><img src="../assets/img/logos/pishulizebot-logo.jpg" alt="Pishulizebot" loading="lazy" decoding="async"></div>
                             </div>
                             <div class="project-card__body">
@@ -53,7 +60,12 @@
                         </div>
 
                         <div class="project-card featured-style">
-                            <div class="project-card__image project-media">
+                            <div class="project-card__image project-media project-media--contain">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="تصاویر Nahhuntelbot">
+                                    <a class="project-media__slide" href="../assets/img/projects/nahhuntel-scr-1.jpg" target="_blank" rel="noopener">
+                                        <img src="../assets/img/projects/nahhuntel-scr-1.jpg" alt="نمای ربات Nahhuntelbot" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
                                 <div class="project-card__logo"><img src="../assets/img/logos/nahhuntel-logo.jpg" alt="Nahhuntelbot" loading="lazy" decoding="async"></div>
                             </div>
                             <div class="project-card__body">

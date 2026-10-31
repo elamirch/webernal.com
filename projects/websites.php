@@ -30,9 +30,30 @@
                         <a href="desktop-apps.php">دسکتاپ</a>
                         <a href="dapps.php">DAppها</a>
                         <a href="digital-health.php">سلامت دیجیتال</a>
+                        <a href="mobile-apps.php">اپلیکیشن‌های موبایل</a>
+                        <a href="content-creation.php">تولید محتوا</a>
                     </div>
 
                     <div class="project-grid">
+                        <div class="project-card featured-style">
+                            <div class="project-card__image project-media">
+                                <div class="project-media__gallery" tabindex="0" role="region" aria-label="تصاویر RegMedSummit">
+                                    <a class="project-media__slide" href="../assets/img/projects/regmedsummit-scr-1.jpg" target="_blank" rel="noopener">
+                                        <img src="../assets/img/projects/regmedsummit-scr-1.jpg" alt="نمای ۱ از RegMedSummit" loading="lazy" decoding="async">
+                                    </a>
+                                    <a class="project-media__slide" href="../assets/img/projects/regmedsummit-scr-2.jpg" target="_blank" rel="noopener">
+                                        <img src="../assets/img/projects/regmedsummit-scr-2.jpg" alt="نمای ۲ از RegMedSummit" loading="lazy" decoding="async">
+                                    </a>
+                                </div>
+                                <div class="project-card__logo"><img src="../assets/img/logos/regmedsummit-logo.webp" alt="RegMedSummit" loading="lazy" decoding="async"></div>
+                            </div>
+                            <div class="project-card__body">
+                                <h3><a href="https://regmedsummit.ir" target="_blank" rel="noopener">RegMedSummit</a></h3>
+                                <div class="partner">هسته پژوهشی پزشکی بازساختی بیمارستان رازی رشت · <a href="https://github.com/mina-daneshi/regmedsummit" target="_blank" rel="noopener">GitHub ↗</a></div>
+                                <p>وب‌سایت سمینار اهدای عضو، پیوند اعضا و پزشکی بازساختی؛ معرفی رویداد و دبیران، برنامه سخنرانی‌ها، ثبت‌نام و راهنمای ارسال مقالات، با طراحی واکنش‌گرا و پشتیبانی فارسی.</p>
+                                <div class="stack-tags"><span class="stack-tag">Django</span><span class="stack-tag">Python</span><span class="stack-tag">HTML/CSS</span><span class="stack-tag">RTL</span></div>
+                            </div>
+                        </div>
                         <div class="project-card featured-style">
                             <div class="project-card__image project-media">
                                 <div class="project-media__gallery" tabindex="0" role="region" aria-label="تصاویر گردِه">
@@ -142,8 +163,8 @@
                             </div>
                             <div class="project-card__body">
                                 <h3><a href="https://face-analysis.webernal.com" target="_blank" rel="noopener">Clinic PRO</a></h3>
-                                <div class="partner">محصول وبرنال</div>
-                                <p>سامانه آنالیز زیبایی‌شناسی چهره برای کلینیک‌ها؛ ثبت تصویر با دوربین یا گالری، تحلیل تمام‌رخ و نیم‌رخ و دریافت گزارش بالینی PDF همراه با نمودارهای تحلیلی.</p>
+                                <div class="partner"><span class="project-role-tag">فقط DevOps توسط ما</span></div>
+                                <p>خدمات میزبانی و DevOps برای Clinic PRO، سامانه آنالیز زیبایی‌شناسی چهره برای کلینیک‌ها؛ نقش وبرنال در این پروژه محدود به زیرساخت و میزبانی بوده است.</p>
                                 <div class="stack-tags">
                                     <span class="stack-tag">Web App</span>
                                     <span class="stack-tag">AI</span>

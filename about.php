@@ -97,6 +97,14 @@
                             <div class="team-card__role">دیجیتال مارکتر</div>
                             <p class="team-card__bio">دیجیتال مارکتر، تولید کننده محتوا با AI و ادمین شبکه‌های اجتماعی</p>
                         </div>
+                        <div class="team-card reveal">
+                            <div class="team-card__avatar">
+                                <img src="assets/img/teams/amir-shad-avatar.jpg" alt="" srcset="">
+                            </div>
+                            <div class="team-card__name">امیرمهدی شاد</div>
+                            <div class="team-card__role">مدیر محصول</div>
+                            <p class="team-card__bio">مدیر محصول با تجربه در توسعه نرم‌افزار و تولید محتوا</p>
+                        </div>
                     </div>
                 </div>
             </section>

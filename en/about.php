@@ -97,6 +97,14 @@
                             <div class="team-card__role">Digital Marketer</div>
                             <p class="team-card__bio">Digital marketer, AI content creator and social media administrator</p>
                         </div>
+                        <div class="team-card reveal">
+                            <div class="team-card__avatar">
+                                <img src="<?=$base?>assets/img/teams/amir-shad-avatar.jpg" alt="" srcset="">
+                            </div>
+                            <div class="team-card__name">Amirmahdi Shad</div>
+                            <div class="team-card__role">Product Manager</div>
+                            <p class="team-card__bio">Product manager with hands on experience in software development and content creation</p>
+                        </div>
                     </div>
                 </div>
             </section>

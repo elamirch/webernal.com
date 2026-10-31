@@ -69,46 +69,4 @@
     window.addEventListener('scroll', updateActiveNav, { passive: true });
     updateActiveNav();
 
-    // --- Order Form AJAX ---
-    const orderForm = document.getElementById('orderForm');
-    const formFeedback = document.getElementById('formFeedback');
-
-    if (orderForm) {
-        orderForm.addEventListener('submit', async function(e) {
-            e.preventDefault();
-            const submitBtn = orderForm.querySelector('button[type="submit"]');
-            const originalBtnText = submitBtn.textContent;
-
-            submitBtn.textContent = 'در حال ارسال...';
-            submitBtn.disabled = true;
-            formFeedback.textContent = '';
-            formFeedback.className = 'form-feedback';
-
-            try {
-                const formData = new FormData(orderForm);
-                const response = await fetch('php/order.php', {
-                    method: 'POST',
-                    body: formData,
-                    headers: { 'X-Requested-With': 'XMLHttpRequest' }
-                });
-
-                const result = await response.json();
-
-                if (result.success) {
-                    formFeedback.textContent = '✓ ' + result.message;
-                    formFeedback.className = 'form-feedback form-feedback--success';
-                    orderForm.reset();
-                } else {
-                    formFeedback.textContent = '✗ ' + result.message;
-                    formFeedback.className = 'form-feedback form-feedback--error';
-                }
-            } catch (error) {
-                formFeedback.textContent = '✗ خطای شبکه. لطفاً دوباره تلاش کنید.';
-                formFeedback.className = 'form-feedback form-feedback--error';
-            } finally {
-                submitBtn.textContent = originalBtnText;
-                submitBtn.disabled = false;
-            }
-        });
-    }
 })();

@@ -1,4 +1,4 @@
-<?php $root = "./" ?>
+<?php $root = "./"; $orderLanguage = 'fa'; require __DIR__ . '/php/order-state.php'; ?>
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
@@ -448,19 +448,21 @@
 
         <!-- ==================== ORDER SECTION ==================== -->
         <section class="cta-section" id="order">
-            <div class="section__inner reveal">
+            <div class="section__inner">
                 <span class="section__label">سفارش پروژه</span>
                 <h2 class="section__title">بیایید یک اثر فوق‌العاده بسازیم</h2>
                 <p style="color:var(--text-secondary);max-width:500px;margin:0 auto 32px;line-height:1.7;">
-                    پروژه‌ای در ذهن دارید؟ با ایمیل ما در ارتباط باشید: amirrezatm@protonmail.com
+                    درباره پروژه‌تان بگویید و راهی برای تماس با شما بنویسید.
                 </p>
-                <!-- <form class="order-form reveal" id="orderForm" action="php/order.php" method="POST">
-                    <input type="text" name="name" placeholder="نام شما" required aria-label="نام شما">
-                    <input type="email" name="email" placeholder="ایمیل شما" required aria-label="ایمیل شما">
-                    <textarea name="message" placeholder="درباره پروژه‌تان توضیح دهید..." required aria-label="پیام شما"></textarea>
-                    <button type="submit" class="btn btn--primary">ارسال پیام ✦</button>
-                    <div class="form-feedback" id="formFeedback"></div>
-                </form> -->
+                <form class="order-form" id="orderForm" action="php/order.php" method="POST">
+                    <input type="hidden" name="csrf" value="<?=app_escape(app_csrf())?>">
+                    <input type="hidden" name="language" value="fa">
+                    <label>نام شما<input name="name" maxlength="120" autocomplete="name" required value="<?=app_escape($orderValues['name'] ?? '')?>"></label>
+                    <label>راه تماس (ایمیل، تلفن یا تلگرام)<input name="contact" maxlength="254" dir="auto" required value="<?=app_escape($orderValues['contact'] ?? '')?>"></label>
+                    <label>شرح پروژه<textarea name="description" maxlength="10000" required placeholder="درباره پروژه‌تان توضیح دهید…"><?=app_escape($orderValues['description'] ?? '')?></textarea></label>
+                    <button type="submit" class="btn btn--primary">ثبت درخواست پروژه ✦</button>
+                    <div class="form-feedback <?=$orderFeedback ? ($orderFeedback['success'] ? 'form-feedback--success' : 'form-feedback--error') : ''?>" id="formFeedback" role="status" aria-live="polite"><?=app_escape($orderFeedback['message'] ?? '')?></div>
+                </form>
             </div>
         </section>
 

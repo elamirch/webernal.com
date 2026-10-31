@@ -1,4 +1,4 @@
-<?php $root = "./"; $base = "../" ?>
+<?php $root = "./"; $base = "../"; $orderLanguage = 'en'; require dirname(__DIR__) . '/php/order-state.php'; ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
@@ -382,12 +382,21 @@
 
         <!-- ==================== ORDER SECTION ==================== -->
         <section class="cta-section" id="order">
-            <div class="section__inner reveal">
+            <div class="section__inner">
                 <span class="section__label">Order a Project</span>
                 <h2 class="section__title">Let's Build Something Remarkable</h2>
                 <p style="color:var(--text-secondary);max-width:500px;margin:0 auto 32px;line-height:1.7;">
-                    Have a project in mind? Reach out via email: amirrezatm@protonmail.com
+                    Tell us about your project and how we can reach you.
                 </p>
+                <form class="order-form" id="orderForm" action="../php/order.php" method="POST">
+                    <input type="hidden" name="csrf" value="<?=app_escape(app_csrf())?>">
+                    <input type="hidden" name="language" value="en">
+                    <label>Your name<input name="name" maxlength="120" autocomplete="name" required value="<?=app_escape($orderValues['name'] ?? '')?>"></label>
+                    <label>Contact (email, phone or Telegram)<input name="contact" maxlength="254" dir="auto" required value="<?=app_escape($orderValues['contact'] ?? '')?>"></label>
+                    <label>Project description<textarea name="description" maxlength="10000" required placeholder="Tell us about your project…"><?=app_escape($orderValues['description'] ?? '')?></textarea></label>
+                    <button type="submit" class="btn btn--primary">Submit project request ✦</button>
+                    <div class="form-feedback <?=$orderFeedback ? ($orderFeedback['success'] ? 'form-feedback--success' : 'form-feedback--error') : ''?>" id="formFeedback" role="status" aria-live="polite"><?=app_escape($orderFeedback['message'] ?? '')?></div>
+                </form>
             </div>
         </section>
 

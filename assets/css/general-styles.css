@@ -652,7 +652,10 @@ body {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    text-align: start;
 }
+.order-form label { display: block; min-width: 0; color: var(--text-secondary); font-size: 0.9rem; }
+.order-form label > input, .order-form label > textarea { display: block; margin-top: 8px; }
 .order-form input,
 .order-form textarea {
     width: 100%;
